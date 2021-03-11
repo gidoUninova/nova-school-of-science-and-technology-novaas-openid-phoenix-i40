@@ -2529,8 +2529,10 @@
         "id": "a32313f5.af43c",
         "type": "ui_tab",
         "name": "File Upload",
-        "icon": "dashboard",
-        "order": 10
+        "icon": "insert_drive_file",
+        "order": 10,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "d56e5f93.f422c",
