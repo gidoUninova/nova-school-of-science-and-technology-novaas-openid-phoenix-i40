@@ -556,9 +556,7 @@
             "234d668e.b04b9a"
         ],
         "x": 34,
-        "y": 4199,
-        "w": 2872,
-        "h": 516
+        "y": 4199
     },
     {
         "id": "e764eb53.6268c",
@@ -742,9 +740,7 @@
             "f0c0f9f6.9fd9e8"
         ],
         "x": 14,
-        "y": 379,
-        "w": 2892,
-        "h": 3642
+        "y": 379
     },
     {
         "id": "a5ca466b.4777d8",
@@ -771,9 +767,7 @@
             "cec7e1d0.707e4"
         ],
         "x": 64,
-        "y": 19,
-        "w": 1602,
-        "h": 322
+        "y": 19
     },
     {
         "id": "d7076418.bb51d8",
@@ -14474,7 +14468,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Login Group",
-        "func": "var msg = {};\n\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    hide : [\"Login_Commands\", \"Login_Body\"],\n    show : [\"Login_Login\"]\n}\n};\n\nreturn msg;",
+        "func": "var msg = {};\n\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    hide : [\"Login_Commands\", \"Login_Body\", \"Login_Health\"],\n    show : [\"Login_Login\"]\n}\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17378,17 +17372,19 @@
         "labelAlignment": "right",
         "colorForValue": [
             {
-                "color": "red",
+                "color": "#ff0000",
                 "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "green",
+                "color": "#008000",
                 "value": "true",
                 "valueType": "bool"
             }
         ],
         "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
         "name": "",
         "x": 1030,
         "y": 1100,
