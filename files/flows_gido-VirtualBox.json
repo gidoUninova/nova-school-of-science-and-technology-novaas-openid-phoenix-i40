@@ -819,9 +819,7 @@
             "d15cfb5e.6a30d8"
         ],
         "x": 94,
-        "y": 2956,
-        "w": 2334,
-        "h": 431.00001335144043
+        "y": 2956
     },
     {
         "id": "9eaca16.128cb6",
@@ -842,9 +840,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -915,9 +911,7 @@
             "db56541d.47959"
         ],
         "x": 214,
-        "y": 179,
-        "w": 3372,
-        "h": 962
+        "y": 179
     },
     {
         "id": "48a4f908.86ced8",
@@ -943,9 +937,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -973,9 +965,7 @@
             "7c1b2520.ec5814"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -1014,9 +1004,7 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "7f3265a4.23ba94",
@@ -1086,9 +1074,7 @@
             "323548f1.1a0c1"
         ],
         "x": 1584,
-        "y": 1479,
-        "w": 2222,
-        "h": 866.25
+        "y": 1479
     },
     {
         "id": "6c18a80c.ec30a",
@@ -2527,6 +2513,48 @@
         "order": 10,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "f6fc0845.c18a3",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "$(MYTB_SERVICE_HOST)",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "70417acd.dadb5c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "$(BROKER_SERVICE_HOST)",
+        "port": "$(BROKER_SERVICE_PORT)",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
     },
     {
         "id": "d56e5f93.f422c",
@@ -7675,7 +7703,7 @@
         "info": "Describe your action API here.",
         "untilproptype": "num",
         "proptype": "msg",
-        "name": "MQTT",
+        "name": "ThingsBoardMQTT",
         "prop": "loop",
         "untilprop": 0,
         "until": "gt",
@@ -7683,8 +7711,8 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1110,
-        "y": 240,
+        "x": 1150,
+        "y": 140,
         "wires": [
             [
                 "3b6096b5.c413ba"
@@ -7730,7 +7758,9 @@
             [
                 "4b095658.e7e918"
             ],
-            [],
+            [
+                "7689e90d.d42cb"
+            ],
             []
         ]
     },
@@ -8291,7 +8321,7 @@
         "topic": "",
         "qos": "",
         "retain": "",
-        "broker": "",
+        "broker": "70417acd.dadb5c",
         "x": 1150,
         "y": 820,
         "wires": []
@@ -21498,23 +21528,6 @@
         "wires": []
     },
     {
-        "id": "55437236.02c004",
-        "type": "debug",
-        "z": "ccaa25a0.ca2c08",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 380,
-        "wires": []
-    },
-    {
         "id": "d15cfb5e.6a30d8",
         "type": "ui_button",
         "z": "2164c119.f88826",
@@ -22394,7 +22407,7 @@
         "type": "auth-oidc",
         "z": "ccaa25a0.ca2c08",
         "name": "",
-        "discovery": "https://admin-shell-io.com:50001/.well-known/openid-configuration",
+        "discovery": "$(OPEN_ID)",
         "x": 570,
         "y": 300,
         "wires": [
@@ -22621,5 +22634,28 @@
         "x": 1790,
         "y": 2980,
         "wires": []
+    },
+    {
+        "id": "7689e90d.d42cb",
+        "type": "actionflows",
+        "z": "ef5eec.2b417118",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "MQTT",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1110,
+        "y": 180,
+        "wires": [
+            [
+                "3b6096b5.c413ba"
+            ]
+        ]
     }
 ]
