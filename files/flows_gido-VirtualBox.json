@@ -556,7 +556,9 @@
             "234d668e.b04b9a"
         ],
         "x": 34,
-        "y": 4199
+        "y": 4199,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "e764eb53.6268c",
@@ -740,7 +742,9 @@
             "f0c0f9f6.9fd9e8"
         ],
         "x": 14,
-        "y": 379
+        "y": 379,
+        "w": 2892,
+        "h": 3642
     },
     {
         "id": "a5ca466b.4777d8",
@@ -767,7 +771,9 @@
             "cec7e1d0.707e4"
         ],
         "x": 64,
-        "y": 19
+        "y": 19,
+        "w": 1602,
+        "h": 322
     },
     {
         "id": "d7076418.bb51d8",
@@ -819,7 +825,9 @@
             "d15cfb5e.6a30d8"
         ],
         "x": 94,
-        "y": 2956
+        "y": 2956,
+        "w": 2334,
+        "h": 431.00001335144043
     },
     {
         "id": "9eaca16.128cb6",
@@ -840,7 +848,9 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179
+        "y": 2179,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -911,7 +921,9 @@
             "db56541d.47959"
         ],
         "x": 214,
-        "y": 179
+        "y": 179,
+        "w": 3372,
+        "h": 962
     },
     {
         "id": "48a4f908.86ced8",
@@ -937,7 +949,9 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359
+        "y": 2359,
+        "w": 1132,
+        "h": 304.3541259765625
     },
     {
         "id": "a4c26498.4d1758",
@@ -965,7 +979,9 @@
             "7c1b2520.ec5814"
         ],
         "x": 1574,
-        "y": 2679
+        "y": 2679,
+        "w": 912,
+        "h": 242
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -1004,7 +1020,9 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779
+        "y": 2779,
+        "w": 1642,
+        "h": 457
     },
     {
         "id": "7f3265a4.23ba94",
@@ -1074,7 +1092,9 @@
             "323548f1.1a0c1"
         ],
         "x": 1584,
-        "y": 1479
+        "y": 1479,
+        "w": 2222,
+        "h": 866.25
     },
     {
         "id": "6c18a80c.ec30a",
@@ -2520,27 +2540,6 @@
         "name": "",
         "broker": "$(MYTB_SERVICE_HOST)",
         "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": false,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
-        "id": "70417acd.dadb5c",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "$(BROKER_SERVICE_HOST)",
-        "port": "$(BROKER_SERVICE_PORT)",
         "clientid": "",
         "usetls": false,
         "compatmode": false,
@@ -8321,7 +8320,7 @@
         "topic": "",
         "qos": "",
         "retain": "",
-        "broker": "70417acd.dadb5c",
+        "broker": "",
         "x": 1150,
         "y": 820,
         "wires": []
@@ -20828,7 +20827,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Account Verification",
-        "func": "var newMsg = {}; newMsg.payload = 0;\nvar sessionTimeout = (msg.access_token.body.exp - msg.access_token.body.iat) * 10000; \nflow.set(\"sessionTimeout\", sessionTimeout);\n\nreturn newMsg;",
+        "func": "if(msg.username == msg.access_token.body.userName){\n    var newMsg = {}; newMsg.payload = 0;\n    var sessionTimeout = (msg.access_token.body.exp - msg.access_token.body.iat) * 10000; \n    flow.set(\"sessionTimeout\", sessionTimeout);\n    return newMsg;\n} else {\n    var newMsg = {}; newMsg.payload = 1;\n    return newMsg;\n}",
         "outputs": 1,
         "noerr": 0,
         "x": 1300,
@@ -22657,5 +22656,51 @@
                 "3b6096b5.c413ba"
             ]
         ]
+    },
+    {
+        "id": "ca210b6a.de1dc",
+        "type": "inject",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OPEN_ID",
+        "payloadType": "env",
+        "x": 600,
+        "y": 600,
+        "wires": [
+            [
+                "10e2142.94f386c"
+            ]
+        ]
+    },
+    {
+        "id": "10e2142.94f386c",
+        "type": "debug",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 560,
+        "wires": []
     }
 ]
