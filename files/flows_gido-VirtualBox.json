@@ -823,9 +823,7 @@
             "d15cfb5e.6a30d8"
         ],
         "x": 94,
-        "y": 2956,
-        "w": 2334,
-        "h": 431.00001335144043
+        "y": 2956
     },
     {
         "id": "9eaca16.128cb6",
@@ -846,9 +844,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -921,9 +917,7 @@
             "ca97d7.17dab028"
         ],
         "x": 214,
-        "y": 179,
-        "w": 3372,
-        "h": 982
+        "y": 179
     },
     {
         "id": "48a4f908.86ced8",
@@ -949,9 +943,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -979,9 +971,7 @@
             "7c1b2520.ec5814"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -1020,9 +1010,7 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "7f3265a4.23ba94",
@@ -1092,9 +1080,7 @@
             "323548f1.1a0c1"
         ],
         "x": 1584,
-        "y": 1479,
-        "w": 2222,
-        "h": 866.25
+        "y": 1479
     },
     {
         "id": "6c18a80c.ec30a",
@@ -8082,7 +8068,7 @@
         "y": 4183,
         "wires": [
             [
-                "cac1840b.273ab8"
+                "33dfaad2.2f66be"
             ]
         ]
     },
@@ -8097,67 +8083,6 @@
         "x": 3115,
         "y": 4183,
         "wires": []
-    },
-    {
-        "id": "cac1840b.273ab8",
-        "type": "unsafe-function",
-        "z": "fd31082e.5487d8",
-        "name": "PrepareOutput",
-        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\nmsg.filename = context.global.get('staticDocs') + \"aasx/Document/\" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1200,
-        "y": 4183,
-        "wires": [
-            [
-                "35a31ce7.ca5fd4"
-            ]
-        ]
-    },
-    {
-        "id": "8ce2baa0.e83948",
-        "type": "file in",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "filename": "",
-        "format": "",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 1630,
-        "y": 4183,
-        "wires": [
-            [
-                "1619def7.8eb651"
-            ]
-        ]
-    },
-    {
-        "id": "35a31ce7.ca5fd4",
-        "type": "change",
-        "z": "fd31082e.5487d8",
-        "name": "Set Headers",
-        "rules": [
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1450,
-        "y": 4183,
-        "wires": [
-            [
-                "8ce2baa0.e83948"
-            ]
-        ]
     },
     {
         "id": "a8c2018c.8e88",
@@ -22852,6 +22777,125 @@
         "wires": [
             [
                 "ca97d7.17dab028"
+            ]
+        ]
+    },
+    {
+        "id": "33dfaad2.2f66be",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "PrepareOutput",
+        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\n//msg.filename = context.global.get('staticDocs') + \"aasx/Document/\" + fn;\nmsg.payload = \"-name\" + \" \" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1080,
+        "y": 4180,
+        "wires": [
+            [
+                "2c5fff4c.088d18"
+            ]
+        ]
+    },
+    {
+        "id": "389ecac2.32281e",
+        "type": "file in",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "filename": "",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 1950,
+        "y": 4160,
+        "wires": [
+            [
+                "1619def7.8eb651"
+            ]
+        ]
+    },
+    {
+        "id": "9454af3.ef43f5",
+        "type": "change",
+        "z": "fd31082e.5487d8",
+        "name": "Set Headers",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1770,
+        "y": 4160,
+        "wires": [
+            [
+                "389ecac2.32281e"
+            ]
+        ]
+    },
+    {
+        "id": "2c5fff4c.088d18",
+        "type": "exec",
+        "z": "fd31082e.5487d8",
+        "command": "find",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 1350,
+        "y": 4180,
+        "wires": [
+            [
+                "92440de2.fa50f8",
+                "3bc52742.f5a13"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "92440de2.fa50f8",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 4140,
+        "wires": []
+    },
+    {
+        "id": "3bc52742.f5a13",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "PrepareOutput",
+        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nif(msg.payload != \"\"){\n    msg.filename = msg.payload;\n    //msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\n    return [msg, null];\n} else {\n    msg.payload = \"document Not found\"\n    return [null, msg];\n}\n\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1580,
+        "y": 4180,
+        "wires": [
+            [
+                "9454af3.ef43f5"
+            ],
+            [
+                "1619def7.8eb651"
             ]
         ]
     }
