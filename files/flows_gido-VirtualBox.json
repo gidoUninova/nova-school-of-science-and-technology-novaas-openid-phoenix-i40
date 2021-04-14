@@ -436,7 +436,7 @@
         ],
         "x": 94,
         "y": 4239,
-        "w": 1932,
+        "w": 2292,
         "h": 182
     },
     {
@@ -461,9 +461,7 @@
             "1f1ce2c5.9cb5cd"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 322
+        "y": 4399
     },
     {
         "id": "d366c10f.cbf158",
@@ -514,9 +512,7 @@
             "b88a92c6.fb547"
         ],
         "x": 194,
-        "y": 3374.22216796875,
-        "w": 2962,
-        "h": 686.77783203125
+        "y": 3554.22216796875
     },
     {
         "id": "d7076418.bb51d8",
@@ -639,7 +635,6 @@
             "13eaa4a6.391393",
             "655852a0.36bea4",
             "7a918d3a.b1ea34",
-            "c37add0d.9710f",
             "aa9b9e00.d9a198",
             "eb868983.45c2e8",
             "57cc2b70.afb41c",
@@ -663,7 +658,8 @@
             "cb66af2.eb6205",
             "3e3713b7.f7f2c4",
             "542cc0ea.7d42a",
-            "ca97d7.17dab028"
+            "ca97d7.17dab028",
+            "541b3040.aa98a8"
         ],
         "x": 214,
         "y": 179,
@@ -1232,6 +1228,39 @@
         ],
         "x": 14,
         "y": 379
+    },
+    {
+        "id": "c6c986ec.c72b9",
+        "type": "group",
+        "z": "c7caf96e.a31f98",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "138a2f64.afb8b9",
+            "cf8f8529.fea89",
+            "d39168fc.e61678",
+            "a60c0f7.938fc7",
+            "ccdb7b80.711668",
+            "f59f04e8.321228",
+            "f31ab30e.46d1f8",
+            "8ec7d6be.aa92f",
+            "5680795b.4b2558",
+            "d71bf44.3596f88",
+            "f1e57ea9.b3a79",
+            "762bfc2c.c42aec",
+            "eabb608c.f97ba"
+        ],
+        "x": 88,
+        "y": 139,
+        "w": 2298,
+        "h": 302
     },
     {
         "id": "37a4080e.40ed9",
@@ -2863,7 +2892,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1950,
+        "x": 2310,
         "y": 4340,
         "wires": []
     },
@@ -2874,7 +2903,7 @@
         "g": "16640da3.5a20ca",
         "name": "",
         "env": [],
-        "x": 1930,
+        "x": 2290,
         "y": 4380,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
@@ -3008,7 +3037,8 @@
         "name": "1_In",
         "links": [
             "21db2b14.d6f9f4",
-            "55cb77e8.486ec8"
+            "55cb77e8.486ec8",
+            "f85a8807.3e6b48"
         ],
         "x": 235,
         "y": 220,
@@ -3026,7 +3056,9 @@
         "name": "1_Out",
         "links": [
             "31a80cba.e64364",
-            "7788be00.73ea34"
+            "c4448b75.7452c",
+            "9ce2f4e8.76b708",
+            "d71bf44.3596f88"
         ],
         "x": 3135,
         "y": 200,
@@ -4802,7 +4834,7 @@
         "perf": false,
         "seq": false,
         "x": 1590,
-        "y": 3620,
+        "y": 3800,
         "wires": [
             [
                 "6eef4cae.579154",
@@ -4827,7 +4859,7 @@
         "perf": false,
         "seq": false,
         "x": 700,
-        "y": 3660,
+        "y": 3840,
         "wires": [
             [
                 "b5632ab6.616158"
@@ -4863,7 +4895,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1040,
-        "y": 3660,
+        "y": 3840,
         "wires": [
             [
                 "e2ef480c.cfda68"
@@ -4886,7 +4918,7 @@
         "outputs": 2,
         "noerr": 0,
         "x": 2810,
-        "y": 3660,
+        "y": 3840,
         "wires": [
             [
                 "c1053253.abab6",
@@ -4915,7 +4947,7 @@
         "perf": false,
         "seq": false,
         "x": 2770,
-        "y": 3583,
+        "y": 3763,
         "wires": [
             []
         ]
@@ -4932,7 +4964,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 3030,
-        "y": 3620,
+        "y": 3800,
         "wires": []
     },
     {
@@ -4949,7 +4981,7 @@
             "9f6ba6cd.62ecb8"
         ],
         "x": 235,
-        "y": 3540,
+        "y": 3720,
         "wires": [
             [
                 "5d4ac5ad.0efeec"
@@ -4967,7 +4999,7 @@
             "6f7d1c89.dafc7c"
         ],
         "x": 235,
-        "y": 3660,
+        "y": 3840,
         "wires": [
             [
                 "c8777cd.74a3d8"
@@ -4984,7 +5016,7 @@
             "fc99534e.2e75a"
         ],
         "x": 3115,
-        "y": 3640,
+        "y": 3820,
         "wires": []
     },
     {
@@ -5054,7 +5086,7 @@
         "perf": false,
         "seq": false,
         "x": 1590,
-        "y": 3740,
+        "y": 3920,
         "wires": [
             [
                 "86743c69.70234"
@@ -5071,7 +5103,7 @@
             "dac82e37.2d63d"
         ],
         "x": 3115,
-        "y": 3780,
+        "y": 3960,
         "wires": []
     },
     {
@@ -5085,7 +5117,7 @@
             "7b7cafc2.2c44f8"
         ],
         "x": 235,
-        "y": 3780,
+        "y": 3960,
         "wires": [
             [
                 "8ee32862.092ac8"
@@ -5109,7 +5141,7 @@
         "perf": false,
         "seq": false,
         "x": 1620,
-        "y": 4363,
+        "y": 4520,
         "wires": [
             [
                 "1f1ce2c5.9cb5cd"
@@ -5163,7 +5195,7 @@
         "name": "AAS Rosource Monitoring - Component Manger",
         "info": "",
         "x": 600,
-        "y": 4623,
+        "y": 4760,
         "wires": []
     },
     {
@@ -5583,7 +5615,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 750,
-        "y": 4343,
+        "y": 4500,
         "wires": []
     },
     {
@@ -6594,7 +6626,7 @@
             "697188e3.d41538"
         ],
         "x": 3115,
-        "y": 3680,
+        "y": 3860,
         "wires": []
     },
     {
@@ -6609,7 +6641,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 3010,
-        "y": 3700,
+        "y": 3880,
         "wires": []
     },
     {
@@ -7373,7 +7405,7 @@
         "perf": false,
         "seq": false,
         "x": 700,
-        "y": 3540,
+        "y": 3720,
         "wires": [
             [
                 "986cdb5.550c428"
@@ -7397,7 +7429,7 @@
         "perf": false,
         "seq": false,
         "x": 700,
-        "y": 3780,
+        "y": 3960,
         "wires": [
             [
                 "7a3969fb.3f65c8"
@@ -7433,7 +7465,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1040,
-        "y": 3540,
+        "y": 3720,
         "wires": [
             [
                 "a8c2018c.8e88"
@@ -7475,7 +7507,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1040,
-        "y": 3780,
+        "y": 3960,
         "wires": [
             [
                 "16317ec1.a4e071"
@@ -7501,7 +7533,7 @@
         "perf": false,
         "seq": false,
         "x": 1600,
-        "y": 3483,
+        "y": 3663,
         "wires": [
             [
                 "bf7b9e26.33ed2"
@@ -7518,7 +7550,7 @@
             "fc99534e.2e75a"
         ],
         "x": 3111,
-        "y": 3523,
+        "y": 3703,
         "wires": []
     },
     {
@@ -7538,7 +7570,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1960,
-        "y": 3580,
+        "y": 3760,
         "wires": [
             [
                 "865c52cc.324f5"
@@ -7581,7 +7613,7 @@
         "links": [],
         "scope": "global",
         "x": 989,
-        "y": 4523,
+        "y": 4680,
         "wires": [
             [
                 "c835aa60.059868",
@@ -7597,7 +7629,7 @@
         "name": "handleRetrievedData out",
         "links": [],
         "x": 2289,
-        "y": 4523,
+        "y": 4680,
         "wires": []
     },
     {
@@ -7612,7 +7644,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 1206,
-        "y": 4495,
+        "y": 4652,
         "wires": []
     },
     {
@@ -7632,7 +7664,7 @@
         "perf": false,
         "seq": false,
         "x": 1620,
-        "y": 4523,
+        "y": 4680,
         "wires": [
             [
                 "80dfa9b9.e62c58"
@@ -7715,7 +7747,7 @@
         "name": "Interaction with AAS - NBI",
         "info": "",
         "x": 530,
-        "y": 4283,
+        "y": 4440,
         "wires": []
     },
     {
@@ -7726,7 +7758,7 @@
         "name": "Interaction with AAS - SBI",
         "info": "",
         "x": 410,
-        "y": 3423,
+        "y": 3603,
         "wires": []
     },
     {
@@ -7833,7 +7865,7 @@
             "48ef191e.d28c98"
         ],
         "x": 235,
-        "y": 4183,
+        "y": 4320,
         "wires": [
             [
                 "33dfaad2.2f66be"
@@ -7849,7 +7881,7 @@
             "e7a9e126.1cef"
         ],
         "x": 3115,
-        "y": 4183,
+        "y": 4320,
         "wires": []
     },
     {
@@ -7862,7 +7894,7 @@
         "outputs": 2,
         "noerr": 0,
         "x": 1330,
-        "y": 3443,
+        "y": 3623,
         "wires": [
             [
                 "bf7b9e26.33ed2",
@@ -7885,7 +7917,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 1571.6666259765625,
-        "y": 3415.22216796875,
+        "y": 3595.22216796875,
         "wires": []
     },
     {
@@ -7995,7 +8027,8 @@
             "ece6df22.01841",
             "ac0847a4.fe5c1",
             "9f1cea2e.f1356",
-            "b0c623.919081e"
+            "b0c623.919081e",
+            "18878bff.865574"
         ],
         "x": 235,
         "y": 860,
@@ -8012,7 +8045,8 @@
         "name": "1_1_Out",
         "links": [
             "fff82399.2f49b",
-            "3bb5f3dc.e6e3a4"
+            "3bb5f3dc.e6e3a4",
+            "61dd699d.63aa3"
         ],
         "x": 3135,
         "y": 900,
@@ -8374,7 +8408,7 @@
         "outputs": 2,
         "noerr": 0,
         "x": 2810,
-        "y": 3760,
+        "y": 3940,
         "wires": [
             [
                 "9ae0cc41.4f38e"
@@ -8941,7 +8975,7 @@
         "perf": false,
         "seq": false,
         "x": 1630,
-        "y": 3860,
+        "y": 4040,
         "wires": [
             [
                 "c757ee5b.08a1f8"
@@ -8958,7 +8992,7 @@
             "568d5f3.624242"
         ],
         "x": 238,
-        "y": 3860,
+        "y": 4040,
         "wires": [
             [
                 "872fa7f3.71d218"
@@ -8975,7 +9009,7 @@
             "d5524b85.c3c27"
         ],
         "x": 3114,
-        "y": 3860,
+        "y": 4040,
         "wires": []
     },
     {
@@ -9082,7 +9116,7 @@
         "perf": false,
         "seq": false,
         "x": 1640,
-        "y": 3940,
+        "y": 4120,
         "wires": [
             [
                 "4db154dd.75a03c"
@@ -9098,10 +9132,11 @@
         "links": [
             "e67e2ede.e4bdc8",
             "68ce8908.d144d8",
-            "6b106b4c.11df54"
+            "6b106b4c.11df54",
+            "80d35eb4.317788"
         ],
         "x": 235,
-        "y": 3940,
+        "y": 4120,
         "wires": [
             [
                 "a52f743e.1daa7"
@@ -9116,10 +9151,11 @@
         "name": "23_Out",
         "links": [
             "1a319556.d2c653",
-            "69d45d7f.aca584"
+            "69d45d7f.aca584",
+            "ac4d8359.21214"
         ],
         "x": 3115,
-        "y": 3940,
+        "y": 4120,
         "wires": []
     },
     {
@@ -9132,7 +9168,7 @@
             "e05fcd52.be3ca8"
         ],
         "x": 235,
-        "y": 4363,
+        "y": 4520,
         "wires": [
             [
                 "dc9cd718.811358",
@@ -9152,7 +9188,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 2370,
-        "y": 4363,
+        "y": 4520,
         "wires": []
     },
     {
@@ -9165,7 +9201,7 @@
             "796fdeb5.8f68b8"
         ],
         "x": 235,
-        "y": 4020,
+        "y": 4200,
         "wires": [
             [
                 "67deb46b.6f1a14"
@@ -9189,7 +9225,7 @@
         "perf": false,
         "seq": false,
         "x": 650,
-        "y": 4020,
+        "y": 4200,
         "wires": [
             [
                 "162cb66c.3b7292",
@@ -9207,7 +9243,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1020,
-        "y": 4020,
+        "y": 4200,
         "wires": [
             [
                 "b88a92c6.fb547"
@@ -9229,7 +9265,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 820,
-        "y": 3980,
+        "y": 4160,
         "wires": []
     },
     {
@@ -9244,7 +9280,7 @@
             "2d4e6531.c4777a"
         ],
         "x": 3115,
-        "y": 4020,
+        "y": 4200,
         "wires": []
     },
     {
@@ -11323,29 +11359,6 @@
         ]
     },
     {
-        "id": "c37add0d.9710f",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "c56f01cc.380dd",
-        "name": "ConceptDescriptions",
-        "order": 1,
-        "width": "30",
-        "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                            var langs = dataSpecification.preferredName;\n                            for(var lang in langs){\n                                if(langs[lang].language == \"en\"){\n                                    conceptDescription.preferredName = langs[lang].text;\n                                }\n                            }\n                            conceptDescription.shortName = dataSpecification.shortName;\n                            conceptDescription.unit = dataSpecification.unit;\n                            conceptDescription.dataType = dataSpecification.dataType;\n                            var defLangs = dataSpecification.definition;\n                            for(var defLang in defLangs){\n                                if(defLangs[defLang].language == \"en\"){\n                                    conceptDescription.definition = defLangs[defLang].text;\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 3040,
-        "y": 500,
-        "wires": [
-            [
-                "57cc2b70.afb41c"
-            ]
-        ]
-    },
-    {
         "id": "aa9b9e00.d9a198",
         "type": "debug",
         "z": "2164c119.f88826",
@@ -11498,8 +11511,8 @@
         "y": 500,
         "wires": [
             [
-                "c37add0d.9710f",
-                "2fa38586.c0acea"
+                "2fa38586.c0acea",
+                "541b3040.aa98a8"
             ]
         ]
     },
@@ -16244,49 +16257,6 @@
         "wires": []
     },
     {
-        "id": "672bcc28.6c2aac",
-        "type": "inject",
-        "z": "ccaa25a0.ca2c08",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "1",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 320,
-        "y": 160,
-        "wires": [
-            [
-                "6915e664.587dd8"
-            ]
-        ]
-    },
-    {
-        "id": "6915e664.587dd8",
-        "type": "unsafe-function",
-        "z": "ccaa25a0.ca2c08",
-        "name": "",
-        "func": "context.global.set(\"keycloak_auth\", env.get(\"KEYCLOAK_URL\"));\ncontext.global.set(\"client_id\", env.get(\"KEYCLOAK_CLIENT_ID\"));\ncontext.global.set(\"client_secret\", env.get(\"KEYCLOAK_CLIENT_SECRET\"));\ncontext.global.set(\"realm\", env.get(\"KEYCLOAK_REALM\"));\ncontext.global.set(\"client_id_ui\", env.get(\"KEYCLOAK_CLIENT_ID_UI\"));\ncontext.global.set(\"client_secret_ui\", env.get(\"KEYCLOAK_CLIENT_SECRET_UI\"));\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 560,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "c20f65ad.c98de8",
         "type": "actionflows",
         "z": "2164c119.f88826",
@@ -17690,7 +17660,7 @@
         "type": "auth-oidc",
         "z": "ccaa25a0.ca2c08",
         "name": "",
-        "discovery": "$(OPEN_ID)",
+        "discovery": "http://localhost:1880/aasServer/auth/discovery",
         "x": 570,
         "y": 300,
         "wires": [
@@ -18511,7 +18481,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1080,
-        "y": 4180,
+        "y": 4317,
         "wires": [
             [
                 "2c5fff4c.088d18"
@@ -18529,7 +18499,7 @@
         "sendError": false,
         "encoding": "none",
         "x": 1950,
-        "y": 4160,
+        "y": 4297,
         "wires": [
             [
                 "1619def7.8eb651"
@@ -18556,7 +18526,7 @@
         "to": "",
         "reg": false,
         "x": 1770,
-        "y": 4160,
+        "y": 4297,
         "wires": [
             [
                 "389ecac2.32281e"
@@ -18575,7 +18545,7 @@
         "oldrc": false,
         "name": "",
         "x": 1350,
-        "y": 4180,
+        "y": 4317,
         "wires": [
             [
                 "92440de2.fa50f8",
@@ -18599,7 +18569,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1570,
-        "y": 4140,
+        "y": 4277,
         "wires": []
     },
     {
@@ -18611,7 +18581,7 @@
         "outputs": 2,
         "noerr": 0,
         "x": 1580,
-        "y": 4180,
+        "y": 4317,
         "wires": [
             [
                 "9454af3.ef43f5"
@@ -23148,7 +23118,8 @@
         "z": "fd31082e.5487d8",
         "name": "init_model_path_out",
         "links": [
-            "80d4bc9e.6b1ae8"
+            "80d4bc9e.6b1ae8",
+            "73d3baee.cbcc64"
         ],
         "x": 1775,
         "y": 40,
@@ -23169,6 +23140,457 @@
             [
                 "f110f3ac.6b72e",
                 "3a6700df.867d18"
+            ]
+        ]
+    },
+    {
+        "id": "138a2f64.afb8b9",
+        "type": "http in",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "url": "/aasServer/auth/discovery",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 244,
+        "y": 260,
+        "wires": [
+            [
+                "f59f04e8.321228"
+            ]
+        ]
+    },
+    {
+        "id": "cf8f8529.fea89",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "func": "if(msg.req.rawHeaders[1] == \"localhost:1880\"){\n    return [null, msg];\n} else\nreturn [msg, null];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "d39168fc.e61678"
+            ],
+            [
+                "8ec7d6be.aa92f"
+            ]
+        ]
+    },
+    {
+        "id": "d39168fc.e61678",
+        "type": "link out",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "authDiscovery_out",
+        "links": [
+            "680dcd17.852524"
+        ],
+        "x": 1235,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "680dcd17.852524",
+        "type": "link in",
+        "z": "fd31082e.5487d8",
+        "name": "authDiscovery_In",
+        "links": [
+            "d39168fc.e61678"
+        ],
+        "x": 235,
+        "y": 3400,
+        "wires": [
+            [
+                "94d9bd76.3bbfe8"
+            ]
+        ]
+    },
+    {
+        "id": "92ba66be.f35f",
+        "type": "actionflows",
+        "z": "fd31082e.5487d8",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "readSubmodel",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1380,
+        "y": 3400,
+        "wires": [
+            [
+                "c8aab420.394018",
+                "b0411ba2.7e517"
+            ]
+        ]
+    },
+    {
+        "id": "94d9bd76.3bbfe8",
+        "type": "function",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "func": "var securityShellId = env.get(\"SECURITY_SHELL_ID\");\n\nvar securitySettingsSubmodelId = env.get(\"SECURITY_SETTINGS_SUBMODEL_ID\");\n\nmsg.req = {params: {aasid: securityShellId, \n                    id: securitySettingsSubmodelId\n}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1040,
+        "y": 3400,
+        "wires": [
+            [
+                "a108e90c.5e02b8",
+                "92ba66be.f35f"
+            ]
+        ]
+    },
+    {
+        "id": "a108e90c.5e02b8",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 3320,
+        "wires": []
+    },
+    {
+        "id": "c8aab420.394018",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1610,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "b0411ba2.7e517",
+        "type": "function",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "func": "if(msg.statusCode == \"200\"){\n    var submodel = msg.payload;\n    var submodelElements = submodel.submodelElements;\n    for(var element in submodelElements){\n        if(submodelElements[element].idShort == \"authenticationServer\") {\n            var values = submodelElements[element].value;\n            for(var valueElement in values){\n                if(values[valueElement].idShort == \"serverDiscoveryDocument\"){\n                    msg.url = values[valueElement].value;\n                    context.global.set(submodel.idShort, submodel);\n                    return msg;\n                }\n                \n            }\n        }\n    }\n    msg.statusCode = 400;\n    msg.payload = \"Error, serverDiscoveryDocument element does not exist\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1680,
+        "y": 3400,
+        "wires": [
+            [
+                "94880e4c.56e838",
+                "909057dc.9fead"
+            ]
+        ]
+    },
+    {
+        "id": "b7fd4964.adaaa8",
+        "type": "http request",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 2130,
+        "y": 3340,
+        "wires": [
+            [
+                "30b288e1.ec51a8"
+            ]
+        ]
+    },
+    {
+        "id": "94880e4c.56e838",
+        "type": "switch",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "property": "url",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1890,
+        "y": 3400,
+        "wires": [
+            [
+                "b7fd4964.adaaa8"
+            ],
+            [
+                "30b288e1.ec51a8"
+            ]
+        ]
+    },
+    {
+        "id": "909057dc.9fead",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1770,
+        "y": 3320,
+        "wires": []
+    },
+    {
+        "id": "a60c0f7.938fc7",
+        "type": "link in",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "authDiscovery_In",
+        "links": [
+            "30b288e1.ec51a8"
+        ],
+        "x": 1895,
+        "y": 260,
+        "wires": [
+            [
+                "ccdb7b80.711668",
+                "762bfc2c.c42aec",
+                "eabb608c.f97ba"
+            ]
+        ]
+    },
+    {
+        "id": "ccdb7b80.711668",
+        "type": "http response",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2310,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f59f04e8.321228",
+        "type": "set-defaults",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "set-startTime",
+        "rules": [
+            {
+                "p": "startTime",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "chbox_DoOutputToMessage": true,
+        "chbox_SetCurrentToMsg": false,
+        "howSend": {
+            "text": "payload",
+            "type": "msg",
+            "modifiedValue": "payload"
+        },
+        "dropdown_HowManyMessages": "single",
+        "dropdownObjOrVal": "value",
+        "outputs": 1,
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "cf8f8529.fea89",
+                "f1e57ea9.b3a79"
+            ]
+        ]
+    },
+    {
+        "id": "30b288e1.ec51a8",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "authDiscovery_Out",
+        "links": [
+            "a60c0f7.938fc7"
+        ],
+        "x": 3115,
+        "y": 3400,
+        "wires": []
+    },
+    {
+        "id": "f31ab30e.46d1f8",
+        "type": "wait-paths",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "paths": "[\"path_1\",\"path_2\"]",
+        "timeout": 15000,
+        "finalTimeout": 60000,
+        "x": 1110,
+        "y": 340,
+        "wires": [
+            [
+                "d39168fc.e61678"
+            ]
+        ]
+    },
+    {
+        "id": "8ec7d6be.aa92f",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "func": "msg.paths = {};\nmsg.paths[\"path_1\"] = \"discoveryServer\";\nmsg.pathsCorrelationId = \"init\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 880,
+        "y": 340,
+        "wires": [
+            [
+                "f31ab30e.46d1f8"
+            ]
+        ]
+    },
+    {
+        "id": "5680795b.4b2558",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "func": "msg.paths = {};\nmsg.paths[\"path_2\"] = \"manifestReady\";\nmsg.pathsCorrelationId = \"init\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 880,
+        "y": 400,
+        "wires": [
+            [
+                "f31ab30e.46d1f8"
+            ]
+        ]
+    },
+    {
+        "id": "d71bf44.3596f88",
+        "type": "link in",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "manifestready",
+        "links": [
+            "a57df28d.f36db"
+        ],
+        "x": 595,
+        "y": 400,
+        "wires": [
+            [
+                "5680795b.4b2558"
+            ]
+        ]
+    },
+    {
+        "id": "f1e57ea9.b3a79",
+        "type": "debug",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "762bfc2c.c42aec",
+        "type": "debug",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2020,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "eabb608c.f97ba",
+        "type": "subflow:56cb7422.e3d28c",
+        "z": "c7caf96e.a31f98",
+        "g": "c6c986ec.c72b9",
+        "name": "",
+        "env": [],
+        "x": 2290,
+        "y": 320,
+        "wires": [],
+        "icon": "node-red-contrib-viseo-log/log.svg"
+    },
+    {
+        "id": "541b3040.aa98a8",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "c56f01cc.380dd",
+        "name": "ConceptDescriptions",
+        "order": 1,
+        "width": "30",
+        "height": "20",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            if(descriptions[description].embeddedDataSpecifications.length > 0){\n                                var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                                var langs = dataSpecification.preferredName;\n                                for(var lang in langs){\n                                    if(langs[lang].language == \"en\"){\n                                        conceptDescription.preferredName = langs[lang].text;\n                                    }\n                                }\n                                conceptDescription.shortName = dataSpecification.shortName;\n                                conceptDescription.unit = dataSpecification.unit;\n                                conceptDescription.dataType = dataSpecification.dataType;\n                                var defLangs = dataSpecification.definition;\n                                for(var defLang in defLangs){\n                                    if(defLangs[defLang].language == \"en\"){\n                                        conceptDescription.definition = defLangs[defLang].text;\n                                    }\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 3040,
+        "y": 500,
+        "wires": [
+            [
+                "57cc2b70.afb41c"
             ]
         ]
     }
