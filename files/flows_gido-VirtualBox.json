@@ -10039,11 +10039,12 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Time-Out",
-        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nflow.set(\"sessionTimer\", 0);\ncontext.flow.set(\"selectedElements\", []);\ncontext.flow.set(\"seconds\", 0);\ncontext.flow.set(\"minutes\", 0);\ncontext.flow.set(\"hours\", 0);\n\nmsg.payload = \"Session Expired! Please singin again!\";\nreturn msg;",
+        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nflow.set(\"sessionTimer\", 0);\ncontext.flow.set(\"selectedElements\", []);\ncontext.flow.set(\"seconds\", 0);\ncontext.flow.set(\"minutes\", 0);\ncontext.flow.set(\"hours\", 0);\ncontext.flow.set(\"token\", \"\");\ncontext.flow.set(\"userName\", \"\");\n\nmsg.payload = \"Session Expired! Please singin again!\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1700,
         "y": 3220,
         "wires": [
