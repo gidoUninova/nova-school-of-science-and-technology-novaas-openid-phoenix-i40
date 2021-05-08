@@ -419,12 +419,15 @@
             "44085d86.310a54",
             "cb6903b4.dfcfb",
             "b786e178.8366b",
-            "7f89b687.1c199"
+            "7f89b687.1c199",
+            "2dc97f2a.e1d8d8",
+            "49ffc1f3.e4bc68",
+            "53250c63.0ecd5c"
         ],
         "x": 94,
         "y": 3943,
         "w": 2512,
-        "h": 278
+        "h": 238
     },
     {
         "id": "16640da3.5a20ca",
@@ -1413,6 +1416,50 @@
         "h": 482
     },
     {
+        "id": "d9efc969.3ac7a8",
+        "type": "group",
+        "z": "2164c119.f88826",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5e23ea8f.c23584",
+            "16f67a18.ffbace",
+            "8fe4d1c6.195158",
+            "45917e9f.5e03",
+            "dcfcf5b5.f7fcd8",
+            "dbaadebd.4b69d8",
+            "dbd47ad9.b39ec",
+            "1da87241.c01316",
+            "6b35b5c.246d3cc",
+            "affa7940.488c58",
+            "3ab155ea.bea442",
+            "7ad04b13.fae71c",
+            "cbd1bdb3.acb988",
+            "72b0a98f.34845",
+            "6b35d8f6.cc4f3",
+            "b04e3281.48c738",
+            "9c0fd00c.914d28",
+            "3ff45b61.4dfabc",
+            "6b223dd3.5f489c",
+            "3f7de25e.9b0a5e",
+            "7cadd42.3bb532c",
+            "ec32158e.39755",
+            "a6820e84.1e723",
+            "1128b4bc.b761eb"
+        ],
+        "x": 94,
+        "y": 3399,
+        "w": 1572,
+        "h": 642
+    },
+    {
         "id": "de00f046.a69e6",
         "type": "ui_base",
         "theme": {
@@ -1579,7 +1626,7 @@
         "type": "ui_tab",
         "name": "Login",
         "icon": "lock",
-        "order": 9,
+        "order": 10,
         "disabled": false,
         "hidden": false
     },
@@ -1915,7 +1962,7 @@
         "type": "ui_tab",
         "name": "Home",
         "icon": "dashboard",
-        "order": 11
+        "order": 12
     },
     {
         "id": "b9aed87e.bdd0c8",
@@ -2600,7 +2647,7 @@
         "type": "ui_tab",
         "name": "File Upload",
         "icon": "insert_drive_file",
-        "order": 10,
+        "order": 11,
         "disabled": false,
         "hidden": false
     },
@@ -2657,6 +2704,86 @@
         "type": "sub-link-config",
         "name": "driver",
         "clone": false
+    },
+    {
+        "id": "7dcd4079.256cf",
+        "type": "ui_group",
+        "name": "form",
+        "tab": "56715436.c2591c",
+        "order": 1,
+        "disp": true,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "6a4d510d.5de65",
+        "type": "ui_group",
+        "name": "ReportDownload",
+        "tab": "56715436.c2591c",
+        "order": 2,
+        "disp": false,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "56715436.c2591c",
+        "type": "ui_tab",
+        "name": "Reporting",
+        "icon": "assignment",
+        "order": 9,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "1bdd63f2.633acc",
+        "type": "ui_group",
+        "name": "Grafer",
+        "tab": "1cbf6c09.5ae5d4",
+        "order": 1,
+        "disp": true,
+        "width": "32",
+        "collapse": false
+    },
+    {
+        "id": "1cbf6c09.5ae5d4",
+        "type": "ui_tab",
+        "name": "Statistikk/Log",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "dfb4a60f.d788f8",
+        "type": "ui_group",
+        "name": "Data Export",
+        "tab": "48418b79.0f5834",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "48418b79.0f5834",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "d2702cb6.ab449",
+        "type": "ui_group",
+        "name": "G1",
+        "tab": "223c13e7.70f2cc",
+        "order": 1,
+        "disp": true,
+        "width": "22",
+        "collapse": false
+    },
+    {
+        "id": "223c13e7.70f2cc",
+        "type": "ui_tab",
+        "name": "T1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "d56e5f93.f422c",
@@ -7832,7 +7959,8 @@
         "y": 4084,
         "wires": [
             [
-                "96152098.0138c8"
+                "96152098.0138c8",
+                "49ffc1f3.e4bc68"
             ]
         ]
     },
@@ -7845,8 +7973,8 @@
         "links": [
             "d9a0c300.9f2b7"
         ],
-        "x": 1475,
-        "y": 4144,
+        "x": 1775,
+        "y": 4040,
         "wires": []
     },
     {
@@ -7858,12 +7986,12 @@
         "links": [
             "1619def7.8eb651"
         ],
-        "x": 1995,
-        "y": 4140,
+        "x": 2175,
+        "y": 4040,
         "wires": [
             [
-                "ed77ca84.755278",
-                "b4eb437c.b5efd"
+                "b4eb437c.b5efd",
+                "2dc97f2a.e1d8d8"
             ]
         ]
     },
@@ -7876,7 +8004,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2530,
-        "y": 4140,
+        "y": 4040,
         "wires": []
     },
     {
@@ -7887,7 +8015,7 @@
         "name": "",
         "env": [],
         "x": 2510,
-        "y": 4180,
+        "y": 4120,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -9515,7 +9643,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToGet",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/request/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"userToken\")\n        }\n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"File\")\n    {\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = {href: selectedElements[element].selectedElement.value};\n        var msg = {payload:observation};\n        outputMsgsFileData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    } else {\n        var msg = {payload:selected_element};\n        var shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"userToken\")\n        }\n        outputMsgsPropertyData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsFileData, outputMsgsConstantData, outputMsgsPropertyData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/request/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n        }\n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"File\")\n    {\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = {href: selectedElements[element].selectedElement.value};\n        var msg = {payload:observation};\n        outputMsgsFileData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    } else {\n        var msg = {payload:selected_element};\n        var shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n        }\n        outputMsgsPropertyData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsFileData, outputMsgsConstantData, outputMsgsPropertyData];",
         "outputs": 4,
         "noerr": 0,
         "x": 1971.666748046875,
@@ -9697,7 +9825,7 @@
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n\n        logo.src = '/images/novaas_resized_2.png'\n        logo.height = 45;\n        div1[0].style.margin = '10px auto';\n\n        div1.append(logo);\n\n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '5px';\n\n        function displayTime() {\n            p.text(new Date().toLocaleString());\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n\n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n            \n            if(!toolbar.length) return;\n            \n            toolbar.append(div1);\n            toolbar.append(div2);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 100);\n    });\n</script>",
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n\n        logo.src = '/images/logo.png';\n        logo.height = 45;\n        div1[0].style.margin = '10px auto';\n\n        div1.append(logo);\n\n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '5px';\n\n        function displayTime() {\n            p.text(new Date().toLocaleString());\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n\n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n            \n            if(!toolbar.length) return;\n            \n            toolbar.append(div1);\n            toolbar.append(div2);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 100);\n    });\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -9848,11 +9976,12 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "= 0 : Success",
-        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nvar currTime = Date.now();\nflow.set(\"sessionTimer\", currTime);\n\n\n/* ui-control payload */\nvar msg = {};\n\n/*msg.payload = { group: {\n    show : [\"Login_SensorData\", \"Login_History\"],\n    hide : [\"Login_Signin\"]\n}*/\n\n//msg.payload = {tab: \"Manifest\"};\n\nmsg.payload = { group: {\n        show : [\"Login_Commands\", \"Login_Body\", \"Login_Health\", \"Configs_Configurations\"],\n        hide : [\"Login_Login\"]\n    },\n    tabs: {\n        show: [\"Configs\"]\n    }\n};\n\nreturn msg;",
+        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nvar currTime = Date.now();\nflow.set(\"sessionTimer\", currTime);\n\n\n\n/*msg.payload = { group: {\n    show : [\"Login_SensorData\", \"Login_History\"],\n    hide : [\"Login_Signin\"]\n}*/\n\n//msg.payload = {tab: \"Manifest\"};\n\nmsg.payload = { group: {\n        show : [\"Login_Commands\", \"Login_Body\", \"Login_Health\", \"Configs_Configurations\", \"Reporting_form\"],\n        hide : [\"Login_Login\", \"Reporting_ReportDownload\"],\n    },\n    tabs: {\n        show: [\"Configs\", \"Reporting\"]\n    }\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1980,
         "y": 3000,
         "wires": [
@@ -10039,7 +10168,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Time-Out",
-        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nflow.set(\"sessionTimer\", 0);\ncontext.flow.set(\"selectedElements\", []);\ncontext.flow.set(\"seconds\", 0);\ncontext.flow.set(\"minutes\", 0);\ncontext.flow.set(\"hours\", 0);\ncontext.flow.set(\"token\", \"\");\ncontext.flow.set(\"userName\", \"\");\n\nmsg.payload = \"Session Expired! Please singin again!\";\nreturn msg;",
+        "func": "/* activate session timer */\nvar sessionTimer =  flow.get(\"sessionTimer\") || 0; \nflow.set(\"sessionTimer\", 0);\ncontext.flow.set(\"selectedElements\", []);\ncontext.flow.set(\"seconds\", 0);\ncontext.flow.set(\"minutes\", 0);\ncontext.flow.set(\"hours\", 0);\ncontext.flow.set(\"token\", \"\");\ncontext.flow.set(\"user\", \"\");\n\n\nmsg.payload = \"Session Expired! Please singin again!\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10093,11 +10222,12 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Login Redirection",
-        "func": "var msg1 = {};\nmsg1.payload = 8;\nvar msg2 = {};\n//msg.payload = {tab: \"Login\"};\nmsg2.payload = {\n    tabs: {\n        hide: [\"Configs\"]\n    },\n    group: {\n        hide : [\"Login_Commands\", \"Login_Body\", \"Login_Health\"],\n        show : [\"Login_Login\"]\n}\n};\nreturn [msg1, msg2];",
+        "func": "var msg1 = {};\nmsg1.payload = 9;\nvar msg2 = {};\n//msg.payload = {tab: \"Login\"};\nmsg2.payload = {\n    tabs: {\n        hide: [\"Configs\", \"Reporting\"]\n    },\n    group: {\n        hide : [\"Login_Commands\", \"Login_Body\", \"Login_Health\"],\n        show : [\"Login_Login\"]\n}\n};\nreturn [msg1, msg2];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2023.5472259521484,
         "y": 3219.09494304657,
         "wires": [
@@ -11511,7 +11641,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToUnSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    //var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;;\n    msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"userToken\")\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    //var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;;\n    msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1983.1873779296875,
@@ -11770,7 +11900,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"userToken\")\n        }\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n        }\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
         "outputs": 2,
         "noerr": 0,
         "x": 1980,
@@ -15901,11 +16031,11 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 550,
-        "y": 4084,
+        "x": 450,
+        "y": 4080,
         "wires": [
             [
-                "cb6903b4.dfcfb"
+                "53250c63.0ecd5c"
             ]
         ]
     },
@@ -15918,8 +16048,8 @@
         "func": "msg.payload = msg.error;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1250,
-        "y": 4064,
+        "x": 1270,
+        "y": 4100,
         "wires": [
             [
                 "44085d86.310a54"
@@ -15953,7 +16083,7 @@
         "repair": false,
         "outputs": 3,
         "x": 990,
-        "y": 4084,
+        "y": 4120,
         "wires": [
             [
                 "b9979eb0.b0cfc8"
@@ -15975,7 +16105,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1510,
-        "y": 4060,
+        "y": 4100,
         "wires": []
     },
     {
@@ -16687,8 +16817,8 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 780,
-        "y": 4084,
+        "x": 840,
+        "y": 4120,
         "wires": [
             [
                 "6ffc0833.6e4048"
@@ -17619,8 +17749,8 @@
                 "type": "json"
             }
         ],
-        "x": 340,
-        "y": 4120,
+        "x": 330,
+        "y": 4260,
         "wires": [
             [
                 "a7d73e88.2ec1f8"
@@ -17645,8 +17775,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 540,
-        "y": 4080,
+        "x": 530,
+        "y": 4220,
         "wires": []
     },
     {
@@ -17662,8 +17792,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 4160,
+        "x": 570,
+        "y": 4300,
         "wires": []
     },
     {
@@ -17679,8 +17809,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 4180,
+        "x": 1130,
+        "y": 4320,
         "wires": []
     },
     {
@@ -17691,8 +17821,8 @@
         "func": "var outMsg = {};\noutMsg.payload = msg.filename;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 610,
-        "y": 4120,
+        "x": 600,
+        "y": 4260,
         "wires": [
             [
                 "4c88cf2b.d1eb9",
@@ -17713,8 +17843,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 760,
-        "y": 4180,
+        "x": 750,
+        "y": 4320,
         "wires": []
     },
     {
@@ -17725,8 +17855,8 @@
         "func": "var outMsg = {};\noutMsg.req = {};\noutMsg.req.headers = {};\noutMsg.req.headers[\"authorization\"] = \"Bearer \" + msg.payload;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1050,
-        "y": 4120,
+        "x": 1040,
+        "y": 4260,
         "wires": [
             [
                 "dfcd853c.54521"
@@ -17746,8 +17876,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 4180,
+        "x": 1410,
+        "y": 4320,
         "wires": []
     },
     {
@@ -17758,8 +17888,8 @@
         "func": "context.flow.set(\"token\", msg.req.headers.authorization.split(\" \")[1]);\ncontext.flow.set(\"userName\", msg.access_token.body.userName);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1440,
-        "y": 4120,
+        "x": 1430,
+        "y": 4260,
         "wires": [
             []
         ]
@@ -17771,8 +17901,8 @@
         "name": "",
         "func": "# pip install pyopenssl\n# pip install pycryptodomex\n# https://github.com/IdentityPython/pyjwkest\n\n\nimport http.client\nimport OpenSSL.crypto\nimport os\n#import requests\nimport ssl\nimport tempfile\nimport base64\nimport json\nimport uuid\nimport time\nimport urllib.parse\n# from oic.utils.jwt import JWT\n# from oic.utils.keyio import build_keyjar\nfrom Cryptodome.PublicKey import RSA\nfrom Cryptodome.IO import PEM\nfrom jwkest.jws import JWSig, SIGNER_ALGS, JWS\nfrom jwkest.jwk import rsa_load, RSAKey,pem_cert2rsa,der_cert2rsa,der2rsa\nfrom jwkest.jwt import b64encode_item\n\n# from oic import rndstr\n# from oic.utils.time_util import utc_time_sans_frac\n\n\n# read a pfx cert from file and return an Opnssl object\ndef loadPfxCert(pfxFilePath, pfxPasswd):\n    pfxFile = open(pfxFilePath, \"rb\").read()\n    #TODO: FIX Warning: https://blog.cyberreboot.org/using-pkcs-12-formatted-certificates-in-python-fd98362f90ba\n    pfx = OpenSSL.crypto.load_pkcs12(pfxFile, pfxPasswd)\n    return pfx\n\n#convert a certchain into x5c string array\ndef convertCertChain2x5c(openSSLCertChain):\n    # Frist read EndCert\n    endCert = openSSLCertChain.get_certificate()\n    certChains = [endCert]\n    # Then midCAs and root CAs\n    certChainTuple = openSSLCertChain.get_ca_certificates()\n    x5c = [\n        str(\n            base64.b64encode(\n                OpenSSL.crypto.dump_certificate(OpenSSL.crypto.FILETYPE_ASN1, endCert)\n            ),\n            \"utf-8\",\n        )\n    ]\n    # Use reverse order so x5c is from leaf to root\n    print(\">>>>certChainTuple>>>>>\", certChainTuple)\n\n    for singleCert in reversed(certChainTuple):\n        certChains.append(singleCert)\n        x5c.append(\n            str(\n                base64.b64encode(\n                    OpenSSL.crypto.dump_certificate(\n                        OpenSSL.crypto.FILETYPE_ASN1, singleCert\n                    )\n                ),\n                \"utf-8\",\n            )\n        )\n\n    return x5c\n\n#create a jwt with x5c ,signed with client private key\ndef createJWTforTokenRequest (_alg,path2Signingkey, x5c,audienceAddress):\n    headers = {\"alg\": _alg, \"typ\": \"JWT\", \"x5c\": x5c}\n    now=int(time.time())\n    payload = dict(\n        iss=\"client.jwt\",\n        sub=\"client.jwt\",\n        aud=audienceAddress,\n        email=\"aorzelski@phoenixcontact.com\",\n        jti=str(uuid.uuid4()),\n        iat=now,\n        nbf=now,\n        exp=now+1800\n    )\n    jwt = JWSig(**headers)\n    _signer = SIGNER_ALGS[_alg]\n    _input = jwt.pack(parts=[json.dumps(payload)])\n    signing_key = RSAKey(key=rsa_load(path2Signingkey), kty=\"RSA\", use=\"sig\")\n\n    sig = _signer.sign(\n        _input.encode(\"utf-8\"), signing_key.get_key(alg=_alg, private=True)\n    )\n    jwt = \".\".join([_input, b64encode_item(sig).decode(\"utf-8\")])\n    return jwt\n\n#it generates a VALID cheat token with IdentieServer's private key\n#DO NOT PUT THIS IN PRODUCTION\ndef tokenGenerator(_alg,path2Signingkey):\n    headers = {\"alg\": _alg, \"typ\": \"JWT\"}\n    jwt = JWSig(**headers)\n    payload = dict(serverName=\"identityserver.test.rsa\",\n                    sessionID=4,\n                    userName=\"aorzelski@phoenixcontact.com\")\n    _signer = SIGNER_ALGS[_alg]\n    _input = jwt.pack(parts=[json.dumps(payload)])\n    signing_key = RSAKey(key=rsa_load(path2Signingkey), kty=\"RSA\", use=\"sig\")\n\n    sig = _signer.sign(\n        _input.encode(\"utf-8\"), signing_key.get_key(alg=_alg, private=True)\n    )\n    jwt = \".\".join([_input, b64encode_item(sig).decode(\"utf-8\")])\n    return jwt\n\ndef connect2OpenIDServerDiscovery (openIDServerAddress,openIDServerPort): \n    # client = http.client.HTTPSConnection(\"localhost\", 8080)\n    client=http.client.HTTPSConnection(openIDServerAddress, openIDServerPort)\n    # testing localhost\n    # client=http.client.HTTPSConnection(openIDServerAddress, openIDServerPort, context = ssl._create_unverified_context())\n    client.request(\"GET\",\"/.well-known/openid-configuration\")\n    res=client.getresponse()\n    print(res.read())\n\ndef getAccessTokenFromOpenIDServer(openIDServerAddress,openIDServerPort,tokenEndPoint,jwt):\n    headers = {\"Accept\": \"application/json\",\n                \"Content-Type\": \"application/x-www-form-urlencoded\"}\n    param= {'grant_type':'client_credentials',\n            'scope':'resource1.scope1',\n            'client_assertion_type':'urn:ietf:params:oauth:client-assertion-type:jwt-bearer',\n            'client_assertion':jwt}\n    content=urllib.parse.urlencode(param)\n    # print (content)\n    client=http.client.HTTPSConnection(openIDServerAddress, openIDServerPort)\n    # testing localhost\n    # client=http.client.HTTPSConnection(openIDServerAddress, openIDServerPort, context = ssl._create_unverified_context())\n    client.request(\"POST\",tokenEndPoint,content,headers)\n    res=client.getresponse()\n    return res\n\ndef checkAccessToken(accesstoken, _alg, derAuthCert):\n    #The following part of code should be depoyed on AAS_Server side to verify accessToken, hier nur zum Test   \n    print (\"------------------Step3: Verifying Token\")\n    \n    try:\n        jwt=JWSig().unpack(accesstoken)\n        verifier = SIGNER_ALGS[_alg]\n        res = verifier.verify(jwt.sign_input(), jwt.signature(),key=der2rsa(derAuthCert))\n        #print(jws)\n        print (\"Valid Token\")\n        return True\n    except:\n        print (\"Invalid Token\")\n        return False\n\ndef createAccessToken(filename):\n    #This Part of Code should be on AAS_Client Side\n    print (\"------------------Step1: Loading Client Private Key\")\n    #pfxFilePath = \"/app/pfx_phoenix/Andreas_Orzelski_Chain.pfx\"\n    pfxFilePath = filename\n    pfxPasswd = str.encode(\"i40\")   # convert string to bytes\n\n    pfx = loadPfxCert(pfxFilePath, pfxPasswd)\n    print(pfx)\n    clientPrivateKeyPath=\"clientPrivateKey.pem\"\n    print (\"------------------Step1: Loading Client Private Key\")\n    f = open(clientPrivateKeyPath, \"w\")\n    f.write(\n        str(\n            OpenSSL.crypto.dump_privatekey(\n                OpenSSL.crypto.FILETYPE_PEM, pfx.get_privatekey()\n            ),\n            \"utf-8\",\n        )\n    )\n    f.close()\n\n    # cert Cahin\n    x5c=convertCertChain2x5c(pfx)\n\n\n    print (\"------------------Step2: Connecting to OpenID Server\")\n    #Connect2OpenIDServer\n    openIDServerAddress=\"admin-shell-io.com\"\n    # testing localhost\n    # openIDServerAddress=\"localhost\"\n    openIDServerPort=50001\n    tokenEndPoint=\"/connect/token\"\n\n    \n    #generate jwt with x5c, expecting a challenge\n    _alg=\"RS256\"\n    audienceAddres=\"https://\"+openIDServerAddress+\":\"+str(openIDServerPort)+tokenEndPoint\n    jwt=createJWTforTokenRequest(_alg,clientPrivateKeyPath,x5c,audienceAddres)\n    #print(\"Client Request access token with jwt:\\n\"+jwt)\n    res=getAccessTokenFromOpenIDServer(openIDServerAddress,openIDServerPort, tokenEndPoint,jwt)\n    # parse accesstoken\n    help=json.loads(res.read())\n    accesstoken = help[\"access_token\"]\n\n    print(\"Client Received AccessToken:\\n\" + str(accesstoken))\n    \n    '''\n    path2Signingkey = \"identityserver.test.rsa.pem\"\n    path2AuthCert=\"identityserver.test.rsa.cer\"\n    derAuthCert= open(path2AuthCert, \"rb\").read()\n    # jws = JWS().verify_compact(\n    #             accesstoken, keys=[RSAKey(key=der2rsa(derAuthCert), kty=\"RSA\", use=\"sig\")]\n    #         )\n\n    checkAccessToken(accesstoken, _alg, derAuthCert)\n\n    \n    print (\"------------------Warning: cheat access token Generator\")\n    #ONLY TESTING tokenGenerator\n    #DO NOT PUT IT INTO PRODUCTION\n    cheatJWT=tokenGenerator(_alg,path2Signingkey)\n    print(\"Cheat Token\\n\"+cheatJWT+\"\\n\")\n    try:\n        jws = JWS().verify_compact(\n            cheatJWT, keys=[RSAKey(key=der2rsa(derAuthCert), kty=\"RSA\", use=\"sig\")]\n        )\n\n        print (\"Valid Signature\")\n        return cheatJWT\n    except:\n        print (\"Invalid Signature\")\n    '''\n\n    return str(accesstoken)\n\n\ntoken = createAccessToken(msg['payload'])\n\n\nprint(\"------------------StepX: Check if the token works\")\n\n# Test it:\n#import requests\n\n#url = \"https://admin-shell-io.com:51511/server/getaasx2/0\"\n\n#payload={}\n#headers = {\n#  'Authorization': 'Bearer '+token}\n\n#response = requests.request(\"GET\", url, headers=headers, data=payload)\n\n#print(response.text[:300])\nmsg['payload'] = token\nreturn msg",
         "outputs": 1,
-        "x": 870,
-        "y": 4120,
+        "x": 860,
+        "y": 4260,
         "wires": [
             [
                 "68dd7c86.6b4eb4",
@@ -17795,8 +17925,8 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1220,
-        "y": 4120,
+        "x": 1210,
+        "y": 4260,
         "wires": [
             [
                 "c52177aa.a08978",
@@ -23089,6 +23219,7 @@
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is deployed.\nnode.status({text:\"set Request Header\"});",
         "finalize": "",
+        "libs": [],
         "x": 655,
         "y": 260,
         "wires": [
@@ -23281,7 +23412,7 @@
         "type": "debug",
         "z": "fd31082e.5487d8",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -23723,7 +23854,8 @@
         "y": 600,
         "wires": [
             [
-                "9acbc976.085e08"
+                "9acbc976.085e08",
+                "fb090fa0.21b09"
             ]
         ]
     },
@@ -24295,7 +24427,7 @@
         "perf": false,
         "seq": false,
         "x": 1200,
-        "y": 4120,
+        "y": 4140,
         "wires": [
             [
                 "7f89b687.1c199"
@@ -24445,7 +24577,6 @@
         "y": 600,
         "wires": [
             [
-                "99002d74.da1148",
                 "caf9c09b.38ae88"
             ]
         ],
@@ -24464,8 +24595,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1470,
-        "y": 560,
+        "x": 1550,
+        "y": 520,
         "wires": []
     },
     {
@@ -24482,7 +24613,8 @@
         "y": 600,
         "wires": [
             [
-                "844d67fb.510258"
+                "844d67fb.510258",
+                "99002d74.da1148"
             ]
         ],
         "l": false
@@ -25154,13 +25286,593 @@
         "repair": false,
         "outputs": 2,
         "x": 1370,
-        "y": 4120,
+        "y": 4140,
         "wires": [
             [
                 "44085d86.310a54"
             ],
             [
                 "48ef191e.d28c98"
+            ]
+        ]
+    },
+    {
+        "id": "2dc97f2a.e1d8d8",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "fd25b313.221798",
+        "name": "Attachment",
+        "func": "msg.headers[\"Content-Disposition\"] = \"attachment;\" + \"filename=\" + msg.req.params.fn;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2310,
+        "y": 4040,
+        "wires": [
+            [
+                "ed77ca84.755278"
+            ]
+        ]
+    },
+    {
+        "id": "fb090fa0.21b09",
+        "type": "debug",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "49ffc1f3.e4bc68",
+        "type": "debug",
+        "z": "c7caf96e.a31f98",
+        "g": "fd25b313.221798",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "5e23ea8f.c23584",
+        "type": "pdfmake",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "outputType": "base64",
+        "inputProperty": "payload",
+        "options": "{}",
+        "outputProperty": "payload",
+        "x": 1000,
+        "y": 3680,
+        "wires": [
+            [
+                "16f67a18.ffbace"
+            ]
+        ]
+    },
+    {
+        "id": "16f67a18.ffbace",
+        "type": "file",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "filename": "/app/report.pdf",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "base64",
+        "x": 1160,
+        "y": 3680,
+        "wires": [
+            [
+                "6b35b5c.246d3cc"
+            ]
+        ]
+    },
+    {
+        "id": "8fe4d1c6.195158",
+        "type": "function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "ReportObject",
+        "func": "var outMsg = {};\noutMsg.payload = {};\nvar header = msg.payload;\noutMsg.payload.header = header;\nvar report = {};\nreport.AASIdentifier = context.global.get(\"AASIdentifier\");\nreport.status = context.global.get(\"NOVAAS_Overall_Status\");\nreport.statsSBI = context.global.get(\"statsSBI\");\nreport.statusCheckSBI = context.global.get(\"statusCheckSBI\");\nreport.logs = context.flow.get(\"logs\");\nreport.accountlog = context.flow.get(\"accountlog\");\nreport.logo = context.flow.get(\"logoBase64\");\noutMsg.payload.report = report;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 3680,
+        "wires": [
+            [
+                "dbd47ad9.b39ec",
+                "6b35d8f6.cc4f3"
+            ]
+        ]
+    },
+    {
+        "id": "45917e9f.5e03",
+        "type": "ui_form",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "label": "",
+        "group": "7dcd4079.256cf",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Date",
+                "value": "date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Email",
+                "value": "user",
+                "type": "email",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Notes",
+                "value": "notes",
+                "type": "multiline",
+                "required": true,
+                "rows": 6
+            }
+        ],
+        "formValue": {
+            "date": "",
+            "user": "",
+            "notes": ""
+        },
+        "payload": "",
+        "submit": "Create Report",
+        "cancel": "Cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "x": 510,
+        "y": 3680,
+        "wires": [
+            [
+                "8fe4d1c6.195158",
+                "1da87241.c01316"
+            ]
+        ]
+    },
+    {
+        "id": "dcfcf5b5.f7fcd8",
+        "type": "ui_ui_control",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "events": "all",
+        "x": 200,
+        "y": 3680,
+        "wires": [
+            [
+                "dbaadebd.4b69d8",
+                "3ab155ea.bea442",
+                "72b0a98f.34845"
+            ]
+        ]
+    },
+    {
+        "id": "dbaadebd.4b69d8",
+        "type": "function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "PreFilling",
+        "func": "msg.payload = {};\nmsg.payload.date = new Date();\nmsg.payload.user = context.flow.get(\"userName\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 3680,
+        "wires": [
+            [
+                "45917e9f.5e03"
+            ]
+        ]
+    },
+    {
+        "id": "dbd47ad9.b39ec",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 3620,
+        "wires": []
+    },
+    {
+        "id": "1da87241.c01316",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 3740,
+        "wires": []
+    },
+    {
+        "id": "6b35b5c.246d3cc",
+        "type": "function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "download Group",
+        "func": "var msg = {};\n\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    show : [\"Reporting_ReportDownload\"]\n}\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 3680,
+        "wires": [
+            [
+                "affa7940.488c58"
+            ]
+        ]
+    },
+    {
+        "id": "affa7940.488c58",
+        "type": "ui_ui_control",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "show download",
+        "x": 1560,
+        "y": 3680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ab155ea.bea442",
+        "type": "function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "download group",
+        "func": "\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    hide : [\"Reporting_ReportDownload\"]\n}\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 380,
+        "y": 3640,
+        "wires": [
+            [
+                "7ad04b13.fae71c"
+            ]
+        ]
+    },
+    {
+        "id": "7ad04b13.fae71c",
+        "type": "ui_ui_control",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "hide download",
+        "x": 620,
+        "y": 3640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbd1bdb3.acb988",
+        "type": "comment",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "Reporting Section",
+        "info": "",
+        "x": 210,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "72b0a98f.34845",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 3520,
+        "wires": []
+    },
+    {
+        "id": "6b35d8f6.cc4f3",
+        "type": "function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "func": "var tableBuilder = function (data, columns) {\n    var body = [];\n\n    body.push(columns);\n\n    data.forEach(function(row) {\n        var dataRow = [];\n\n        columns.forEach(function(column) {\n            dataRow.push(row[column].toString());\n        })\n\n        body.push(dataRow);\n    });\n\n    return body;\n}\n\nvar checkValue = function(value){\n    if(value.link){\n        return value.link;\n    } else if(value.value){\n        return value.value;\n    }\n}\n\nvar convertTime = function(value){\n    var time = new Date(value.time);\n    return time;\n}\n\nvar outMsg = {};\n\nvar accountLogTable = [];\nfor (var elementAccountLog in msg.payload.report.accountlog){\n    accountLogTable.push(\n        {\n            \"accessAt\": msg.payload.report.accountlog[elementAccountLog].accessAt,\n            \"username\": msg.payload.report.accountlog[elementAccountLog].username\n        }\n        );\n}\n\nvar logsTable = [];\nfor (var elementLogs in msg.payload.report.logs){\n    logsTable.push(\n        {\n            \"observableReference\": msg.payload.report.logs[elementLogs].observableReference,\n            \"_msgid\": msg.payload.report.logs[elementLogs]._msgid,\n            \"time\": convertTime(msg.payload.report.logs[elementLogs]),\n            \"value\": checkValue(msg.payload.report.logs[elementLogs])\n        }\n        );\n}\n\nvar dd = {\n     \"header\": function(currentPage, pageCount, pageSize) {\n         if(msg.payload.report.logo){\n            return [\n                { \"image\": \"data:image/png;base64,\" + msg.payload.report.logo, \"height\": 30, \"width\": 30 }\n            ]\n        } else return;\n    },\n    \"footer\": function(currentPage, pageCount, pageSize) {\n        if(msg.payload.report.logo){\n            return [\n                { \"image\": \"data:image/png;base64,\" + msg.payload.report.logo, \"height\": 30, \"width\": 30 }\n            ]\n        } else return;\n    },    \n    \"content\": [\n\t\t{ \"text\": \"NOVAsset Administration Shell Report\", \"style\": \"header\" },\n\t\t{\n\t\t\t\"style\": \"tableExample\",\n\t\t\t\"table\": {\n\t\t\t\t\"widths\": [\"*\", \"*\"],\n\t\t\t\t\"body\": [\n\t\t\t\t\t[\"Created by \", msg.payload.header.user],\n\t\t\t\t\t[\"Created at \", msg.payload.header.date],\n\t\t\t\t\t[\"Notes \", msg.payload.header.notes]\n\t\t\t\t]\n\t\t\t}\n\t\t},\n\t\t{ \"text\": \"NOVAAS Overview\", \"style\": \"subheader\" },\n\t\t{\n\t\t\t\"style\": \"tableExample\",\n\t\t\t\"table\": {\n\t\t\t    \"widths\": [\"*\", \"*\"],\n\t\t\t\t\"body\": [\n\t\t\t\t\t[\"NOVAAS Identifier\", msg.payload.report.AASIdentifier],\n\t\t\t\t\t[\"Status\", msg.payload.report.status]\n\t\t\t\t]\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"style\": \"tableExample\",\n\t\t\t\"table\": {\n\t\t\t\t\"widths\": [\"*\", \"*\"],\n\t\t\t\t\"headerRows\": 1,\n\t\t\t\t\"body\": [\n\t\t\t\t\t[{ \"text\": \"Southbound Interface Statistics\", \"style\": \"tableHeader\", \"colSpan\": 2, \"alignment\": \"center\" }, {}],\n\t\t\t\t\t[\"Connector Status\", msg.payload.report.statusCheckSBI.connected],\n\t\t\t\t\t[\"Total number of Datasources\", msg.payload.report.statusCheckSBI.nrOfDataSources],\n\t\t\t\t\t[\"Inbound Messages\", msg.payload.report.statsSBI.msgSpeed],\n\t\t\t\t\t[\"Inbound  Interval and Frequency\", msg.payload.report.statsSBI.IntervalAndFrequency],\n\t\t\t\t\t[\"Inbound Messages Max\", msg.payload.report.statsSBI.maxMsgs]\n\t\t\t\t]\n\t\t\t}\n\t\t},\n\t\t{ \"text\": \"Account Logs\", \"style\": \"subheader\" },\n\t\t{\n\t\t\t\"style\": \"tableExample\",\n\t\t\t\"table\": {\n\t\t\t    \"widths\": [\"*\", \"*\"],\n\t\t\t    \"headerRows\": 1,\n\t\t\t\t\"body\":\ttableBuilder(accountLogTable, ['accessAt', 'username'])\n\t\t\t}\n\t\t},\n\t\t{ \"text\": \"Logs\", \"style\": \"subheader\" },\n\t\t{\n\t\t\t\"style\": \"tableExample\",\n\t\t\t\"table\": {\n\t\t\t    \"widths\": ['auto', 'auto', 'auto', 'auto'],\n\t\t\t    \"headerRows\": 1,\n\t\t\t\t\"body\":\ttableBuilder(logsTable, ['observableReference', '_msgid', 'time', 'value'])\n\t\t\t}\n\t\t}\n\t],\n\t\"styles\": {\n\t\t\"header\": {\n\t\t\t\"fontSize\": 18,\n\t\t\t\"bold\": true,\n\t\t\t\"margin\": [0, 0, 0, 10]\n\t\t},\n\t\t\"subheader\": {\n\t\t\t\"fontSize\": 16,\n\t\t\t\"bold\": true,\n\t\t\t\"margin\": [0, 10, 0, 5]\n\t\t},\n\t\t\"tableExample\": {\n\t\t\t\"margin\": [0, 5, 0, 15]\n\t\t},\n\t\t\"tableOpacityExample\": {\n\t\t\t\"margin\": [0, 5, 0, 15],\n\t\t\t\"fillColor\": \"blue\",\n\t\t\t\"fillOpacity\": 0.3\n\t\t},\n\t\t\"tableHeader\": {\n\t\t\t\"bold\": true,\n\t\t\t\"fontSize\": 13,\n\t\t\t\"color\": \"black\"\n\t\t}\n\t}\n}\noutMsg.payload = dd;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 3680,
+        "wires": [
+            [
+                "5e23ea8f.c23584",
+                "b04e3281.48c738"
+            ]
+        ]
+    },
+    {
+        "id": "b04e3281.48c738",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 3620,
+        "wires": []
+    },
+    {
+        "id": "9c0fd00c.914d28",
+        "type": "inject",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 3840,
+        "wires": [
+            [
+                "3ff45b61.4dfabc"
+            ]
+        ]
+    },
+    {
+        "id": "3ff45b61.4dfabc",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "PrepareOutput",
+        "func": "msg.payload = \"-name\" + \" \" + \"logo.png\";\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 420,
+        "y": 3840,
+        "wires": [
+            [
+                "6b223dd3.5f489c"
+            ]
+        ]
+    },
+    {
+        "id": "6b223dd3.5f489c",
+        "type": "exec",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "command": "find",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 590,
+        "y": 3840,
+        "wires": [
+            [
+                "3f7de25e.9b0a5e"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3f7de25e.9b0a5e",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 3840,
+        "wires": [
+            [
+                "7cadd42.3bb532c"
+            ]
+        ]
+    },
+    {
+        "id": "7cadd42.3bb532c",
+        "type": "file in",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "filename": "",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 950,
+        "y": 3840,
+        "wires": [
+            [
+                "ec32158e.39755"
+            ]
+        ]
+    },
+    {
+        "id": "ec32158e.39755",
+        "type": "base64",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "action": "str",
+        "property": "payload",
+        "x": 1140,
+        "y": 3840,
+        "wires": [
+            [
+                "a6820e84.1e723"
+            ]
+        ]
+    },
+    {
+        "id": "a6820e84.1e723",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "logoBase64",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1340,
+        "y": 3840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1128b4bc.b761eb",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "d9efc969.3ac7a8",
+        "group": "6a4d510d.5de65",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<form action=\"/aasx/docu/report.pdf\" method=\"get\">\n    <input type=\"submit\" value=\"Download Report\" \n         name=\"Submit\" id=\"frm1_submit\" />\n</form>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 840,
+        "y": 4000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53250c63.0ecd5c",
+        "type": "switch",
+        "z": "c7caf96e.a31f98",
+        "g": "fd25b313.221798",
+        "name": "",
+        "property": "payload.Submit",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Download Report",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 4040,
+        "wires": [
+            [
+                "48ef191e.d28c98"
+            ],
+            [
+                "cb6903b4.dfcfb"
             ]
         ]
     }
