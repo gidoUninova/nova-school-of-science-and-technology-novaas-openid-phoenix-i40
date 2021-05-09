@@ -25874,7 +25874,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<form action=\"/aasx/docu/report.pdf\" method=\"get\">\n    <button type=\"submit\" value=\"Bearer {{{payload}}}\" \n         name=\"Submit\" id=\"frm1_submit\">Download</button>\n</form>",
+        "template": "<form action=\"/aasx/docu/report.pdf\" method=\"get\">\n    <md-button class=\"btn1 vibrate filled touched bigfont\" type=\"submit\" value=\"Bearer {{{payload}}}\" \n         name=\"Submit\" id=\"frm1_submit\">Download</md-button>\n</form>",
         "output": "str",
         "x": 1380,
         "y": 3760,
