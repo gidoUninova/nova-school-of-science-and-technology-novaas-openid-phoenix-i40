@@ -390,11 +390,14 @@
             "18849f43.c4aa99",
             "26f5b4b1.22f0a4",
             "23973b3d.9b6ccc",
-            "ac04494.90f8938"
+            "ac04494.90f8938",
+            "3fb52f54.6765f",
+            "738fa1f9.b0bd6",
+            "1f7b0981.288826"
         ],
-        "x": 94,
+        "x": 54,
         "y": 3310,
-        "w": 2512,
+        "w": 2552,
         "h": 611
     },
     {
@@ -422,7 +425,8 @@
             "7f89b687.1c199",
             "2dc97f2a.e1d8d8",
             "53250c63.0ecd5c",
-            "12b6a858.e31a18"
+            "12b6a858.e31a18",
+            "5843e564.12d65c"
         ],
         "x": 94,
         "y": 3943,
@@ -474,7 +478,9 @@
             "1f1ce2c5.9cb5cd"
         ],
         "x": 194,
-        "y": 4399
+        "y": 4399,
+        "w": 2272,
+        "h": 322
     },
     {
         "id": "d366c10f.cbf158",
@@ -499,8 +505,6 @@
             "16317ec1.a4e071",
             "9ae0cc41.4f38e",
             "ff535ae7.0608f8",
-            "b27596a4.f65d38",
-            "573c6200.66098",
             "5d4ac5ad.0efeec",
             "8ee32862.092ac8",
             "986cdb5.550c428",
@@ -525,7 +529,9 @@
             "b88a92c6.fb547"
         ],
         "x": 194,
-        "y": 3554.22216796875
+        "y": 3554.22216796875,
+        "w": 2962,
+        "h": 686.77783203125
     },
     {
         "id": "d7076418.bb51d8",
@@ -2892,8 +2898,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 520,
-        "y": 3571,
+        "x": 460,
+        "y": 3580,
         "wires": [
             [
                 "8a618a8d.e62888"
@@ -2910,8 +2916,8 @@
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 510,
-        "y": 3691,
+        "x": 470,
+        "y": 3700,
         "wires": [
             [
                 "6365223b.355cac"
@@ -2940,8 +2946,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 510,
-        "y": 3451,
+        "x": 450,
+        "y": 3460,
         "wires": [
             [
                 "5c1e943b.b9583c"
@@ -4962,7 +4968,7 @@
         "links": [
             "aa1f29da.e2b688"
         ],
-        "x": 1815,
+        "x": 1915,
         "y": 3480,
         "wires": []
     },
@@ -4975,7 +4981,7 @@
         "links": [
             "6659f21b.215e6c"
         ],
-        "x": 1815,
+        "x": 1915,
         "y": 3600,
         "wires": []
     },
@@ -4999,8 +5005,8 @@
         "y": 3800,
         "wires": [
             [
-                "6eef4cae.579154",
-                "6c8b8dd.0947374"
+                "6c8b8dd.0947374",
+                "3dd50be3.e99724"
             ]
         ]
     },
@@ -5079,16 +5085,15 @@
         "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nif(msg.res){\n    // Create an Observation Event Object ------------------------------------\n    var observation = {};\n    observation.id = uuid;\n    observation.source = context.global.get(\"AASIdentifier\");\n    observation.direction = \"Output\";\n    observation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n    observation.timestamp = new Date().getTime();\n    observation.payload = msg.payload;\n    msg.payload = observation;\n    return [msg, null];\n} else {\n    msg.topic = msg.req.params.id;\n    return [null, msg];\n}\n",
         "outputs": 2,
         "noerr": 0,
-        "x": 2810,
-        "y": 3840,
+        "x": 2770,
+        "y": 3860,
         "wires": [
             [
                 "c1053253.abab6",
                 "3dd50be3.e99724"
             ],
             [
-                "573c6200.66098",
-                "b27596a4.f65d38"
+                "3dd50be3.e99724"
             ]
         ]
     },
@@ -5126,7 +5131,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 3030,
-        "y": 3800,
+        "y": 3880,
         "wires": []
     },
     {
@@ -5178,7 +5183,7 @@
             "fc99534e.2e75a"
         ],
         "x": 3115,
-        "y": 3820,
+        "y": 3840,
         "wires": []
     },
     {
@@ -5227,7 +5232,7 @@
         "links": [
             "ff535ae7.0608f8"
         ],
-        "x": 1815,
+        "x": 1915,
         "y": 3720,
         "wires": []
     },
@@ -5251,7 +5256,7 @@
         "y": 3920,
         "wires": [
             [
-                "86743c69.70234"
+                "9ae0cc41.4f38e"
             ]
         ]
     },
@@ -6779,34 +6784,6 @@
         ]
     },
     {
-        "id": "b27596a4.f65d38",
-        "type": "link out",
-        "z": "fd31082e.5487d8",
-        "g": "d366c10f.cbf158",
-        "name": "16_Out_b",
-        "links": [
-            "697188e3.d41538"
-        ],
-        "x": 3115,
-        "y": 3860,
-        "wires": []
-    },
-    {
-        "id": "573c6200.66098",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "g": "d366c10f.cbf158",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3010,
-        "y": 3880,
-        "wires": []
-    },
-    {
         "id": "3f7c074f.d35dc8",
         "type": "debug",
         "z": "fd31082e.5487d8",
@@ -7674,8 +7651,12 @@
             [
                 "16317ec1.a4e071"
             ],
-            [],
-            []
+            [
+                "86743c69.70234"
+            ],
+            [
+                "86743c69.70234"
+            ]
         ]
     },
     {
@@ -7959,7 +7940,8 @@
         "y": 4084,
         "wires": [
             [
-                "96152098.0138c8"
+                "96152098.0138c8",
+                "5843e564.12d65c"
             ]
         ]
     },
@@ -8096,7 +8078,7 @@
             [
                 "c4275fe.2b991a",
                 "9f4574f7.fbae08",
-                "64688b4e.c3b664"
+                "76ac8590.4744a4"
             ]
         ]
     },
@@ -8109,23 +8091,6 @@
         "x": 1760,
         "y": 740,
         "wires": []
-    },
-    {
-        "id": "64688b4e.c3b664",
-        "type": "unsafe-function",
-        "z": "3db1c009.99d51",
-        "name": "PayloadProcessing",
-        "func": "var msg1 = {};\n\n//msg1.topic = context.global.get('AASIdentifier');\nmsg1.topic = msg.payload.observableReference;\nmsg1.payload = msg.payload;\n\nreturn msg1;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 870,
-        "y": 820,
-        "wires": [
-            [
-                "3423892e.2e5336",
-                "35de401c.4963b"
-            ]
-        ]
     },
     {
         "id": "3423892e.2e5336",
@@ -8166,18 +8131,8 @@
         "qos": "",
         "retain": "",
         "broker": "70417acd.dadb5c",
-        "x": 1150,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "96b7655e.bfe188",
-        "type": "comment",
-        "z": "3db1c009.99d51",
-        "name": "To MQTT",
-        "info": "",
-        "x": 840,
-        "y": 780,
+        "x": 1330,
+        "y": 840,
         "wires": []
     },
     {
@@ -8571,8 +8526,8 @@
         "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nif(msg.res){\n    // Create an Observation Event Object ------------------------------------\n    var observation = {};\n    observation.id = uuid;\n    observation.source = context.global.get(\"AASIdentifier\");\n    observation.direction = \"Output\";\n    observation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n    observation.timestamp = new Date().getTime();\n    observation.payload = msg.payload;\n    msg.payload = observation;\n    return [msg, null];\n} else {\n    msg.topic = msg.req.params.id;\n    return [null, msg];\n}\n",
         "outputs": 2,
         "noerr": 0,
-        "x": 2810,
-        "y": 3940,
+        "x": 2770,
+        "y": 3980,
         "wires": [
             [
                 "9ae0cc41.4f38e"
@@ -9100,7 +9055,7 @@
         "links": [
             "be37d7a0.4489e"
         ],
-        "x": 1815,
+        "x": 1915,
         "y": 3840,
         "wires": []
     },
@@ -9695,7 +9650,7 @@
         "name": "",
         "method": "GET",
         "ret": "obj",
-        "paytoqs": false,
+        "paytoqs": "ignore",
         "url": "",
         "tls": "",
         "persist": false,
@@ -10019,6 +9974,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2000,
         "y": 3080,
         "wires": [
@@ -10116,7 +10072,8 @@
         "y": 3244.9999980926514,
         "wires": [
             [
-                "2e422fd2.ea192"
+                "2e422fd2.ea192",
+                "33410e6a.b95d4a"
             ]
         ]
     },
@@ -10437,7 +10394,7 @@
         "name": "",
         "method": "PUT",
         "ret": "obj",
-        "paytoqs": false,
+        "paytoqs": "ignore",
         "url": "",
         "tls": "",
         "persist": false,
@@ -11644,7 +11601,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToUnSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    //var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;;\n    msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    //var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;;\n    msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\"),\n            origin: \"ui\"\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1983.1873779296875,
@@ -11903,7 +11860,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: \"Bearer \"+ context.flow.get(\"token\")\n        }\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {};\n        msg.headers['authorization'] = \"Bearer \"+ context.flow.get(\"token\");\n        msg.headers['origin'] = \"ui\";\n        \n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
         "outputs": 2,
         "noerr": 0,
         "x": 1980,
@@ -15630,7 +15587,7 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 990,
+        "x": 1090,
         "y": 3451,
         "wires": [
             [
@@ -15647,7 +15604,7 @@
         "func": "msg.payload = msg.error;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1570,
+        "x": 1670,
         "y": 3431,
         "wires": [
             [
@@ -15681,7 +15638,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1330,
+        "x": 1430,
         "y": 3451,
         "wires": [
             [
@@ -15703,7 +15660,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1850,
+        "x": 1950,
         "y": 3440,
         "wires": []
     },
@@ -15731,8 +15688,8 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 990,
-        "y": 3571,
+        "x": 950,
+        "y": 3580,
         "wires": [
             [
                 "cda0a2cf.2c6db8"
@@ -15748,7 +15705,7 @@
         "func": "msg.payload = msg.error;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1570,
+        "x": 1670,
         "y": 3551,
         "wires": [
             [
@@ -15776,13 +15733,18 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "400",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 1330,
+        "outputs": 4,
+        "x": 1430,
         "y": 3571,
         "wires": [
             [
@@ -15790,6 +15752,9 @@
             ],
             [
                 "ffb2df3a.e5c088"
+            ],
+            [
+                "cfca74c7.b132b"
             ],
             [
                 "8333f02b.6f54d"
@@ -15804,7 +15769,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1850,
+        "x": 1950,
         "y": 3560,
         "wires": []
     },
@@ -15832,8 +15797,8 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 990,
-        "y": 3691,
+        "x": 970,
+        "y": 3700,
         "wires": [
             [
                 "2c9561dd.a90ef6"
@@ -15849,7 +15814,7 @@
         "func": "msg.payload = msg.error;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1570,
+        "x": 1670,
         "y": 3671,
         "wires": [
             [
@@ -15877,13 +15842,18 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "400",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
-        "x": 1330,
+        "outputs": 4,
+        "x": 1430,
         "y": 3691,
         "wires": [
             [
@@ -15891,6 +15861,9 @@
             ],
             [
                 "317b8add.0a862e"
+            ],
+            [
+                "7126ac75.9556b4"
             ],
             [
                 "55ec4f1e.ecda18"
@@ -15905,7 +15878,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1850,
+        "x": 1950,
         "y": 3680,
         "wires": []
     },
@@ -15933,7 +15906,7 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 990,
+        "x": 1090,
         "y": 3811,
         "wires": [
             [
@@ -15950,7 +15923,7 @@
         "func": "msg.payload = msg.error;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1570,
+        "x": 1670,
         "y": 3791,
         "wires": [
             [
@@ -15984,7 +15957,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1330,
+        "x": 1430,
         "y": 3811,
         "wires": [
             [
@@ -16006,7 +15979,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1850,
+        "x": 1950,
         "y": 3800,
         "wires": []
     },
@@ -16725,7 +16698,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1180,
+        "x": 1280,
         "y": 3451,
         "wires": [
             [
@@ -16749,11 +16722,11 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1180,
-        "y": 3571,
+        "x": 1120,
+        "y": 3580,
         "wires": [
             [
-                "162cffd2.97aa9"
+                "3fb52f54.6765f"
             ]
         ]
     },
@@ -16773,11 +16746,11 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1160,
-        "y": 3691,
+        "x": 1140,
+        "y": 3700,
         "wires": [
             [
-                "8dcac56f.b39e18"
+                "1f7b0981.288826"
             ]
         ]
     },
@@ -16797,7 +16770,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1180,
+        "x": 1280,
         "y": 3811,
         "wires": [
             [
@@ -22555,7 +22528,7 @@
         "y": 339,
         "wires": [
             [
-                "ff8061fc.84883"
+                "d040e1c5.e3fdd"
             ]
         ]
     },
@@ -22568,22 +22541,6 @@
         "x": 1050,
         "y": 319,
         "wires": []
-    },
-    {
-        "id": "ff8061fc.84883",
-        "type": "unsafe-function",
-        "z": "ffd92d80.be309",
-        "name": "UpdateSubscriptions",
-        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id;\nsubscriptions.push(subscription);\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1280,
-        "y": 339,
-        "wires": [
-            [
-                "914b8490.e577e"
-            ]
-        ]
     },
     {
         "id": "1ccc7853.39179",
@@ -22641,24 +22598,8 @@
         "y": 480,
         "wires": [
             [
-                "eced0078.cc2b6",
-                "bcb9554e.8268e"
-            ]
-        ]
-    },
-    {
-        "id": "eced0078.cc2b6",
-        "type": "unsafe-function",
-        "z": "ffd92d80.be309",
-        "name": "UpdateSubscriptions",
-        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id;\nfor(var index in subscriptions){\n    if(subscriptions[index] == subscription){\n        subscriptions.splice(index, 1);\n    }\n}\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1280,
-        "y": 480,
-        "wires": [
-            [
-                "4db3565c.16005"
+                "bcb9554e.8268e",
+                "d0eb61ec.23be6"
             ]
         ]
     },
@@ -22807,7 +22748,7 @@
                 "9104b379.411ba8"
             ],
             [
-                "7b0e1d84.f2d3ac"
+                "5d86388d.5f97d"
             ]
         ]
     },
@@ -23022,23 +22963,6 @@
         "x": 1875,
         "y": 1020,
         "wires": []
-    },
-    {
-        "id": "7b0e1d84.f2d3ac",
-        "type": "unsafe-function",
-        "z": "ffd92d80.be309",
-        "name": "prepare Observation",
-        "func": "//var observation = JSON.parse(msg.payload);\nvar observation = msg.payload;\nobservation.source = context.global.get(\"AASIdentifier\");\nmsg.payload = observation;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1300,
-        "y": 640,
-        "wires": [
-            [
-                "d2c816de.c08c38",
-                "1e3f66d8.a85491"
-            ]
-        ]
     },
     {
         "id": "d2c816de.c08c38",
@@ -23885,6 +23809,7 @@
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is deployed.\nnode.status({text:\"verify Server DefaultUserSubjectAttributes\"});",
         "finalize": "",
+        "libs": [],
         "x": 495,
         "y": 600,
         "wires": [
@@ -24336,7 +24261,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1500,
+        "x": 1600,
         "y": 3480,
         "wires": [
             [
@@ -24360,7 +24285,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1500,
+        "x": 1600,
         "y": 3600,
         "wires": [
             [
@@ -24384,7 +24309,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1500,
+        "x": 1600,
         "y": 3720,
         "wires": [
             [
@@ -24408,7 +24333,7 @@
         "scope": "global",
         "perf": false,
         "seq": false,
-        "x": 1500,
+        "x": 1600,
         "y": 3840,
         "wires": [
             [
@@ -25155,7 +25080,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1770,
         "y": 3480,
         "wires": [
             [
@@ -25189,7 +25114,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1770,
         "y": 3600,
         "wires": [
             [
@@ -25223,7 +25148,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1770,
         "y": 3720,
         "wires": [
             [
@@ -25257,7 +25182,7 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1670,
+        "x": 1770,
         "y": 3840,
         "wires": [
             [
@@ -26044,5 +25969,262 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "33410e6a.b95d4a",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 3180,
+        "wires": []
+    },
+    {
+        "id": "5843e564.12d65c",
+        "type": "debug",
+        "z": "c7caf96e.a31f98",
+        "g": "fd25b313.221798",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "3fb52f54.6765f",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "name": "",
+        "func": "if(Object.keys(msg.req.body).length === 0 || msg.req.body == \"\"){\n    msg.statusCode = \"400\";\n    msg.payload = \"No topic specified in message body\";\n    return msg;\n} else {\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({text:\"check req params\"});",
+        "finalize": "",
+        "libs": [],
+        "x": 1275,
+        "y": 3580,
+        "wires": [
+            [
+                "162cffd2.97aa9",
+                "738fa1f9.b0bd6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "738fa1f9.b0bd6",
+        "type": "debug",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 3520,
+        "wires": []
+    },
+    {
+        "id": "1f7b0981.288826",
+        "type": "function",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "name": "",
+        "func": "if(Object.keys(msg.req.body).length === 0 || msg.req.body == \"\"){\n    msg.statusCode = \"400\";\n    msg.payload = \"No topic specified in message body\";\n    return msg;\n} else {\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({text:\"check req params\"});",
+        "finalize": "",
+        "libs": [],
+        "x": 1275,
+        "y": 3700,
+        "wires": [
+            [
+                "8dcac56f.b39e18"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d040e1c5.e3fdd",
+        "type": "unsafe-function",
+        "z": "ffd92d80.be309",
+        "name": "UpdateSubscriptions",
+        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id + \";\" + msg.req.body;\nsubscriptions.push(subscription);\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1280,
+        "y": 340,
+        "wires": [
+            [
+                "914b8490.e577e"
+            ]
+        ]
+    },
+    {
+        "id": "d0eb61ec.23be6",
+        "type": "unsafe-function",
+        "z": "ffd92d80.be309",
+        "name": "UpdateSubscriptions",
+        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id + \";\" + msg.req.body;\nfor(var index in subscriptions){\n    if(subscriptions[index] == subscription){\n        subscriptions.splice(index, 1);\n    }\n}\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1280,
+        "y": 480,
+        "wires": [
+            [
+                "4db3565c.16005"
+            ]
+        ]
+    },
+    {
+        "id": "cf377a9a.6c438",
+        "type": "unsafe-function",
+        "z": "ffd92d80.be309",
+        "name": "prepare Observation",
+        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsg = [];\nfor(var subscription in subscriptions){\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if(msg.payload.observableReference.includes(splittedSubscription[0]) && msg.payload.observableReference.includes(splittedSubscription[1]) && msg.payload.observableReference.includes(splittedSubscription[2])){\n        msg.topic = splittedSubscription[3];\n    }\n}\nvar observation = msg.payload;\nobservation.source = context.global.get(\"AASIdentifier\");\nmsg.payload = observation;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1420,
+        "y": 640,
+        "wires": [
+            [
+                "1e3f66d8.a85491",
+                "d2c816de.c08c38"
+            ]
+        ]
+    },
+    {
+        "id": "5d86388d.5f97d",
+        "type": "Load Balance",
+        "z": "ffd92d80.be309",
+        "defaultcapacity": 100,
+        "dynamic": "d7e6d6dc.d37318",
+        "hashType": "pearson",
+        "mps": "",
+        "name": "",
+        "noavailability": "admin",
+        "nocapacity": "admin",
+        "outputs": 3,
+        "routes": "2",
+        "selection": "next",
+        "sourceProperty": "msg.topic",
+        "sticky": "",
+        "x": 1200,
+        "y": 640,
+        "wires": [
+            [],
+            [
+                "cf377a9a.6c438"
+            ],
+            [
+                "b33ebee8.a7fa18"
+            ]
+        ]
+    },
+    {
+        "id": "b33ebee8.a7fa18",
+        "type": "unsafe-function",
+        "z": "ffd92d80.be309",
+        "name": "prepare Observation",
+        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsg = [];\nfor(var subscription in subscriptions){\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if(msg.payload.observableReference.includes(splittedSubscription[0]) && msg.payload.observableReference.includes(splittedSubscription[1]) && msg.payload.observableReference.includes(splittedSubscription[2])){\n        msg.topic = splittedSubscription[3];\n    }\n}\nvar observation = msg.payload;\nobservation.source = context.global.get(\"AASIdentifier\");\nmsg.payload = observation;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1420,
+        "y": 680,
+        "wires": [
+            [
+                "1e3f66d8.a85491"
+            ]
+        ]
+    },
+    {
+        "id": "76ac8590.4744a4",
+        "type": "unsafe-function",
+        "z": "3db1c009.99d51",
+        "name": "PayloadProcessing",
+        "func": "var msg1 = {};\n\n//msg1.topic = context.global.get('AASIdentifier');\nif(msg.topic == \"\"){\n    msg1.topic = msg.payload.observableReference;\n    msg1.payload = msg.payload;\n} else {\n     msg1.topic = msg.topic;\n    msg1.payload = msg.payload;\n}\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 910,
+        "y": 840,
+        "wires": [
+            [
+                "20d0404c.94e148",
+                "3423892e.2e5336"
+            ]
+        ]
+    },
+    {
+        "id": "13fb3f19.99f251",
+        "type": "comment",
+        "z": "3db1c009.99d51",
+        "name": "To MQTT",
+        "info": "",
+        "x": 880,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "20d0404c.94e148",
+        "type": "Load Balance",
+        "z": "3db1c009.99d51",
+        "defaultcapacity": 100,
+        "dynamic": "d7e6d6dc.d37318",
+        "hashType": "pearson",
+        "mps": "",
+        "name": "",
+        "noavailability": "admin",
+        "nocapacity": "admin",
+        "outputs": 3,
+        "routes": "2",
+        "selection": "next",
+        "sourceProperty": "msg.topic",
+        "sticky": "",
+        "x": 1120,
+        "y": 840,
+        "wires": [
+            [],
+            [
+                "35de401c.4963b"
+            ],
+            [
+                "7b1fadae.a82d64"
+            ]
+        ]
+    },
+    {
+        "id": "7b1fadae.a82d64",
+        "type": "mqtt out",
+        "z": "3db1c009.99d51",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "70417acd.dadb5c",
+        "x": 1330,
+        "y": 920,
+        "wires": []
     }
 ]
