@@ -49,13 +49,6 @@
         "info": ""
     },
     {
-        "id": "4ff5da13.cce2c4",
-        "type": "tab",
-        "label": "DPDM/OperationalData",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "2164c119.f88826",
         "type": "tab",
         "label": "AAS - UserInterface",
@@ -63,9 +56,9 @@
         "info": ""
     },
     {
-        "id": "e73dae77.7b465",
+        "id": "4ff5da13.cce2c4",
         "type": "tab",
-        "label": "Proficloud Reference",
+        "label": "DPDM/OperationalData",
         "disabled": false,
         "info": ""
     },
@@ -542,20 +535,16 @@
             "color": "#ffffff"
         },
         "nodes": [
-            "dc9cd718.811358",
             "c7097b80.b03428",
-            "670c9725.08f598",
-            "80dfa9b9.e62c58",
-            "c835aa60.059868",
-            "8df85b8a.96fff8",
             "5c80f7ac.2fc2b8",
             "3e11fc1c.d74334",
-            "1f1ce2c5.9cb5cd"
+            "1f1ce2c5.9cb5cd",
+            "7cdd4669c93fdc2e"
         ],
         "x": 194,
         "y": 4399,
         "w": 2272,
-        "h": 322
+        "h": 162
     },
     {
         "id": "d366c10f.cbf158",
@@ -572,7 +561,6 @@
             "c8777cd.74a3d8",
             "b5632ab6.616158",
             "6eef4cae.579154",
-            "865c52cc.324f5",
             "c1053253.abab6",
             "aa1f29da.e2b688",
             "6659f21b.215e6c",
@@ -601,7 +589,10 @@
             "67deb46b.6f1a14",
             "162cb66c.3b7292",
             "9f810b8b.7a1b8",
-            "b88a92c6.fb547"
+            "b88a92c6.fb547",
+            "49f6617c1a03ff11",
+            "cb4499917e4b3fc2",
+            "1832f86a9833417e"
         ],
         "x": 194,
         "y": 3554.22216796875,
@@ -702,7 +693,6 @@
         "nodes": [
             "2706d3c7.5d9a2c",
             "b0b325ea.8aff3",
-            "2691cd1a.69d14a",
             "649d6c1f.031b2c",
             "8adcfea2.e5f07",
             "b3c4ed70.6e96f8",
@@ -755,7 +745,8 @@
             "ca97d7.17dab028",
             "541b3040.aa98a8",
             "75b42c43.177b2c",
-            "fbcb5e59.248df"
+            "fbcb5e59.248df",
+            "f5d81204558f97fa"
         ],
         "x": 214,
         "y": 179,
@@ -854,7 +845,8 @@
             "db4d54ef.6b4a4",
             "efcbcc69.ed9d1",
             "db200cd7.5bd32",
-            "759da6d1.42e42"
+            "759da6d1.42e42",
+            "df98a659a5b217dc"
         ],
         "x": 2504,
         "y": 2779,
@@ -885,24 +877,16 @@
             "27faa505.26a31a",
             "d50039d0.bc4938",
             "2b4abcf3.ba6b04",
-            "214737f0.61dd",
             "9d155fa1.55784",
             "856b84d2.58bc58",
             "f73c7559.2f4508",
             "50f38532.36990c",
             "4a2fa6da.9b03d8",
-            "f8778a83.ae97b",
             "41bb2566.3acfdc",
             "8b15d4c7.c880d",
-            "9b24e851.951e9",
-            "7360c52f.a5416c",
-            "911243e9.311de",
             "c65f095e.8a22d",
             "cb167da9.5407f8",
             "550830ba.1dfd1",
-            "f0a85b3e.95fe6",
-            "3fa45558.af547a",
-            "b0db5278.506fd8",
             "a11a2eee.a46c8",
             "abde95dc.e3d6d",
             "90530db5.87162",
@@ -924,12 +908,13 @@
             "515aafe.e6c17d",
             "ae5e1f90.74594",
             "c26f366a.bc9c88",
-            "323548f1.1a0c1"
+            "323548f1.1a0c1",
+            "3da1a7ea98029b38"
         ],
         "x": 1584,
-        "y": 1479,
+        "y": 1539,
         "w": 2222,
-        "h": 866.25
+        "h": 743
     },
     {
         "id": "6c18a80c.ec30a",
@@ -1148,6 +1133,83 @@
         "h": 642
     },
     {
+        "id": "27a2d798.8a5c5",
+        "type": "group",
+        "z": "4ff5da13.cce2c4",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "6bc32d33.45f9e4",
+            "9266e562.28c37",
+            "ac0dba18.7aeda",
+            "4ad64dd8.6760f4",
+            "ac9eaa0c.0f4b68",
+            "4c16c76c.27ef18",
+            "b7a108ca.6d2c28",
+            "a2de3fd8.abb698",
+            "7fc430c5.095dc8",
+            "f097e303.e44418",
+            "4d16996f.c9d578",
+            "df583c8d.cdd8e8",
+            "5ae4975e.471678",
+            "bf993581.65f898"
+        ],
+        "x": 124,
+        "y": 59,
+        "w": 1522,
+        "h": 322
+    },
+    {
+        "id": "b3fca1f0.1e5ef8",
+        "type": "group",
+        "z": "4ff5da13.cce2c4",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "50caec1c.6ad584",
+            "a526eb90.5eb89",
+            "468a613a.658ae8",
+            "66121d53.f7a264",
+            "be9595d8.2df6a8",
+            "2dd76a11.baee1e",
+            "98dd4417.bb6a8",
+            "5543cf66.c72ba8",
+            "aa852a4a.3a9728",
+            "3f2701d6.f73216",
+            "f23c2e8f.c112f",
+            "9d3857b4.a3a72",
+            "a2d0442e.c3b158",
+            "67e92151.ed84b8",
+            "deaca8d7.b5846",
+            "4f700a47.b1503c",
+            "e3a6732e.ca9c5",
+            "b84f2e00.9385c8",
+            "6d18c370.e424fc",
+            "b6935d1d.70c508",
+            "9233e59a.9662b",
+            "6b5bce5c.8f7818",
+            "151fde71.ad247a",
+            "ce77388f.a7693",
+            "5fe0925e.2b993c",
+            "48dd5be3.c049ac",
+            "18abfa8d.7a70a5",
+            "cc4c0f0b.0473a8",
+            "fbec0d31.b2b898",
+            "95c62ca4.9097f8"
+        ],
+        "x": 114,
+        "y": 2639,
+        "w": 2872,
+        "h": 516
+    },
+    {
         "id": "37a4080e.40ed9",
         "type": "group",
         "z": "c7caf96e.a31f98",
@@ -1275,83 +1337,6 @@
         "y": 2779,
         "w": 2452,
         "h": 482
-    },
-    {
-        "id": "27a2d798.8a5c5",
-        "type": "group",
-        "z": "4ff5da13.cce2c4",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "6bc32d33.45f9e4",
-            "9266e562.28c37",
-            "ac0dba18.7aeda",
-            "4ad64dd8.6760f4",
-            "ac9eaa0c.0f4b68",
-            "4c16c76c.27ef18",
-            "b7a108ca.6d2c28",
-            "a2de3fd8.abb698",
-            "7fc430c5.095dc8",
-            "f097e303.e44418",
-            "4d16996f.c9d578",
-            "df583c8d.cdd8e8",
-            "5ae4975e.471678",
-            "bf993581.65f898"
-        ],
-        "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
-    },
-    {
-        "id": "b3fca1f0.1e5ef8",
-        "type": "group",
-        "z": "4ff5da13.cce2c4",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "50caec1c.6ad584",
-            "a526eb90.5eb89",
-            "468a613a.658ae8",
-            "66121d53.f7a264",
-            "be9595d8.2df6a8",
-            "2dd76a11.baee1e",
-            "98dd4417.bb6a8",
-            "5543cf66.c72ba8",
-            "aa852a4a.3a9728",
-            "3f2701d6.f73216",
-            "f23c2e8f.c112f",
-            "9d3857b4.a3a72",
-            "a2d0442e.c3b158",
-            "67e92151.ed84b8",
-            "deaca8d7.b5846",
-            "4f700a47.b1503c",
-            "e3a6732e.ca9c5",
-            "b84f2e00.9385c8",
-            "6d18c370.e424fc",
-            "b6935d1d.70c508",
-            "9233e59a.9662b",
-            "6b5bce5c.8f7818",
-            "151fde71.ad247a",
-            "ce77388f.a7693",
-            "5fe0925e.2b993c",
-            "48dd5be3.c049ac",
-            "18abfa8d.7a70a5",
-            "cc4c0f0b.0473a8",
-            "fbec0d31.b2b898",
-            "95c62ca4.9097f8"
-        ],
-        "x": 114,
-        "y": 2639,
-        "w": 2872,
-        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -2982,32 +2967,8 @@
         "wires": [
             [
                 "744c6d.0d4d0394",
-                "c69acbcd.893d38"
-            ]
-        ]
-    },
-    {
-        "id": "c69acbcd.893d38",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1930,
-        "y": 220,
-        "wires": [
-            [
-                "f871547d.46eff8",
-                "2a6fcb46.afc5b4",
-                "a57df28d.f36db"
+                "a57df28d.f36db",
+                "c6c88b8651fc6ecf"
             ]
         ]
     },
@@ -3026,65 +2987,6 @@
         "wires": []
     },
     {
-        "id": "f871547d.46eff8",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2130,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "1a3295c5.55b13a",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "handleAttachment",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "private",
-        "perf": false,
-        "seq": false,
-        "x": 990,
-        "y": 220,
-        "wires": [
-            [
-                "3f7c074f.d35dc8",
-                "f0e87c03.dbe01"
-            ]
-        ]
-    },
-    {
-        "id": "2a6fcb46.afc5b4",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_AASInitialized",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 2530,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "c9de3df7.c99ee",
         "type": "link in",
         "z": "fd31082e.5487d8",
@@ -3100,7 +3002,7 @@
         "wires": [
             [
                 "5c14e4cb.c5e47c",
-                "1a3295c5.55b13a"
+                "b3610573e4f48984"
             ]
         ]
     },
@@ -3117,79 +3019,7 @@
             "375d05df.fa314a"
         ],
         "x": 3135,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "66e321e5.06484",
-        "type": "actionflows_in",
-        "z": "fd31082e.5487d8",
-        "name": "handleAttachment in",
-        "priority": "50",
-        "links": [],
-        "scope": "private",
-        "x": 1090,
-        "y": 420,
-        "wires": [
-            [
-                "5bde9607.ebf0f8",
-                "c5f2daf3.298c08"
-            ]
-        ]
-    },
-    {
-        "id": "76f4ba44.088484",
-        "type": "actionflows_out",
-        "z": "fd31082e.5487d8",
-        "name": "handleAttachment out",
-        "links": [],
-        "x": 2280,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "c5f2daf3.298c08",
-        "type": "unsafe-function",
-        "z": "fd31082e.5487d8",
-        "name": "Read File ",
-        "func": "var fs = context.global.get('fs');\n\nfs.readFile(context.global.get('ModelFilePath'), \"utf8\", function read(err, data) {\n    if (err) {\n        throw err;\n    }\n    content = data;\n\n    // Invoke the next step here however you like\n    //console.log(content);   // Put all of the code here (not the best solution)\n    processFile();          // Or put the next step in a function and invoke it\n});\n\nfunction processFile() {\n    msg.payload = content;\n    node.send(msg);\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1800,
-        "y": 420,
-        "wires": [
-            [
-                "76f4ba44.088484",
-                "9d8f8724.7c2798"
-            ]
-        ]
-    },
-    {
-        "id": "9d8f8724.7c2798",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2010,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "5bde9607.ebf0f8",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1250,
-        "y": 360,
+        "y": 220,
         "wires": []
     },
     {
@@ -3699,48 +3529,6 @@
         "wires": []
     },
     {
-        "id": "40a3de40.189c5",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1740,
-        "y": 1900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "363870d9.3b941",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_SubmodelAdd",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1710,
-        "y": 1940,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "6860b43e.8de27c",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -3761,18 +3549,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1420,
         "y": 1880,
         "wires": [
@@ -3780,10 +3562,7 @@
                 "678e4e74.45bcf"
             ],
             [
-                "40a3de40.189c5"
-            ],
-            [
-                "363870d9.3b941"
+                "f83451ac9f1a2e5a"
             ]
         ]
     },
@@ -3861,48 +3640,6 @@
         ]
     },
     {
-        "id": "6a4cda09.d0dc44",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1750,
-        "y": 2100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7318f2c1.853eac",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_SubmodelRemove",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1750,
-        "y": 2140,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "48a59aa4.9ad814",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -3923,18 +3660,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1430,
         "y": 2080,
         "wires": [
@@ -3942,10 +3673,7 @@
                 "333f3811.d15c38"
             ],
             [
-                "6a4cda09.d0dc44"
-            ],
-            [
-                "7318f2c1.853eac"
+                "2bc3952c1f45e280"
             ]
         ]
     },
@@ -4015,48 +3743,6 @@
         ]
     },
     {
-        "id": "554733c4.b647fc",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1750,
-        "y": 2278,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d6208d5c.24539",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_SubmodelUpdate",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1740,
-        "y": 2318,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "2ec6555c.148e2a",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -4077,18 +3763,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1430,
         "y": 2258,
         "wires": [
@@ -4096,10 +3776,7 @@
                 "b3a06096.d9e97"
             ],
             [
-                "554733c4.b647fc"
-            ],
-            [
-                "d6208d5c.24539"
+                "881c867ff514ae11"
             ]
         ]
     },
@@ -4113,7 +3790,7 @@
             "51031ae7.2a3aa4"
         ],
         "x": 3135,
-        "y": 2238,
+        "y": 2240,
         "wires": []
     },
     {
@@ -4412,48 +4089,6 @@
         "wires": []
     },
     {
-        "id": "77697f0.0f6bd8",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1760,
-        "y": 2900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6867daa8.15d094",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_PropertyAdd",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1740,
-        "y": 2940,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "72079a3a.bbba24",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -4474,18 +4109,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1420,
         "y": 2880,
         "wires": [
@@ -4493,10 +4122,7 @@
                 "31e9ae57.e1de12"
             ],
             [
-                "77697f0.0f6bd8"
-            ],
-            [
-                "6867daa8.15d094"
+                "3af1add7a86bb762"
             ]
         ]
     },
@@ -4575,48 +4201,6 @@
         "wires": []
     },
     {
-        "id": "3f4ff2c8.9e31ee",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1770,
-        "y": 3060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9651ab7.95b0b58",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_PropertyRemove",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1760,
-        "y": 3100,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ef4743b2.ec1a6",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -4637,18 +4221,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1420,
         "y": 3040,
         "wires": [
@@ -4656,10 +4234,7 @@
                 "5e6f3c8.83ccdc4"
             ],
             [
-                "3f4ff2c8.9e31ee"
-            ],
-            [
-                "9651ab7.95b0b58"
+                "89581c8f2da099e3"
             ]
         ]
     },
@@ -4729,48 +4304,6 @@
         ]
     },
     {
-        "id": "4a3bcdab.319cc4",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_ManifestChange",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1750,
-        "y": 3240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f3829c2c.8b837",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyBOT_PropertyUpdate",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1740,
-        "y": 3280,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "a7bba83c.5d8f08",
         "type": "msg-router",
         "z": "fd31082e.5487d8",
@@ -4791,18 +4324,12 @@
                 "clone": false,
                 "delay": "0",
                 "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
             }
         ],
         "name": "",
         "delaying": "unrelated",
         "msgControl": false,
-        "outputs": 3,
+        "outputs": 2,
         "x": 1420,
         "y": 3220,
         "wires": [
@@ -4810,10 +4337,7 @@
                 "4c0c0431.1e281c"
             ],
             [
-                "4a3bcdab.319cc4"
-            ],
-            [
-                "f3829c2c.8b837"
+                "9cfc116fa6671f66"
             ]
         ]
     },
@@ -4890,7 +4414,7 @@
         "perf": false,
         "seq": false,
         "x": 1590,
-        "y": 3800,
+        "y": 3820,
         "wires": [
             [
                 "6c8b8dd.0947374",
@@ -4983,28 +4507,6 @@
             [
                 "3dd50be3.e99724"
             ]
-        ]
-    },
-    {
-        "id": "865c52cc.324f5",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "g": "d366c10f.cbf158",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "notifyAASUI_SubscriptionEvent",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 2770,
-        "y": 3763,
-        "wires": [
-            []
         ]
     },
     {
@@ -5141,10 +4643,11 @@
         "perf": false,
         "seq": false,
         "x": 1590,
-        "y": 3920,
+        "y": 3940,
         "wires": [
             [
-                "9ae0cc41.4f38e"
+                "9ae0cc41.4f38e",
+                "cb4499917e4b3fc2"
             ]
         ]
     },
@@ -5176,30 +4679,6 @@
         "wires": [
             [
                 "8ee32862.092ac8"
-            ]
-        ]
-    },
-    {
-        "id": "dc9cd718.811358",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "g": "4b4e4270.d440bc",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "handleRetrievedData",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1620,
-        "y": 4520,
-        "wires": [
-            [
-                "1f1ce2c5.9cb5cd"
             ]
         ]
     },
@@ -6672,20 +6151,6 @@
         ]
     },
     {
-        "id": "3f7c074f.d35dc8",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1170,
-        "y": 180,
-        "wires": []
-    },
-    {
         "id": "b575bbba.b65c88",
         "type": "json",
         "z": "7585249f.880c0c",
@@ -7601,10 +7066,10 @@
         "repair": false,
         "outputs": 1,
         "x": 1960,
-        "y": 3760,
+        "y": 3780,
         "wires": [
             [
-                "865c52cc.324f5"
+                "49f6617c1a03ff11"
             ]
         ]
     },
@@ -7633,74 +7098,6 @@
         "x": 2170,
         "y": 180,
         "wires": []
-    },
-    {
-        "id": "670c9725.08f598",
-        "type": "actionflows_in",
-        "z": "fd31082e.5487d8",
-        "g": "4b4e4270.d440bc",
-        "name": "handleRetrievedData in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 989,
-        "y": 4680,
-        "wires": [
-            [
-                "c835aa60.059868",
-                "8df85b8a.96fff8"
-            ]
-        ]
-    },
-    {
-        "id": "80dfa9b9.e62c58",
-        "type": "actionflows_out",
-        "z": "fd31082e.5487d8",
-        "g": "4b4e4270.d440bc",
-        "name": "handleRetrievedData out",
-        "links": [],
-        "x": 2289,
-        "y": 4680,
-        "wires": []
-    },
-    {
-        "id": "c835aa60.059868",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "g": "4b4e4270.d440bc",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1206,
-        "y": 4652,
-        "wires": []
-    },
-    {
-        "id": "8df85b8a.96fff8",
-        "type": "actionflows",
-        "z": "fd31082e.5487d8",
-        "g": "4b4e4270.d440bc",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "callNBI",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1620,
-        "y": 4680,
-        "wires": [
-            [
-                "80dfa9b9.e62c58"
-            ]
-        ]
     },
     {
         "id": "4b095658.e7e918",
@@ -8422,35 +7819,6 @@
             ],
             [
                 "9ae0cc41.4f38e"
-            ]
-        ]
-    },
-    {
-        "id": "540abc78.d7020c",
-        "type": "inject",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1460,
-        "y": 440,
-        "wires": [
-            [
-                "c5f2daf3.298c08"
             ]
         ]
     },
@@ -9180,8 +8548,8 @@
         "y": 4520,
         "wires": [
             [
-                "dc9cd718.811358",
-                "c7097b80.b03428"
+                "c7097b80.b03428",
+                "7cdd4669c93fdc2e"
             ]
         ]
     },
@@ -9516,11 +8884,12 @@
         "order": 0,
         "width": "35",
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.logs = [];\n        \n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.logs = msg.payload;\n                    }\n                }\n            });\n            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }\n        })(scope)\n    </script>\n    <div id=\"deck\" ng-init=\"init()\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">AAS Id</th>\n                    <th scope=\"col\">Observable Reference</th>\n                    <th scope=\"col\">_msgId</th>\n                    <th scope=\"col\">Timestamp</th>\n                    <th scope=\"col\">Value</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-info\" ng-repeat=\"i in logs\">\n                <td><a class=\"text-dark\">{{i.AASID}}</a></td>\n                <td><a class=\"text-dark\">{{i.observableReference}}</a></td>\n                <td><a class=\"text-dark\">{{i._msgid}}</a></td>\n                <td><a class=\"text-dark\">{{i.time}}</a></td>\n                <td ng-if='i.link'><a class=\"btn btn-link\" target=\"_blank\" rel=\"noopener noreferrer\" ng-href=\"{{i.link}}\">{{i.link}}</a></td>\n                <td ng-if='i.value'><a class=\"text-dark\">{{i.value}}</a></td>\n                \n                <!--<td><a class=\"text-dark\">{{i.value}}</a></td>!-->\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "format": "    <script>\n        (function(scope) {\n            scope.logs = [];\n        \n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.logs = msg.payload;\n                    }\n                }\n            });\n            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }\n        })(scope)\n    </script>\n    <div id=\"logs_Table\" ng-init=\"init()\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">AAS Id</th>\n                    <th scope=\"col\">Observable Reference</th>\n                    <th scope=\"col\">_msgId</th>\n                    <th scope=\"col\">Timestamp</th>\n                    <th scope=\"col\">Value</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-info\" ng-repeat=\"i in logs\">\n                <td><a class=\"text-dark\">{{i.AASID}}</a></td>\n                <td><a class=\"text-dark\">{{i.observableReference}}</a></td>\n                <td><a class=\"text-dark\">{{i._msgid}}</a></td>\n                <td><a class=\"text-dark\">{{i.time}}</a></td>\n                <td ng-if='i.link'><a class=\"btn btn-link\" target=\"_blank\" rel=\"noopener noreferrer\" ng-href=\"{{i.link}}\">{{i.link}}</a></td>\n                <td ng-if='i.value'><a class=\"text-dark\">{{i.value}}</a></td>\n                \n                <!--<td><a class=\"text-dark\">{{i.value}}</a></td>!-->\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 3573.690185546875,
         "y": 1678.8096923828125,
         "wires": [
@@ -10186,21 +9555,6 @@
         ]
     },
     {
-        "id": "214737f0.61dd",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3050,
-        "y": 1520,
-        "wires": []
-    },
-    {
         "id": "9d155fa1.55784",
         "type": "ui_button",
         "z": "2164c119.f88826",
@@ -10219,8 +9573,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 2550,
-        "y": 2120,
+        "x": 3190,
+        "y": 2240,
         "wires": [
             [
                 "856b84d2.58bc58"
@@ -10236,8 +9590,8 @@
         "func": "context.flow.set('logs', []);\ncontext.flow.set('accountlog', []);\nmsg.payload = context.flow.get('logs');\nreturn msg; ",
         "outputs": 1,
         "noerr": 0,
-        "x": 2764.5,
-        "y": 2119,
+        "x": 3404.5,
+        "y": 2239,
         "wires": [
             [
                 "f73c7559.2f4508"
@@ -10255,8 +9609,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2963.5,
-        "y": 2121,
+        "x": 3603.5,
+        "y": 2241,
         "wires": []
     },
     {
@@ -10296,55 +9650,6 @@
         "x": 2590,
         "y": 1820,
         "wires": []
-    },
-    {
-        "id": "f8778a83.ae97b",
-        "type": "msg-router",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "routerType": "broadcast",
-        "topicDependent": false,
-        "counterReset": false,
-        "msgKeyField": "payload",
-        "undefinedHash": false,
-        "outputsInfo": [
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": true,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": true,
-                "delay": "0",
-                "weight": "0"
-            }
-        ],
-        "name": "",
-        "delaying": "unrelated",
-        "msgControl": false,
-        "outputs": 3,
-        "x": 2770,
-        "y": 1560,
-        "wires": [
-            [
-                "214737f0.61dd",
-                "7360c52f.a5416c"
-            ],
-            [
-                "cb167da9.5407f8"
-            ],
-            [
-                "eb351cb4.81437"
-            ]
-        ]
     },
     {
         "id": "41bb2566.3acfdc",
@@ -10403,61 +9708,16 @@
         "func": "var outMsg = {};\noutMsg.payload = msg.statusMessage;\nreturn [msg, outMsg]; ",
         "outputs": 2,
         "noerr": 0,
-        "x": 2190,
+        "x": 2540,
         "y": 2180,
         "wires": [
             [
-                "3fa45558.af547a",
                 "abde95dc.e3d6d"
             ],
             [
                 "a11a2eee.a46c8",
-                "b0db5278.506fd8"
-            ]
-        ]
-    },
-    {
-        "id": "9b24e851.951e9",
-        "type": "ui_toast",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "position": "bottom right",
-        "displayTime": "1",
-        "highlight": "",
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "topic": "Logs",
-        "name": "Notify (Un)Subscription ",
-        "x": 2583.25,
-        "y": 2264.25,
-        "wires": []
-    },
-    {
-        "id": "7360c52f.a5416c",
-        "type": "actionflows_out",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "informAASUI_NewLog out",
-        "links": [],
-        "x": 3100,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "911243e9.311de",
-        "type": "actionflows_in",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "informAASUI_NewLog in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 2470,
-        "y": 1560,
-        "wires": [
-            [
-                "f8778a83.ae97b"
+                "cb167da9.5407f8",
+                "eb351cb4.81437"
             ]
         ]
     },
@@ -10511,56 +9771,6 @@
         "wires": []
     },
     {
-        "id": "f0a85b3e.95fe6",
-        "type": "actionflows_in",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "notifyAASUI_SubscriptionEvent in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 1750,
-        "y": 2160,
-        "wires": [
-            [
-                "8b15d4c7.c880d"
-            ]
-        ]
-    },
-    {
-        "id": "3fa45558.af547a",
-        "type": "actionflows_out",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "notifyAASUI_SubscriptionEvent out",
-        "links": [],
-        "x": 2613.25,
-        "y": 2164.25,
-        "wires": []
-    },
-    {
-        "id": "b0db5278.506fd8",
-        "type": "actionflows",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_NewLog",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "private",
-        "perf": false,
-        "seq": false,
-        "x": 2573.25,
-        "y": 2224.25,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "2706d3c7.5d9a2c",
         "type": "unsafe-function",
         "z": "2164c119.f88826",
@@ -10608,25 +9818,6 @@
         "wires": [
             [
                 "2706d3c7.5d9a2c"
-            ]
-        ]
-    },
-    {
-        "id": "2691cd1a.69d14a",
-        "type": "actionflows_in",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "informAASUI_ManifestChange in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 820,
-        "y": 660,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c",
-                "2cf012d1.4a7f5e",
-                "648a464.2a92838"
             ]
         ]
     },
@@ -11171,8 +10362,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2523.25,
-        "y": 2304.25,
+        "x": 2610,
+        "y": 2240,
         "wires": []
     },
     {
@@ -11186,8 +10377,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2503.25,
-        "y": 2064.25,
+        "x": 2610,
+        "y": 2120,
         "wires": []
     },
     {
@@ -11763,11 +10954,12 @@
         "order": 0,
         "width": "40",
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            //scope.connections = [];\n            scope.$watch('msg', function(msg){\n                //scope.connections = [];\n                if (msg) {\n                    if (msg.payload) {\n                        scope.subscriptions = [];\n                        for (var index in msg.payload){\n                            var subscription = msg.payload[index].split(\";\");\n                            scope.subscriptions.push(subscription);\n                        }\n                        //scope.connections = msg.payload;\n                    }\n                }\n            });\n            scope.init = function() {\n                //scope.connections = [];\n                //scope.send({payload:scope.connections});\n            }\n        })(scope)\n    </script>\n    <div id=\"deck\" ng-init=\"init()\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">AAS Id</th>\n                    <th scope=\"col\">Submodel idShort</th>\n                    <th scope=\"col\">Submodel Element idShort</th>\n                    <th scope=\"col\">Status</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-info\" ng-repeat=\"s in subscriptions\">\n                <td><a class=\"text-dark\">{{s[0]}}</a></td>\n                <td><a class=\"text-dark\">{{s[1]}}</a></td>\n                <td><a class=\"text-dark\">{{s[2]}}</a></td>\n                <td><a class=\"text-success\">Subscribed</a></td>\n                \n                <!--<td><a class=\"text-dark\">{{i.value}}</a></td>!-->\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "format": "    <script>\n        (function(scope) {\n            //scope.connections = [];\n            scope.$watch('msg', function(msg){\n                //scope.connections = [];\n                if (msg) {\n                    if (msg.payload) {\n                        scope.subscriptions = [];\n                        for (var index in msg.payload){\n                            var subscription = msg.payload[index].split(\";\");\n                            scope.subscriptions.push(subscription);\n                        }\n                        //scope.connections = msg.payload;\n                    }\n                }\n            });\n            scope.init = function() {\n                //scope.connections = [];\n                //scope.send({payload:scope.connections});\n            }\n        })(scope)\n    </script>\n    <div id=\"subscriptions_Table\" ng-init=\"init()\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">AAS Id</th>\n                    <th scope=\"col\">Submodel idShort</th>\n                    <th scope=\"col\">Submodel Element idShort</th>\n                    <th scope=\"col\">Status</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-info\" ng-repeat=\"s in subscriptions\">\n                <td><a class=\"text-dark\">{{s[0]}}</a></td>\n                <td><a class=\"text-dark\">{{s[1]}}</a></td>\n                <td><a class=\"text-dark\">{{s[2]}}</a></td>\n                <td><a class=\"text-success\">Subscribed</a></td>\n                \n                <!--<td><a class=\"text-dark\">{{i.value}}</a></td>!-->\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 3720,
         "y": 2840,
         "wires": [
@@ -12047,7 +11239,7 @@
         "func": "var outMsg = {};\noutMsg.payload = msg.payload.length;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 3670,
+        "x": 3520,
         "y": 2880,
         "wires": [
             [
@@ -12335,11 +11527,12 @@
         "order": 0,
         "width": "35",
         "height": "15",
-        "format": "    <script>\n        (function(scope) {\n            scope.logs = [];\n        \n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.logs = msg.payload;\n                    }\n                }\n            });\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">access At</th>\n                    <th scope=\"col\">username</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-success\" ng-repeat=\"i in logs\">\n                <td><a class=\"text-dark\">{{i.accessAt}}</a></td>\n                <td><a class=\"text-dark\">{{i.username}}</a></td>\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "format": "    <script>\n        (function(scope) {\n            scope.logs = [];\n        \n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.logs = msg.payload;\n                    }\n                }\n            });\n        })(scope)\n    </script>\n    <div id=\"accountLog_Table\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">access At</th>\n                    <th scope=\"col\">username</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr class=\"table-success\" ng-repeat=\"i in logs\">\n                <td><a class=\"text-dark\">{{i.accessAt}}</a></td>\n                <td><a class=\"text-dark\">{{i.username}}</a></td>\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 3570,
         "y": 2020,
         "wires": [
@@ -15948,8 +15141,8 @@
         "y": 2840,
         "wires": [
             [
-                "b77c222a.ae9128",
-                "f0cbc0ca.f85c9"
+                "f0cbc0ca.f85c9",
+                "df98a659a5b217dc"
             ]
         ]
     },
@@ -17954,14 +17147,15 @@
         "links": [
             "b88a92c6.fb547"
         ],
-        "x": 475,
+        "x": 460,
         "y": 840,
         "wires": [
             [
                 "cb66af2.eb6205",
                 "5ffcea5b.64626c"
             ]
-        ]
+        ],
+        "l": true
     },
     {
         "id": "e4277a91.b0ab3",
@@ -19070,12 +18264,13 @@
         "id": "dc6bbf1f.b6f02",
         "type": "sub-link-output",
         "z": "ffd92d80.be309",
+        "inputs": 0,
         "name": "",
         "topic": "metrics",
         "link": "d2edf304.fdfa2",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 210,
         "y": 700,
@@ -19109,12 +18304,13 @@
         "id": "acdc8f1d.23cf6",
         "type": "sub-link-output",
         "z": "ffd92d80.be309",
+        "inputs": 0,
         "name": "",
         "topic": "routed",
         "link": "d2edf304.fdfa2",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 210,
         "y": 640,
@@ -19601,11 +18797,12 @@
         "order": 1,
         "width": "30",
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            if(descriptions[description].embeddedDataSpecifications.length > 0){\n                                var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                                var langs = dataSpecification.preferredName;\n                                for(var lang in langs){\n                                    if(langs[lang].language == \"en\"){\n                                        conceptDescription.preferredName = langs[lang].text;\n                                    }\n                                }\n                                conceptDescription.shortName = dataSpecification.shortName;\n                                conceptDescription.unit = dataSpecification.unit;\n                                conceptDescription.dataType = dataSpecification.dataType;\n                                var defLangs = dataSpecification.definition;\n                                for(var defLang in defLangs){\n                                    if(defLangs[defLang].language == \"en\"){\n                                        conceptDescription.definition = defLangs[defLang].text;\n                                    }\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            if(descriptions[description].embeddedDataSpecifications.length > 0){\n                                var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                                var langs = dataSpecification.preferredName;\n                                for(var lang in langs){\n                                    if(langs[lang].language == \"en\"){\n                                        conceptDescription.preferredName = langs[lang].text;\n                                    }\n                                }\n                                conceptDescription.shortName = dataSpecification.shortName;\n                                conceptDescription.unit = dataSpecification.unit;\n                                conceptDescription.dataType = dataSpecification.dataType;\n                                var defLangs = dataSpecification.definition;\n                                for(var defLang in defLangs){\n                                    if(defLangs[defLang].language == \"en\"){\n                                        conceptDescription.definition = defLangs[defLang].text;\n                                    }\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"conceptDescriptions_Table\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 3040,
         "y": 500,
         "wires": [
@@ -22265,312 +21462,6 @@
         "wires": []
     },
     {
-        "id": "c386f827.16eb38",
-        "type": "ProficloudDevice",
-        "z": "e73dae77.7b465",
-        "uuid": "706c874e-d756-431c-a345-506628b77698",
-        "env": "Production",
-        "autostart": true,
-        "autodelay": 0,
-        "metaByPayload": false,
-        "deviceType": "NodeRED-Node",
-        "serialnumber": "",
-        "hardwareVersion": "",
-        "x": 790,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2f7723f2.906d24",
-        "type": "function",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "func": "msg = {};\nmsg.payload = {\"data\" : {\"humidity\": 12.0, \"temp\": 2.0}};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 440,
-        "y": 280,
-        "wires": [
-            [
-                "c386f827.16eb38"
-            ]
-        ]
-    },
-    {
-        "id": "788d6d09.2e35ec",
-        "type": "inject",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "props": [],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 220,
-        "y": 280,
-        "wires": [
-            [
-                "2f7723f2.906d24"
-            ]
-        ]
-    },
-    {
-        "id": "60b2ef0a.8aed9",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "TimeSeriesData",
-        "info": "",
-        "x": 180,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "ee768abb.14ce08",
-        "type": "function",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "func": "msg = {};\nmsg.payload = {\"trafficlight\": {\"color\": 0, \"msg\": \"Everything is okay\"}};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 440,
-        "y": 420,
-        "wires": [
-            [
-                "c386f827.16eb38"
-            ]
-        ]
-    },
-    {
-        "id": "11d12be5.0a1a34",
-        "type": "inject",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 420,
-        "wires": [
-            [
-                "ee768abb.14ce08"
-            ]
-        ]
-    },
-    {
-        "id": "ded8d7ba.28c2f",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "TrafficLight - Green",
-        "info": "",
-        "x": 190,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "c17f2af0.f833b8",
-        "type": "function",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "func": "msg = {};\nmsg.payload = {\"log\": {\"level\": 2, \"tag\":\"Node-RED\",\"msg\": \"System started\"}};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 440,
-        "y": 720,
-        "wires": [
-            [
-                "c386f827.16eb38"
-            ]
-        ]
-    },
-    {
-        "id": "8a321346.644d7",
-        "type": "inject",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 720,
-        "wires": [
-            [
-                "c17f2af0.f833b8"
-            ]
-        ]
-    },
-    {
-        "id": "6f96f6c8.4315f8",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "Log",
-        "info": "",
-        "x": 150,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "726085a2.7b897c",
-        "type": "function",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "func": "msg = {};\nmsg.payload = {\"trafficlight\": {\"color\": 1, \"msg\": \"Some warning\"}};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 440,
-        "y": 500,
-        "wires": [
-            [
-                "c386f827.16eb38"
-            ]
-        ]
-    },
-    {
-        "id": "36dbfce5.50a28c",
-        "type": "inject",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 500,
-        "wires": [
-            [
-                "726085a2.7b897c"
-            ]
-        ]
-    },
-    {
-        "id": "b2e339a0.6f9588",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "TrafficLight - Orange",
-        "info": "",
-        "x": 190,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "a86c7275.a4358",
-        "type": "function",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "func": "msg = {};\nmsg.payload = {\"trafficlight\": {\"color\": 2, \"msg\": \"Fatal error\"}};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 440,
-        "y": 580,
-        "wires": [
-            [
-                "c386f827.16eb38"
-            ]
-        ]
-    },
-    {
-        "id": "2f33ea50.4da396",
-        "type": "inject",
-        "z": "e73dae77.7b465",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 580,
-        "wires": [
-            [
-                "a86c7275.a4358"
-            ]
-        ]
-    },
-    {
-        "id": "4a0ad995.ab5d6",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "TrafficLight - Red",
-        "info": "",
-        "x": 180,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "6a408571.4f517c",
-        "type": "comment",
-        "z": "e73dae77.7b465",
-        "name": "Reference implementation",
-        "info": "This is an example flow to show the capabilities of the ProficloudDevice-Node.\nThe inject->function combination can be replaced by the way you like to connect your application. You can also use one of the pre configured Nodes for PxC devices. Just install [this](https://www.npmjs.com/package/node-red-contrib-phoenix-contact).",
-        "x": 150,
-        "y": 180,
-        "wires": []
-    },
-    {
         "id": "2ee706b2.763b22",
         "type": "switch",
         "z": "c1dd96d4.47a088",
@@ -23080,12 +21971,13 @@
         "id": "d23ce57c.ed8808",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "metrics",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 690,
         "y": 2440,
@@ -23774,12 +22666,13 @@
         "id": "fda690ac.7f99b8",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 620,
@@ -24718,12 +23611,13 @@
         "id": "7f0fcfe7.52cb48",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 940,
@@ -24738,12 +23632,13 @@
         "id": "147fe8c7.b6da67",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 1200,
@@ -24758,12 +23653,13 @@
         "id": "98f6697c.11bfc",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 1480,
@@ -24778,12 +23674,13 @@
         "id": "3275a386.896f4c",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 1740,
@@ -24798,12 +23695,13 @@
         "id": "69a2cc29.dac6e4",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 1980,
@@ -24818,12 +23716,13 @@
         "id": "4e113907.e9e7b8",
         "type": "sub-link-output",
         "z": "4ff5da13.cce2c4",
+        "inputs": 0,
         "name": "",
         "topic": "configSchedule",
         "link": "72ae2011.f3d7b",
         "priority": "0",
-        "alias": "",
         "aliasType": "str",
+        "alias": "",
         "clone": false,
         "x": 350,
         "y": 2220,
@@ -24872,6 +23771,251 @@
             [
                 "db56541d.47959",
                 "40ba0174.feea08"
+            ]
+        ]
+    },
+    {
+        "id": "c6c88b8651fc6ecf",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 3020,
+        "y": 260,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "b3610573e4f48984",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "Read File ",
+        "func": "var fs = context.global.get('fs');\n\nfs.readFile(context.global.get('ModelFilePath'), \"utf8\", function read(err, data) {\n    if (err) {\n        throw err;\n    }\n    content = data;\n\n    // Invoke the next step here however you like\n    //console.log(content);   // Put all of the code here (not the best solution)\n    processFile();          // Or put the next step in a function and invoke it\n});\n\nfunction processFile() {\n    msg.payload = content;\n    node.send(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1060,
+        "y": 220,
+        "wires": [
+            [
+                "f0e87c03.dbe01"
+            ]
+        ]
+    },
+    {
+        "id": "f83451ac9f1a2e5a",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1720,
+        "y": 1900,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "2bc3952c1f45e280",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1740,
+        "y": 2100,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "881c867ff514ae11",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1740,
+        "y": 2280,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "3af1add7a86bb762",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1740,
+        "y": 2900,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "89581c8f2da099e3",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1740,
+        "y": 3060,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "9cfc116fa6671f66",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "NOVAAS_informChange_UI",
+        "links": [
+            "f5d81204558f97fa"
+        ],
+        "x": 1740,
+        "y": 3240,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "49f6617c1a03ff11",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "g": "d366c10f.cbf158",
+        "name": "NOVAAS_(Un)SubscriptionEvent_UI",
+        "links": [
+            "3da1a7ea98029b38"
+        ],
+        "x": 2980,
+        "y": 3780,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "cb4499917e4b3fc2",
+        "type": "switch",
+        "z": "fd31082e.5487d8",
+        "g": "d366c10f.cbf158",
+        "name": "IF_statusMessage_not_null",
+        "property": "statusMessage",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1960,
+        "y": 3920,
+        "wires": [
+            [
+                "1832f86a9833417e"
+            ]
+        ]
+    },
+    {
+        "id": "1832f86a9833417e",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "g": "d366c10f.cbf158",
+        "name": "NOVAAS_(Un)SubscriptionEvent_UI",
+        "links": [
+            "3da1a7ea98029b38"
+        ],
+        "x": 2980,
+        "y": 3920,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "7cdd4669c93fdc2e",
+        "type": "actionflows",
+        "z": "fd31082e.5487d8",
+        "g": "4b4e4270.d440bc",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "callNBI",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1360,
+        "y": 4520,
+        "wires": [
+            [
+                "1f1ce2c5.9cb5cd"
+            ]
+        ]
+    },
+    {
+        "id": "f5d81204558f97fa",
+        "type": "link in",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "NOVAAS_InformChange_UI",
+        "links": [
+            "c6c88b8651fc6ecf",
+            "11e91e4d13917d49",
+            "ae28f53c34d8b949",
+            "b2811a59a9c3a985",
+            "adf27afba7c3b724",
+            "c5fc62ee99b0c1e2",
+            "a19fe280a1be4f25"
+        ],
+        "x": 480,
+        "y": 660,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c",
+                "2cf012d1.4a7f5e",
+                "648a464.2a92838"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "3da1a7ea98029b38",
+        "type": "link in",
+        "z": "2164c119.f88826",
+        "g": "7f3265a4.23ba94",
+        "name": "NOVAAS_(Un)SubscriptionEvent_UI",
+        "links": [
+            "49f6617c1a03ff11",
+            "3b6f974617ed5d03"
+        ],
+        "x": 1800,
+        "y": 2180,
+        "wires": [
+            [
+                "8b15d4c7.c880d"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "df98a659a5b217dc",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "cffb33fa.8a9ae",
+        "name": "subscriptions",
+        "func": "var outMsg = {};\noutMsg.payload = msg.payload;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3520,
+        "y": 2840,
+        "wires": [
+            [
+                "b77c222a.ae9128"
             ]
         ]
     }
