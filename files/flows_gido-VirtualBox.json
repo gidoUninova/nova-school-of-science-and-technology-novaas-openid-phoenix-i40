@@ -542,9 +542,7 @@
             "43ba305fa8e73ac9"
         ],
         "x": 194,
-        "y": 4399,
-        "w": 2272,
-        "h": 162
+        "y": 4399
     },
     {
         "id": "d366c10f.cbf158",
@@ -595,9 +593,7 @@
             "1a88bfccf2e5597f"
         ],
         "x": 194,
-        "y": 3554.22216796875,
-        "w": 2962,
-        "h": 686.77783203125
+        "y": 3554.22216796875
     },
     {
         "id": "d7076418.bb51d8",
@@ -748,7 +744,7 @@
         ],
         "x": 214,
         "y": 179,
-        "w": 3372,
+        "w": 3572,
         "h": 982
     },
     {
@@ -1131,6 +1127,79 @@
         "h": 642
     },
     {
+        "id": "8658ecc9013d4d25",
+        "type": "group",
+        "z": "31f919a1a6c9ad0e",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "d9f60d62af4aa1bd",
+            "ce2939b76606bb72",
+            "339f8adc081feac0",
+            "40f9543cf1f502b5",
+            "6b4f5be606a6c063",
+            "01ac674721c12a83",
+            "457612fa19994acf",
+            "30ffc5d3e8b66767",
+            "4b4ddd4ba952f53e",
+            "7d8f06ace1cd9c68",
+            "e019007920f6a5c1",
+            "2c32c6e7f82178d2",
+            "abd1ed3547f97486",
+            "7cb90ded2af9a485"
+        ],
+        "x": 124,
+        "y": 59
+    },
+    {
+        "id": "1c0565776312dade",
+        "type": "group",
+        "z": "31f919a1a6c9ad0e",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "b7642ce976347356",
+            "086f9ec949396f49",
+            "1e16ca2b9786fb75",
+            "096d3cb2086c3095",
+            "3da42590a53cc774",
+            "80d15480bf866902",
+            "3e90b50b2653b3e5",
+            "d0ddeaa1636124c0",
+            "fbc5bb77dd85e154",
+            "c10dc8688db51961",
+            "c9aa041a768ba2ae",
+            "94e0ca596093dd28",
+            "af526c434afbff02",
+            "ba20c74dbfddcfd4",
+            "0465728a09ae83dc",
+            "24edcbcbea7ade78",
+            "b7f9fa6a016a09ac",
+            "b6422a68695f31e1",
+            "947466d189cc8dc9",
+            "0f17605629d0b250",
+            "52791bd5208fb23b",
+            "85a5a22ff8691b0c",
+            "39cab5bc8aba1929",
+            "f0283babfb38075e",
+            "62380ffed64abcee",
+            "92e42b518807acf7",
+            "1760f80e2cacfbc2",
+            "c6f6291869dda3e6",
+            "c1f81c4bb5065af7",
+            "d819c626a512ecef"
+        ],
+        "x": 114,
+        "y": 2639
+    },
+    {
         "id": "37a4080e.40ed9",
         "type": "group",
         "z": "c7caf96e.a31f98",
@@ -1259,83 +1328,6 @@
         "y": 2779,
         "w": 2452,
         "h": 482
-    },
-    {
-        "id": "8658ecc9013d4d25",
-        "type": "group",
-        "z": "31f919a1a6c9ad0e",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "d9f60d62af4aa1bd",
-            "ce2939b76606bb72",
-            "339f8adc081feac0",
-            "40f9543cf1f502b5",
-            "6b4f5be606a6c063",
-            "01ac674721c12a83",
-            "457612fa19994acf",
-            "30ffc5d3e8b66767",
-            "4b4ddd4ba952f53e",
-            "7d8f06ace1cd9c68",
-            "e019007920f6a5c1",
-            "2c32c6e7f82178d2",
-            "abd1ed3547f97486",
-            "7cb90ded2af9a485"
-        ],
-        "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
-    },
-    {
-        "id": "1c0565776312dade",
-        "type": "group",
-        "z": "31f919a1a6c9ad0e",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "b7642ce976347356",
-            "086f9ec949396f49",
-            "1e16ca2b9786fb75",
-            "096d3cb2086c3095",
-            "3da42590a53cc774",
-            "80d15480bf866902",
-            "3e90b50b2653b3e5",
-            "d0ddeaa1636124c0",
-            "fbc5bb77dd85e154",
-            "c10dc8688db51961",
-            "c9aa041a768ba2ae",
-            "94e0ca596093dd28",
-            "af526c434afbff02",
-            "ba20c74dbfddcfd4",
-            "0465728a09ae83dc",
-            "24edcbcbea7ade78",
-            "b7f9fa6a016a09ac",
-            "b6422a68695f31e1",
-            "947466d189cc8dc9",
-            "0f17605629d0b250",
-            "52791bd5208fb23b",
-            "85a5a22ff8691b0c",
-            "39cab5bc8aba1929",
-            "f0283babfb38075e",
-            "62380ffed64abcee",
-            "92e42b518807acf7",
-            "1760f80e2cacfbc2",
-            "c6f6291869dda3e6",
-            "c1f81c4bb5065af7",
-            "d819c626a512ecef"
-        ],
-        "x": 114,
-        "y": 2639,
-        "w": 2872,
-        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -18115,7 +18107,8 @@
                 "b1d7bd45.436bf8"
             ],
             [
-                "a5d497d.a955b68"
+                "a5d497d.a955b68",
+                "28a6230f679f8eeb"
             ],
             [
                 "eb868983.45c2e8"
@@ -18135,12 +18128,13 @@
         "order": 1,
         "width": 10,
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n        <div>\n            <img src=\"{{msg.qrcode}}\">\n        </div>\n",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2780,
+        "className": "",
+        "x": 3380,
         "y": 380,
         "wires": [
             []
@@ -18176,7 +18170,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2800.08349609375,
+        "x": 3400.08349609375,
         "y": 302.08338928222656,
         "wires": [
             [
@@ -18199,7 +18193,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2801.3334045410156,
+        "x": 3401.3334045410156,
         "y": 341.6667022705078,
         "wires": [
             []
@@ -18214,8 +18208,8 @@
         "func": "//Retreiving Libraries from the Settings.json file\nif(msg.payload != \"init\"){\n    var selectedElements = context.flow.get('selectedElements');\n    var selectedElement = msg.payload;\n    \n    if(selectedElements.lenght == 0){\n        //selectedElements.push(selectedElement._Attribs.ID);\n        selectedElements.push(selectedElement);\n    } else {\n        var found = false;\n        for(var element in selectedElements){\n            //if(selectedElement._Attribs.ID == selectedElements[element]){\n            if(selectedElement.selectedElement.idShort == selectedElements[element].selectedElement.idShort && selectedElement.submodelId == selectedElements[element].submodelId && selectedElement.shellId == selectedElements[element].shellId){\n                selectedElements.splice(element, 1);\n                found = true;\n                break;\n            }\n        }\n        if(!found){\n            //selectedElements.push(selectedElement._Attribs.ID);\n            selectedElements.push(selectedElement);\n        }\n    }\n    context.flow.set('selectedElements', selectedElements);\n    msg.payload = selectedElements;\n    return msg;\n} else {\n    context.flow.set('selectedElements', []);\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
-        "x": 3260,
-        "y": 580,
+        "x": 3460,
+        "y": 680,
         "wires": [
             [
                 "13eaa4a6.391393"
@@ -18233,7 +18227,7 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3001.58349609375,
+        "x": 3601.58349609375,
         "y": 302.08338928222656,
         "wires": []
     },
@@ -18248,8 +18242,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3490,
-        "y": 580,
+        "x": 3690,
+        "y": 680,
         "wires": []
     },
     {
@@ -18442,8 +18436,8 @@
         "func": "var outMsg = {};\nvar administrationShells = msg.payload[1].assetAdministrationShells;\nvar submodels = msg.payload[1].submodels;\nvar shells = [];\nfor(var shellIndex in administrationShells){\n    var element = {};\n    var shell = administrationShells[shellIndex];\n    element.shellIdShort = shell.idShort;\n    element.shellIdentifier = shell.identification.id;\n    element.submodels = [];\n    var shellSubmodels = shell.submodels;\n    for(var submodelIndex in submodels){\n        for(var shellSubmodelIndex in shellSubmodels){\n            if(submodels[submodelIndex].identification.id === shellSubmodels[shellSubmodelIndex].keys[0].value){\n                element.submodels.push(submodels[submodelIndex]);\n            }\n        }\n    }\n    shells.push(element);\n}\n//outMsg.payload = msg.payload[1].submodels;\noutMsg.payload = shells;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2660,
-        "y": 580,
+        "x": 2860,
+        "y": 680,
         "wires": [
             [
                 "ad9570df.a95b4",
@@ -18601,8 +18595,8 @@
         "func": "var outMsg = {};\noutMsg.payload = msg.payload[1].conceptDescriptions;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2690,
-        "y": 500,
+        "x": 2890,
+        "y": 600,
         "wires": [
             [
                 "2fa38586.c0acea",
@@ -18621,8 +18615,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3290,
-        "y": 500,
+        "x": 3490,
+        "y": 600,
         "wires": []
     },
     {
@@ -18636,8 +18630,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2922.857177734375,
-        "y": 538.5714416503906,
+        "x": 3122.857177734375,
+        "y": 638.5714416503906,
         "wires": []
     },
     {
@@ -19765,8 +19759,8 @@
         "complete": "true",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2850,
-        "y": 700,
+        "x": 3050,
+        "y": 800,
         "wires": []
     },
     {
@@ -19865,8 +19859,8 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 2930,
-        "y": 600,
+        "x": 3130,
+        "y": 700,
         "wires": [
             []
         ]
@@ -19882,8 +19876,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3270,
-        "y": 640,
+        "x": 3470,
+        "y": 740,
         "wires": []
     },
     {
@@ -20115,7 +20109,7 @@
         "type": "debug",
         "z": "2164c119.f88826",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20149,7 +20143,7 @@
         "type": "debug",
         "z": "2164c119.f88826",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20216,7 +20210,7 @@
         "type": "debug",
         "z": "2164c119.f88826",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -20609,8 +20603,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 3070,
-        "y": 440,
+        "x": 3270,
+        "y": 540,
         "wires": [
             []
         ]
@@ -20637,8 +20631,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 2670,
-        "y": 440,
+        "x": 2870,
+        "y": 540,
         "wires": [
             [
                 "542cc0ea.7d42a"
@@ -20654,8 +20648,8 @@
         "func": "msg.payload = context.global.get(\"ThumbnailFilePath\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2880,
-        "y": 440,
+        "x": 3080,
+        "y": 540,
         "wires": [
             [
                 "ca97d7.17dab028"
@@ -20678,8 +20672,8 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 3040,
-        "y": 500,
+        "x": 3240,
+        "y": 600,
         "wires": [
             [
                 "57cc2b70.afb41c"
@@ -21390,8 +21384,8 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 2950,
-        "y": 640,
+        "x": 3150,
+        "y": 740,
         "wires": [
             [
                 "db56541d.47959",
@@ -21518,6 +21512,89 @@
             [
                 "c52177aa.a08978",
                 "613701fa.71773"
+            ]
+        ]
+    },
+    {
+        "id": "28a6230f679f8eeb",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "qrcodeinput",
+                "pt": "msg",
+                "to": "REPO_LOCATION",
+                "tot": "env"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2800,
+        "y": 400,
+        "wires": [
+            [
+                "806e01ba8dd4aa22"
+            ]
+        ]
+    },
+    {
+        "id": "806e01ba8dd4aa22",
+        "type": "qrcode-generator",
+        "z": "2164c119.f88826",
+        "name": "",
+        "qrtype": "text2qr",
+        "text2qrText": "",
+        "ssid": "",
+        "hiddenssid": false,
+        "wifitype": "",
+        "phonenum": "",
+        "smsphonenum": "",
+        "smstext": "",
+        "mailto": "",
+        "mailsubject": "",
+        "mailbody": "",
+        "latitude": "",
+        "longitude": "",
+        "colorlight": "#ffffff",
+        "colordark": "#000000",
+        "printstatus": false,
+        "x": 2990,
+        "y": 400,
+        "wires": [
+            [
+                "bdc6118ddbb26572"
+            ]
+        ]
+    },
+    {
+        "id": "bdc6118ddbb26572",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "qrcode",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3160,
+        "y": 400,
+        "wires": [
+            [
+                "a5d497d.a955b68"
             ]
         ]
     },
