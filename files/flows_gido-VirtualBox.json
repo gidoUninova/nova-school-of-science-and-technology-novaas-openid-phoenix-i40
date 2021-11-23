@@ -464,9 +464,7 @@
             "9576ed5e307f6b34"
         ],
         "x": 54,
-        "y": 3310,
-        "w": 2552,
-        "h": 611
+        "y": 3310
     },
     {
         "id": "fd25b313.221798",
@@ -497,9 +495,7 @@
             "eb71c1206eb36cdb"
         ],
         "x": 94,
-        "y": 3943,
-        "w": 2512,
-        "h": 198
+        "y": 3943
     },
     {
         "id": "16640da3.5a20ca",
@@ -520,9 +516,7 @@
             "43be3c31.fa03f4"
         ],
         "x": 94,
-        "y": 4239,
-        "w": 2512,
-        "h": 182
+        "y": 4239
     },
     {
         "id": "4b4e4270.d440bc",
@@ -962,9 +956,7 @@
             "ebda61874b6d0af9"
         ],
         "x": 84,
-        "y": 467,
-        "w": 2503,
-        "h": 662
+        "y": 467
     },
     {
         "id": "daa90db5.798ca",
@@ -1042,9 +1034,7 @@
             "162097cf7a67c50e"
         ],
         "x": 101,
-        "y": 1139,
-        "w": 2511,
-        "h": 2148
+        "y": 1139
     },
     {
         "id": "c6c986ec.c72b9",
@@ -1075,9 +1065,7 @@
             "eabb608c.f97ba"
         ],
         "x": 88,
-        "y": 139,
-        "w": 2298,
-        "h": 302
+        "y": 139
     },
     {
         "id": "d9efc969.3ac7a8",
@@ -1272,9 +1260,7 @@
             "4cafa948d5485587"
         ],
         "x": 127,
-        "y": 2056,
-        "w": 2459,
-        "h": 685
+        "y": 2056
     },
     {
         "id": "c358a7e7.e264e",
@@ -1325,9 +1311,7 @@
             "e7bd956798a5cb8a"
         ],
         "x": 134,
-        "y": 2779,
-        "w": 2452,
-        "h": 482
+        "y": 2779
     },
     {
         "id": "de00f046.a69e6",
@@ -18128,7 +18112,7 @@
         "order": 1,
         "width": 10,
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n        <div>\n            <img src=\"{{msg.qrcode}}\">\n        </div>\n",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n        <div>\n            <img width=\"300\" height=\"300\" src=\"{{msg.qrcode}}\">\n        </div>\n",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
