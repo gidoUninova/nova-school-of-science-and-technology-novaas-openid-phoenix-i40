@@ -56,7 +56,7 @@
         "info": ""
     },
     {
-        "id": "31f919a1a6c9ad0e",
+        "id": "e3e927a643db355e",
         "type": "tab",
         "label": "DPDM/OperationalData",
         "disabled": false,
@@ -395,6 +395,81 @@
         "env": [
             {
                 "name": "PropertyName",
+                "type": "str",
+                "value": ""
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "8e0be576142ef849",
+        "type": "subflow",
+        "name": "Property handler (2)",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 420,
+                "y": 500,
+                "wires": [
+                    {
+                        "id": "9bfd7f2fcffe985f"
+                    },
+                    {
+                        "id": "4ed8eb1e2411cb09"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1880,
+                "y": 440,
+                "wires": [
+                    {
+                        "id": "05586922e5550a1d",
+                        "port": 0
+                    },
+                    {
+                        "id": "9865dd816c501298",
+                        "port": 0
+                    },
+                    {
+                        "id": "f06cb7f4e4e60a9d",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1880,
+                "y": 800,
+                "wires": [
+                    {
+                        "id": "e8554d9ceeb5ed00",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1880,
+                "y": 860,
+                "wires": [
+                    {
+                        "id": "2644b3e29086c99b",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "PropertyName",
+                "type": "str",
+                "value": ""
+            },
+            {
+                "name": "PropertyLink",
                 "type": "str",
                 "value": ""
             }
@@ -1127,79 +1202,6 @@
         "h": 642
     },
     {
-        "id": "8658ecc9013d4d25",
-        "type": "group",
-        "z": "31f919a1a6c9ad0e",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "d9f60d62af4aa1bd",
-            "ce2939b76606bb72",
-            "339f8adc081feac0",
-            "40f9543cf1f502b5",
-            "6b4f5be606a6c063",
-            "01ac674721c12a83",
-            "457612fa19994acf",
-            "30ffc5d3e8b66767",
-            "4b4ddd4ba952f53e",
-            "7d8f06ace1cd9c68",
-            "e019007920f6a5c1",
-            "2c32c6e7f82178d2",
-            "abd1ed3547f97486",
-            "7cb90ded2af9a485"
-        ],
-        "x": 124,
-        "y": 59
-    },
-    {
-        "id": "1c0565776312dade",
-        "type": "group",
-        "z": "31f919a1a6c9ad0e",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "b7642ce976347356",
-            "086f9ec949396f49",
-            "1e16ca2b9786fb75",
-            "096d3cb2086c3095",
-            "3da42590a53cc774",
-            "80d15480bf866902",
-            "3e90b50b2653b3e5",
-            "d0ddeaa1636124c0",
-            "fbc5bb77dd85e154",
-            "c10dc8688db51961",
-            "c9aa041a768ba2ae",
-            "94e0ca596093dd28",
-            "af526c434afbff02",
-            "ba20c74dbfddcfd4",
-            "0465728a09ae83dc",
-            "24edcbcbea7ade78",
-            "b7f9fa6a016a09ac",
-            "b6422a68695f31e1",
-            "947466d189cc8dc9",
-            "0f17605629d0b250",
-            "52791bd5208fb23b",
-            "85a5a22ff8691b0c",
-            "39cab5bc8aba1929",
-            "f0283babfb38075e",
-            "62380ffed64abcee",
-            "92e42b518807acf7",
-            "1760f80e2cacfbc2",
-            "c6f6291869dda3e6",
-            "c1f81c4bb5065af7",
-            "d819c626a512ecef"
-        ],
-        "x": 114,
-        "y": 2639
-    },
-    {
         "id": "37a4080e.40ed9",
         "type": "group",
         "z": "c7caf96e.a31f98",
@@ -1328,6 +1330,83 @@
         "y": 2779,
         "w": 2452,
         "h": 482
+    },
+    {
+        "id": "cf81b5a26c34f326",
+        "type": "group",
+        "z": "e3e927a643db355e",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "666b61faed5a5055",
+            "08433f91f081b66d",
+            "97b72ec6cde70353",
+            "a130c8334b31f9bf",
+            "c59afaeab52b20ad",
+            "dd67e24c51f276a1",
+            "e656b5f2e8c704ac",
+            "97e712d681051193",
+            "5f9b96da6422edb9",
+            "3e2878440c03d0c8",
+            "3277de6bd9967ed2",
+            "c67e7428634f7764",
+            "74da97720a720d3c",
+            "6e8047c93fd36296"
+        ],
+        "x": 124,
+        "y": 59,
+        "w": 1522,
+        "h": 322
+    },
+    {
+        "id": "998cd24ea320dea3",
+        "type": "group",
+        "z": "e3e927a643db355e",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "4b8453465ec3fc97",
+            "e63b0c7fec860186",
+            "efd9ab89103edbc4",
+            "53850847653aacee",
+            "93e5685822eb90da",
+            "64870c0702d6e996",
+            "fd6ffd10721158b2",
+            "bd1a16a77975cb20",
+            "d0d64e34bccf1d14",
+            "1829dd788dcf495d",
+            "784229a6a2f69ebd",
+            "6a10ea6673a79237",
+            "105db437de583ef7",
+            "4f3d979cb98fd523",
+            "65b02f4bf6989f76",
+            "a8c66c2f48d763ca",
+            "9a07c8af855b12ac",
+            "b5342e94fc5c6fc5",
+            "3f8bc176a51ba898",
+            "d2b6dff4f875846f",
+            "9aabd0757265df5c",
+            "8cf6e010d30b52d6",
+            "b39d4e8a90c64fdb",
+            "a49a71f1c4f8da08",
+            "ee575a8da6e083a1",
+            "bcad5bcfeed9c6e7",
+            "8d24ddee977a9b92",
+            "1a484010d01e130c",
+            "0fb0d9077cfa2763",
+            "ca7020271737988c"
+        ],
+        "x": 114,
+        "y": 2639,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -4255,6 +4334,246 @@
             []
         ],
         "l": false
+    },
+    {
+        "id": "b289eb82c959c39c",
+        "type": "switch",
+        "z": "8e0be576142ef849",
+        "name": "topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "request",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "observe",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "unobserve",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "05586922e5550a1d"
+            ],
+            [
+                "9865dd816c501298",
+                "e1d868cb3921c640"
+            ],
+            [
+                "8912785fda979c92",
+                "f06cb7f4e4e60a9d"
+            ]
+        ]
+    },
+    {
+        "id": "05586922e5550a1d",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = context.flow.get('variable') || \"\";\n\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 440,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "9865dd816c501298",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 500,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "e1d868cb3921c640",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "",
+        "func": "msg.topic = \"control\";\nmsg.payload = \"open\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 540,
+        "wires": [
+            [
+                "f6c642a8496a8a1b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f6c642a8496a8a1b",
+        "type": "gate",
+        "z": "8e0be576142ef849",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "persist": false,
+        "x": 1490,
+        "y": 800,
+        "wires": [
+            [
+                "e8554d9ceeb5ed00"
+            ]
+        ]
+    },
+    {
+        "id": "e8554d9ceeb5ed00",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n});\nvar outMsg = {};\nvar ObsObj = context.flow.get('ObsObj');\nObsObj.id = uuid;\nvar timestamp = context.flow.get(\"$parent.timestamp\");\nObsObj.timestamp = timestamp;\nObsObj.payload = context.flow.get(\"variable\");\noutMsg.payload = ObsObj;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1635,
+        "y": 800,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "8912785fda979c92",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "",
+        "func": "msg.topic = \"control\";\nmsg.payload = \"close\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 660,
+        "wires": [
+            [
+                "f6c642a8496a8a1b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f06cb7f4e4e60a9d",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 600,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "47728e193b60c989",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "",
+        "func": "var propertyName = env.get(\"PropertyName\");\nvar Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"$parent.\" + propertyName);\ncontext.flow.set(\"variable\", variable);\n\nOutmsg.payload = variable;\nreturn Outmsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 875,
+        "y": 800,
+        "wires": [
+            [
+                "f6c642a8496a8a1b",
+                "2644b3e29086c99b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2644b3e29086c99b",
+        "type": "unsafe-function",
+        "z": "8e0be576142ef849",
+        "name": "responseTime",
+        "func": "var outMsg= {};\noutMsg.topic = \"put\";\noutMsg.payload = {\n    tstamp: context.flow.get(\"$parent.timestamp\"),\n    data: context.flow.get(\"variable\")\n};\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1075,
+        "y": 860,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "9bfd7f2fcffe985f",
+        "type": "switch",
+        "z": "8e0be576142ef849",
+        "name": "propertyLink",
+        "property": "PropertyLink",
+        "propertyType": "env",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "link",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "b289eb82c959c39c"
+            ]
+        ]
+    },
+    {
+        "id": "4ed8eb1e2411cb09",
+        "type": "switch",
+        "z": "8e0be576142ef849",
+        "name": "scheduler",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sbi scheduling data routing",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 560,
+        "wires": [
+            [
+                "47728e193b60c989"
+            ]
+        ]
     },
     {
         "id": "8dd7e27f.bc284",
@@ -15904,23 +16223,6 @@
         ]
     },
     {
-        "id": "1e1e125c2ba63ff4",
-        "type": "unsafe-function",
-        "z": "1950c4affd8afc62",
-        "name": "InvokeInternalDriver",
-        "func": "msg.source = context.global.get('AASIdentifier');\nmsg.staticDocs = context.global.get(\"staticDocs\");\nmsg.topic = \"request\";\nvar af = context.global.get(\"actionflows\");\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1020,
-        "y": 200,
-        "wires": [
-            [
-                "23250a83e1d4d788",
-                "8f2de68532a8c748"
-            ]
-        ]
-    },
-    {
         "id": "3d1537309230fff9",
         "type": "comment",
         "z": "1950c4affd8afc62",
@@ -15929,22 +16231,6 @@
         "x": 1340,
         "y": 159,
         "wires": []
-    },
-    {
-        "id": "4bbcd7353b5972f5",
-        "type": "unsafe-function",
-        "z": "1950c4affd8afc62",
-        "name": "InvokeInternalDriver",
-        "func": "var af = context.global.get(\"actionflows\");\nmsg.topic = \"observe\";\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 760,
-        "y": 339,
-        "wires": [
-            [
-                "d93323b22cc3b194"
-            ]
-        ]
     },
     {
         "id": "c01eabbc9e10a30b",
@@ -16014,23 +16300,6 @@
         "y": 75.85719299316406,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "9c4298418a4ebed1",
-        "type": "unsafe-function",
-        "z": "1950c4affd8afc62",
-        "name": "InvokeInternalDriver",
-        "func": "var af = context.global.get(\"actionflows\");\nmsg.topic = \"unobserve\";\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 760,
-        "y": 480,
-        "wires": [
-            [
-                "c20c04c5d3ae8606",
-                "02e37b41740c0d96"
-            ]
         ]
     },
     {
@@ -16508,8 +16777,8 @@
         "y": 200,
         "wires": [
             [
-                "1e1e125c2ba63ff4",
-                "e93e4e37982b7ba4"
+                "e93e4e37982b7ba4",
+                "5a7fcf6ea5170a20"
             ]
         ]
     },
@@ -16535,7 +16804,7 @@
         "wires": [
             [
                 "bb671fc0188ff8ae",
-                "4bbcd7353b5972f5"
+                "d22adb3413ce73f0"
             ]
         ]
     },
@@ -16560,7 +16829,7 @@
         "y": 480,
         "wires": [
             [
-                "9c4298418a4ebed1"
+                "6f037794.4913b8"
             ]
         ]
     },
@@ -16658,6 +16927,107 @@
             [
                 "2d0874b6e0c90588",
                 "932cdc71c1241d07"
+            ]
+        ]
+    },
+    {
+        "id": "688f3822bef3becb",
+        "type": "link call",
+        "z": "1950c4affd8afc62",
+        "name": "",
+        "links": [
+            "1ab7d799ceb246f7"
+        ],
+        "timeout": "30",
+        "x": 1040,
+        "y": 200,
+        "wires": [
+            [
+                "23250a83e1d4d788",
+                "8f2de68532a8c748"
+            ]
+        ]
+    },
+    {
+        "id": "05a8dba65b1ce0ad",
+        "type": "link call",
+        "z": "1950c4affd8afc62",
+        "name": "",
+        "links": [
+            "1ab7d799ceb246f7"
+        ],
+        "timeout": "30",
+        "x": 780,
+        "y": 340,
+        "wires": [
+            [
+                "d93323b22cc3b194"
+            ]
+        ]
+    },
+    {
+        "id": "f0f3ebd2601af595",
+        "type": "link call",
+        "z": "1950c4affd8afc62",
+        "name": "",
+        "links": [
+            "1ab7d799ceb246f7"
+        ],
+        "timeout": "30",
+        "x": 780,
+        "y": 480,
+        "wires": [
+            [
+                "c20c04c5d3ae8606",
+                "02e37b41740c0d96"
+            ]
+        ]
+    },
+    {
+        "id": "5a7fcf6ea5170a20",
+        "type": "unsafe-function",
+        "z": "1950c4affd8afc62",
+        "name": "attachLink",
+        "func": "msg.source = context.global.get('AASIdentifier');\nmsg.topic = \"request\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "688f3822bef3becb"
+            ]
+        ]
+    },
+    {
+        "id": "d22adb3413ce73f0",
+        "type": "unsafe-function",
+        "z": "1950c4affd8afc62",
+        "name": "attachLink",
+        "func": "msg.topic = \"observe\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "05a8dba65b1ce0ad"
+            ]
+        ]
+    },
+    {
+        "id": "6f037794.4913b8",
+        "type": "unsafe-function",
+        "z": "1950c4affd8afc62",
+        "name": "attachLink",
+        "func": "msg.topic = \"unobserve\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "f0f3ebd2601af595"
             ]
         ]
     },
@@ -21612,10 +21982,10 @@
         ]
     },
     {
-        "id": "d9f60d62af4aa1bd",
+        "id": "666b61faed5a5055",
         "type": "inject",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "props": [
             {
@@ -21642,34 +22012,34 @@
         "y": 100,
         "wires": [
             [
-                "ce2939b76606bb72",
-                "40f9543cf1f502b5",
-                "e019007920f6a5c1",
-                "4b4ddd4ba952f53e"
+                "08433f91f081b66d",
+                "a130c8334b31f9bf",
+                "3277de6bd9967ed2",
+                "5f9b96da6422edb9"
             ]
         ]
     },
     {
-        "id": "ce2939b76606bb72",
+        "id": "08433f91f081b66d",
         "type": "getflows",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "d": true,
-        "g": "8658ecc9013d4d25",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "x": 470,
         "y": 100,
         "wires": [
             [
-                "339f8adc081feac0"
+                "97b72ec6cde70353"
             ]
         ]
     },
     {
-        "id": "339f8adc081feac0",
+        "id": "97b72ec6cde70353",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "d": true,
-        "g": "8658ecc9013d4d25",
+        "g": "cf81b5a26c34f326",
         "name": "Initialize Driver Id",
         "func": "var drivers = context.global.get(\"Drivers\") || [];\nvar driver = {label:\"DPDM/OperationalData\", id:msg.thisflow}\n//var connector = {label}\n    for(var index in drivers){\n        if(drivers[index] === msg.thisflow){\n        return null;\n    }\n}\ndrivers.push(driver);\ncontext.global.set(\"Drivers\", drivers);\n\nreturn msg;",
         "outputs": 1,
@@ -21681,10 +22051,10 @@
         ]
     },
     {
-        "id": "40f9543cf1f502b5",
+        "id": "a130c8334b31f9bf",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "Initialize Context",
         "func": "context.flow.set(\"NrOfDataSources\", 7);\nreturn msg;",
         "outputs": 1,
@@ -21696,10 +22066,10 @@
         ]
     },
     {
-        "id": "6b4f5be606a6c063",
+        "id": "c59afaeab52b20ad",
         "type": "inject",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "props": [
             {
@@ -21721,15 +22091,15 @@
         "y": 340,
         "wires": [
             [
-                "01ac674721c12a83"
+                "dd67e24c51f276a1"
             ]
         ]
     },
     {
-        "id": "01ac674721c12a83",
+        "id": "dd67e24c51f276a1",
         "type": "saveflow",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "path": "/tmp/DPDM//OperationalData",
         "enabled": false,
@@ -21738,15 +22108,15 @@
         "y": 340,
         "wires": [
             [
-                "457612fa19994acf"
+                "e656b5f2e8c704ac"
             ]
         ]
     },
     {
-        "id": "457612fa19994acf",
+        "id": "e656b5f2e8c704ac",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -21759,10 +22129,10 @@
         "wires": []
     },
     {
-        "id": "30ffc5d3e8b66767",
+        "id": "97e712d681051193",
         "type": "cronplus",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "outputField": "payload",
         "timeZone": "",
@@ -21774,17 +22144,17 @@
         "y": 240,
         "wires": [
             [
-                "7d8f06ace1cd9c68"
+                "3e2878440c03d0c8"
             ]
         ]
     },
     {
-        "id": "4b4ddd4ba952f53e",
+        "id": "5f9b96da6422edb9",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "Initialize Simulator",
-        "func": "context.flow.set(\"cylinderStatus\", 0);\ncontext.flow.set(\"responseTime\", 0);\ncontext.flow.set(\"valvePosition\", 0);\ncontext.flow.set(\"newCycle\", false);\ncontext.flow.set(\"cycle\", 0);\ncontext.flow.set(\"responseTimePred\", []);\nreturn msg;",
+        "func": "context.flow.set(\"currentOperatingPressure\", 0);\ncontext.flow.set(\"cylinderStatus\", 0);\ncontext.flow.set(\"responseTime\", 0);\ncontext.flow.set(\"valvePosition\", 0);\ncontext.flow.set(\"newCycle\", false);\ncontext.flow.set(\"cycle\", 0);\ncontext.flow.set(\"responseTimePred\", []);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 770,
@@ -21794,10 +22164,10 @@
         ]
     },
     {
-        "id": "7d8f06ace1cd9c68",
+        "id": "3e2878440c03d0c8",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "topic": "configSchedule",
         "alias": "",
@@ -21810,10 +22180,10 @@
         "wires": []
     },
     {
-        "id": "e019007920f6a5c1",
+        "id": "3277de6bd9967ed2",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.initScheduling,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
         "outputs": 1,
@@ -21822,16 +22192,16 @@
         "y": 240,
         "wires": [
             [
-                "30ffc5d3e8b66767"
+                "97e712d681051193"
             ]
         ],
         "l": false
     },
     {
-        "id": "2c32c6e7f82178d2",
+        "id": "c67e7428634f7764",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "",
         "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.payload,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
         "outputs": 1,
@@ -21840,16 +22210,16 @@
         "y": 280,
         "wires": [
             [
-                "30ffc5d3e8b66767",
-                "7cb90ded2af9a485"
+                "97e712d681051193",
+                "6e8047c93fd36296"
             ]
         ],
         "l": false
     },
     {
-        "id": "7afab1654d4ad824",
+        "id": "a16a20261a8f81cb",
         "type": "msg-speed",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "frequency": "min",
         "interval": 1,
@@ -21859,15 +22229,15 @@
         "y": 2440,
         "wires": [
             [
-                "5c33a1738b93ea17"
+                "757823fec35112b9"
             ],
             []
         ]
     },
     {
-        "id": "5c33a1738b93ea17",
+        "id": "757823fec35112b9",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "stats",
         "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = context.flow.get(\"NrOfDataSources\") * 60;\nmsg.payload = statsSBI;\nreturn msg;",
         "outputs": 1,
@@ -21876,27 +22246,29 @@
         "y": 2420,
         "wires": [
             [
-                "87934f05c82c7c5b"
+                "f51ac82972f9482c"
             ]
         ]
     },
     {
-        "id": "87934f05c82c7c5b",
+        "id": "f51ac82972f9482c",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "metrics",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1780,
+        "x": 1760,
         "y": 2420,
         "wires": []
     },
     {
-        "id": "86ea468e8233f9a2",
+        "id": "5cf376597acb0a40",
         "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "inputs": 0,
         "name": "",
         "topic": "metrics",
@@ -21909,15 +22281,16 @@
         "y": 2440,
         "wires": [
             [
-                "7afab1654d4ad824"
+                "a16a20261a8f81cb",
+                "6cadb748f71df6c5"
             ],
             []
         ]
     },
     {
-        "id": "fdf42e56ab63ab5b",
+        "id": "2d995f6da8f22fce",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "statusNotification",
         "func": "var statusCheck  = {};\nstatusCheck.connected = true;\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
         "outputs": 1,
@@ -21926,15 +22299,15 @@
         "y": 2560,
         "wires": [
             [
-                "6f557ceaed950210"
+                "47a1228f96b335b0"
             ]
         ]
     },
     {
-        "id": "b7642ce976347356",
+        "id": "4b8453465ec3fc97",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
         "outputs": 2,
@@ -21943,19 +22316,19 @@
         "y": 2880,
         "wires": [
             [
-                "086f9ec949396f49",
-                "3da42590a53cc774"
+                "e63b0c7fec860186",
+                "93e5685822eb90da"
             ],
             [
-                "1760f80e2cacfbc2"
+                "8d24ddee977a9b92"
             ]
         ]
     },
     {
-        "id": "086f9ec949396f49",
+        "id": "e63b0c7fec860186",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -21968,10 +22341,10 @@
         "wires": []
     },
     {
-        "id": "1e16ca2b9786fb75",
+        "id": "efd9ab89103edbc4",
         "type": "delay",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -21988,16 +22361,16 @@
         "y": 2840,
         "wires": [
             [
-                "096d3cb2086c3095",
-                "3da42590a53cc774"
+                "53850847653aacee",
+                "93e5685822eb90da"
             ]
         ]
     },
     {
-        "id": "096d3cb2086c3095",
+        "id": "53850847653aacee",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22010,10 +22383,10 @@
         "wires": []
     },
     {
-        "id": "3da42590a53cc774",
+        "id": "93e5685822eb90da",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar startCycleTs = context.flow.get(\"startCycleTs\") || 0;\nvar date = new Date();\n\n    if((cylinderStatus === 0 && valvePosition === 0) || (cylinderStatus === 1 && valvePosition === 1)){\n\n        //context.flow.set(\"timestamp\", date.getTime());\n        context.flow.set(\"startCycleTs\", date.getTime());\n        \n        if(cycle >= 40){\n            //context.flow.set(\"cycle\", cycle);\n            msg.delay = 30000;\n            msg.topic =\"@stats reset\";\n            return msg;\n        }\n        if(valvePosition === 0){\n            valvePosition = 1;\n            context.flow.set(\"responseTime\", 0);\n        } else {\n            valvePosition = 0;\n            context.flow.set(\"responseTime\", 0);\n        }\n        context.flow.set(\"valvePosition\", valvePosition);\n        /*if(cycle < 10){\n            msg.delay = 5000 + (5000*0.01*cycle);\n        } else if(cycle < 15 && cycle >= 10){\n            msg.delay = 5500 + (5000*0.02*cycle);\n        } else if (cycle < 20 && cycle >= 15){\n            msg.delay = 6500 + (5000*0.03*cycle);\n        } else if(cycle < 30 && cycle >= 20){\n            msg.delay = 7000 + (5000*0.035*cycle);\n        }else if(cycle < 40 && cycle >= 30){\n            msg.delay = 10250 + (5000*0.04*cycle);\n        }*/\n        if(cycle < 40){\n            msg.delay = 5000 + (5000*0.025*cycle);\n        }\n        \n        \n        return msg;\n    }\n\n\n//var date = new Date();\n//context.flow.set(\"timestamp\", date.getTime());\n//var currentTimeElapsed = date.getTime() - startCycleTs;\n//context.flow.set(\"responseTime\", currentTimeElapsed);\nreturn null;",
         "outputs": 1,
@@ -22022,17 +22395,17 @@
         "y": 2880,
         "wires": [
             [
-                "fbc5bb77dd85e154",
-                "c9aa041a768ba2ae",
-                "0f17605629d0b250"
+                "d0d64e34bccf1d14",
+                "784229a6a2f69ebd",
+                "d2b6dff4f875846f"
             ]
         ]
     },
     {
-        "id": "80d15480bf866902",
+        "id": "64870c0702d6e996",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22045,10 +22418,10 @@
         "wires": []
     },
     {
-        "id": "3e90b50b2653b3e5",
+        "id": "fd6ffd10721158b2",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var elapsedTimeMovingAvg = msg.result.movingAvg;\ncontext.flow.set(\"elapsedTimeMovingAvg\", elapsedTimeMovingAvg);\nreturn msg;",
         "outputs": 1,
@@ -22060,10 +22433,10 @@
         ]
     },
     {
-        "id": "d0ddeaa1636124c0",
+        "id": "bd1a16a77975cb20",
         "type": "Data Analysis",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "action": "realtime",
         "outputs": 3,
@@ -22080,19 +22453,19 @@
         "y": 2754,
         "wires": [
             [
-                "80d15480bf866902",
-                "3e90b50b2653b3e5",
-                "af526c434afbff02"
+                "64870c0702d6e996",
+                "fd6ffd10721158b2",
+                "105db437de583ef7"
             ],
             [],
             []
         ]
     },
     {
-        "id": "fbc5bb77dd85e154",
+        "id": "d0d64e34bccf1d14",
         "type": "delay",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "pauseType": "delayv",
         "timeout": "5",
@@ -22109,15 +22482,15 @@
         "y": 2880,
         "wires": [
             [
-                "c10dc8688db51961"
+                "1829dd788dcf495d"
             ]
         ]
     },
     {
-        "id": "c10dc8688db51961",
+        "id": "1829dd788dcf495d",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\n\nvar timeElapsed = 0;  \nvar date = new Date();\n\nif((cylinderStatus === \"undefined\" && valvePosition === 1)){\n    context.flow.set(\"cylinderStatus\", 1);\n} else if((cylinderStatus === \"undefined\" && valvePosition === 0)){\n    context.flow.set(\"cylinderStatus\", 0);\n}\n\nif(cycle < 10 && cycle >= 0){\n    timeElapsed = msg.delay;\n} else if(cycle < 15 && cycle >= 10){\n    timeElapsed = msg.delay;\n} else if (cycle < 20 && cycle >= 15){\n    timeElapsed = msg.delay;\n} else if(cycle < 30 && cycle >= 20){\n    timeElapsed = msg.delay;\n}else if(cycle < 40 && cycle >= 30){\n    timeElapsed = msg.delay;\n} else if(cycle >= 40){\n    cycle = 0;\n    context.flow.set(\"cycle\", cycle);\n    context.flow.set(\"valvePosition\", 0);\n    context.flow.set(\"cylinderStatus\", 0);\n    context.flow.set(\"newCycle\", false);\n    context.flow.set(\"responseTime\", timeElapsed);\n\n    context.flow.set(\"timestamp\", date.getTime());\n    msg.payload = timeElapsed;\n    var msg_out_2 = {};\n    return [msg, msg_out_2];\n    \n}\n\ncontext.flow.set(\"responseTime\", timeElapsed);\n\ncontext.flow.set(\"timestamp\", date.getTime());\nmsg.payload = timeElapsed;\nmsg.topic = \"responseTimeMvgAvg\";\nreturn [msg, null];",
         "outputs": 2,
@@ -22126,19 +22499,19 @@
         "y": 2880,
         "wires": [
             [
-                "d0ddeaa1636124c0",
-                "94e0ca596093dd28"
+                "bd1a16a77975cb20",
+                "6a10ea6673a79237"
             ],
             [
-                "d819c626a512ecef"
+                "ca7020271737988c"
             ]
         ]
     },
     {
-        "id": "c9aa041a768ba2ae",
+        "id": "784229a6a2f69ebd",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22151,10 +22524,10 @@
         "wires": []
     },
     {
-        "id": "94e0ca596093dd28",
+        "id": "6a10ea6673a79237",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22167,10 +22540,10 @@
         "wires": []
     },
     {
-        "id": "af526c434afbff02",
+        "id": "105db437de583ef7",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var msg_out = {};\nvar payload = {};\n//payload.x = msg.result.count;\npayload.x = context.flow.get(\"cycle\");\npayload.y = msg.payload;\npayload.y_out = \"\";\nmsg_out.payload = payload;\nreturn msg_out;",
         "outputs": 1,
@@ -22179,16 +22552,16 @@
         "y": 2760,
         "wires": [
             [
-                "d819c626a512ecef",
-                "0465728a09ae83dc"
+                "ca7020271737988c",
+                "65b02f4bf6989f76"
             ]
         ]
     },
     {
-        "id": "ba20c74dbfddcfd4",
+        "id": "4f3d979cb98fd523",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22201,10 +22574,10 @@
         "wires": []
     },
     {
-        "id": "0465728a09ae83dc",
+        "id": "65b02f4bf6989f76",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22217,10 +22590,10 @@
         "wires": []
     },
     {
-        "id": "24edcbcbea7ade78",
+        "id": "a8c66c2f48d763ca",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var responseTimePred = [];\nfor(var k = 1; k <= 10; k++){\n    var futurePrediction = msg.function.equation[0]*Math.pow((msg.payload.x + k), 2) + msg.function.equation[1]*(msg.payload.x + k) + msg.function.equation[2];\n    msg.payload.futurePrediction = futurePrediction;\n    responseTimePred.push(futurePrediction);\n}\n//responseTimePred.pop();\n//responseTimePred.unshift(futurePrediction);\ncontext.flow.set(\"responseTimePred\", responseTimePred);\nreturn msg;",
         "outputs": 1,
@@ -22229,15 +22602,15 @@
         "y": 2880,
         "wires": [
             [
-                "b7f9fa6a016a09ac"
+                "9a07c8af855b12ac"
             ]
         ]
     },
     {
-        "id": "b7f9fa6a016a09ac",
+        "id": "9a07c8af855b12ac",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22250,10 +22623,10 @@
         "wires": []
     },
     {
-        "id": "b6422a68695f31e1",
+        "id": "b5342e94fc5c6fc5",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22266,10 +22639,10 @@
         "wires": []
     },
     {
-        "id": "947466d189cc8dc9",
+        "id": "3f8bc176a51ba898",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22284,10 +22657,10 @@
         "wires": []
     },
     {
-        "id": "0f17605629d0b250",
+        "id": "d2b6dff4f875846f",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var cycle = context.flow.get(\"cycle\");\nif(cycle < 40){\n    var calculatedDelay = context.flow.get(\"calculatedDelay\") || 0;\n    msg.topic = \"control\";\n    msg.payload = ((msg.delay)/1000) - 1;\n    calculatedDelay = Math.round(((msg.delay)/1000) - 1);\n    context.flow.set(\"calculatedDelay\", calculatedDelay);\n    return msg;\n} else return null;\n",
         "outputs": 1,
@@ -22296,15 +22669,15 @@
         "y": 3014,
         "wires": [
             [
-                "c6f6291869dda3e6"
+                "1a484010d01e130c"
             ]
         ]
     },
     {
-        "id": "52791bd5208fb23b",
+        "id": "9aabd0757265df5c",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var date = new Date();\nvar startCycle = context.flow.get(\"startCycleTs\");\ncontext.flow.set(\"responseTime\", date.getTime() - startCycle);\ncalculatedDelay = context.flow.get(\"calculatedDelay\");\nif(calculatedDelay >= msg.payload ){\n    context.flow.set(\"cylinderStatus\", \"undefined\");\n}\nreturn msg;",
         "outputs": 1,
@@ -22316,10 +22689,10 @@
         ]
     },
     {
-        "id": "85a5a22ff8691b0c",
+        "id": "8cf6e010d30b52d6",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "msg.topic = \"control\";\nmsg.payload = 60;\n\nreturn msg;",
         "outputs": 1,
@@ -22328,15 +22701,15 @@
         "y": 3054,
         "wires": [
             [
-                "c1f81c4bb5065af7"
+                "0fb0d9077cfa2763"
             ]
         ]
     },
     {
-        "id": "39cab5bc8aba1929",
+        "id": "b39d4e8a90c64fdb",
         "type": "unsafe-function",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "func": "var date = new Date();\ncontext.flow.set(\"timestamp\", date.getTime());\nreturn msg;",
         "outputs": 1,
@@ -22348,10 +22721,10 @@
         ]
     },
     {
-        "id": "f0283babfb38075e",
+        "id": "a49a71f1c4f8da08",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22364,10 +22737,10 @@
         "wires": []
     },
     {
-        "id": "62380ffed64abcee",
+        "id": "ee575a8da6e083a1",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22380,10 +22753,10 @@
         "wires": []
     },
     {
-        "id": "92e42b518807acf7",
+        "id": "bcad5bcfeed9c6e7",
         "type": "cronplus",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "outputField": "payload",
         "timeZone": "",
@@ -22408,17 +22781,17 @@
         "y": 2960,
         "wires": [
             [
-                "b7642ce976347356",
-                "b6422a68695f31e1",
-                "85a5a22ff8691b0c"
+                "4b8453465ec3fc97",
+                "b5342e94fc5c6fc5",
+                "8cf6e010d30b52d6"
             ]
         ]
     },
     {
-        "id": "1760f80e2cacfbc2",
+        "id": "8d24ddee977a9b92",
         "type": "countdown",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22433,19 +22806,19 @@
         "y": 2974,
         "wires": [
             [
-                "3da42590a53cc774",
-                "f0283babfb38075e"
+                "93e5685822eb90da",
+                "a49a71f1c4f8da08"
             ],
             [
-                "62380ffed64abcee"
+                "ee575a8da6e083a1"
             ]
         ]
     },
     {
-        "id": "c6f6291869dda3e6",
+        "id": "1a484010d01e130c",
         "type": "countdown",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22461,16 +22834,16 @@
         "wires": [
             [],
             [
-                "947466d189cc8dc9",
-                "52791bd5208fb23b"
+                "3f8bc176a51ba898",
+                "9aabd0757265df5c"
             ]
         ]
     },
     {
-        "id": "c1f81c4bb5065af7",
+        "id": "0fb0d9077cfa2763",
         "type": "countdown",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22486,15 +22859,15 @@
         "wires": [
             [],
             [
-                "39cab5bc8aba1929"
+                "b39d4e8a90c64fdb"
             ]
         ]
     },
     {
-        "id": "d819c626a512ecef",
+        "id": "ca7020271737988c",
         "type": "regression",
-        "z": "31f919a1a6c9ad0e",
-        "g": "1c0565776312dade",
+        "z": "e3e927a643db355e",
+        "g": "998cd24ea320dea3",
         "name": "",
         "dataSetSize": "15",
         "regressionType": "polynomial",
@@ -22513,92 +22886,49 @@
         "y": 2880,
         "wires": [
             [
-                "ba20c74dbfddcfd4",
-                "24edcbcbea7ade78"
+                "4f3d979cb98fd523",
+                "a8c66c2f48d763ca"
             ]
         ]
     },
     {
-        "id": "befa2eaf67bb4ec0",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "b4704feb5ae64d34",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 1",
         "env": [
             {
                 "name": "PropertyName",
                 "value": "currentOperatingPressure",
                 "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure",
+                "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 580,
+        "x": 970,
+        "y": 540,
         "wires": [
             [
-                "58b0ecfadd069704",
-                "1d9a6c3e19b33a96"
+                "068b727f81d87eca",
+                "72be00fb61a4e4e3"
             ],
             [
-                "4f942346d5509d08"
+                "82deb9f6ec7ad4bf"
             ],
             [
-                "75fd5e898652de84",
-                "db9e1a74b1ab0dd6",
-                "25a40f036d69c4c7"
+                "724bc49d1f466bd0",
+                "4bb8cdce78f30e7a",
+                "3eb57baf3eeaec6c"
             ]
         ]
     },
     {
-        "id": "f340b506525d2ae7",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 640,
-        "y": 560,
-        "wires": [
-            [
-                "befa2eaf67bb4ec0",
-                "d6f829f8de854518"
-            ]
-        ]
-    },
-    {
-        "id": "b9aaccd508446267",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 620,
-        "wires": [
-            [
-                "befa2eaf67bb4ec0"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "58b0ecfadd069704",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure out",
-        "links": [],
-        "x": 1930,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "4f942346d5509d08",
+        "id": "82deb9f6ec7ad4bf",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -22606,27 +22936,29 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1570,
-        "y": 580,
+        "x": 1190,
+        "y": 560,
         "wires": []
     },
     {
-        "id": "75fd5e898652de84",
+        "id": "724bc49d1f466bd0",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "metrics",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 680,
+        "x": 1200,
+        "y": 660,
         "wires": []
     },
     {
-        "id": "1d9a6c3e19b33a96",
+        "id": "068b727f81d87eca",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22636,16 +22968,16 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1540,
-        "y": 480,
+        "x": 1170,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "d6f829f8de854518",
+        "id": "c60bc043e2e91321",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -22653,14 +22985,14 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1100,
-        "y": 520,
+        "x": 230,
+        "y": 1080,
         "wires": []
     },
     {
-        "id": "42ab2491d9d66b2e",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "a1906855c6ea5932",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 2",
         "env": [
             {
@@ -22669,132 +23001,97 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "2",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 900,
+        "x": 970,
+        "y": 820,
         "wires": [
             [
-                "696bf92d23032085",
-                "7423a4a91b80c944"
+                "a6a7e18bf3929736",
+                "16c35d41c7295681"
             ],
             [
-                "f2a0a4309a5ebff8"
+                "af9608113fe1a7ed"
             ],
             [
-                "0c53a34941ca34c5",
-                "27aef22c7b254082"
+                "b53682004f6d2087",
+                "5df111cccf9f4d8b"
             ]
         ]
     },
     {
-        "id": "f2a0a4309a5ebff8",
+        "id": "af9608113fe1a7ed",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "0c53a34941ca34c5",
-        "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "696bf92d23032085",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "26d266b299032050",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1020,
+        "x": 1210,
         "y": 840,
         "wires": []
     },
     {
-        "id": "010d9f0cd310b02e",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 880,
-        "wires": [
-            [
-                "42ab2491d9d66b2e",
-                "26d266b299032050"
-            ]
-        ]
-    },
-    {
-        "id": "7423a4a91b80c944",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime out",
-        "links": [],
-        "x": 1890,
-        "y": 860,
+        "id": "b53682004f6d2087",
+        "type": "sub-link-input",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1220,
+        "y": 940,
         "wires": []
     },
     {
-        "id": "27aef22c7b254082",
+        "id": "a6a7e18bf3929736",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "5df111cccf9f4d8b",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "responseTime",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1630,
-        "y": 960,
+        "x": 1240,
+        "y": 900,
         "wires": [
             []
         ]
     },
     {
-        "id": "22d1e4b40a7fd4bb",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "b77dc44fd1dc26c5",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 3",
         "env": [
             {
@@ -22803,133 +23100,98 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "3",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 1160,
+        "x": 950,
+        "y": 1100,
         "wires": [
             [
-                "3ba2bdd42a67c040",
-                "9cc3be2d8ecf3ea7"
+                "dcd80bfed1ed524a",
+                "fd421d4236715da9"
             ],
             [
-                "52fda9a28c4f03c4"
+                "f5337dc70deea209"
             ],
             [
-                "60d5df675dc14811",
-                "5eefa2599da161ab",
-                "fc8955983b2884bd"
+                "799886e6ba77355d",
+                "6cac6f499ea1a8f6",
+                "38a6d4ad8b83fca0"
             ]
         ]
     },
     {
-        "id": "52fda9a28c4f03c4",
+        "id": "f5337dc70deea209",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "60d5df675dc14811",
-        "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "3ba2bdd42a67c040",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1060,
-        "wires": []
-    },
-    {
-        "id": "7518abfc14a4ec19",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "5dfb30c9697dc9f5",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 1140,
-        "wires": [
-            [
-                "22d1e4b40a7fd4bb",
-                "7518abfc14a4ec19"
-            ]
-        ]
-    },
-    {
-        "id": "9cc3be2d8ecf3ea7",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition out",
-        "links": [],
-        "x": 1890,
+        "x": 1190,
         "y": 1120,
         "wires": []
     },
     {
-        "id": "5eefa2599da161ab",
+        "id": "799886e6ba77355d",
+        "type": "sub-link-input",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "dcd80bfed1ed524a",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6cac6f499ea1a8f6",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "valvePosition",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1620,
-        "y": 1220,
+        "x": 1210,
+        "y": 1160,
         "wires": [
             []
         ]
     },
     {
-        "id": "ddc913e6447eca7a",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "65c4820802e3d6ab",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 4",
         "env": [
             {
@@ -22938,132 +23200,97 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "4",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 1440,
+        "x": 950,
+        "y": 1360,
         "wires": [
             [
-                "411282148e2c782d",
-                "fd49820477ca8048"
+                "aa4e6a20289b6168",
+                "2cb76e4b5b896209"
             ],
             [
-                "88d7f718fddf3688"
+                "089b5223ce8027e0"
             ],
             [
-                "ea9714399e74b9fe",
-                "ea6fa35d1d449101"
+                "1b57814aa1a5568e",
+                "10f8b1beaa6fe24b"
             ]
         ]
     },
     {
-        "id": "88d7f718fddf3688",
+        "id": "089b5223ce8027e0",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "ea9714399e74b9fe",
-        "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1540,
-        "wires": []
-    },
-    {
-        "id": "411282148e2c782d",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "e3c7e4dbcf1c192f",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "f75ec3c34ebb91fd",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 640,
-        "y": 1420,
-        "wires": [
-            [
-                "e3c7e4dbcf1c192f",
-                "ddc913e6447eca7a"
-            ]
-        ]
-    },
-    {
-        "id": "fd49820477ca8048",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg out",
-        "links": [],
-        "x": 1930,
+        "x": 1190,
         "y": 1400,
         "wires": []
     },
     {
-        "id": "ea6fa35d1d449101",
+        "id": "1b57814aa1a5568e",
+        "type": "sub-link-input",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "aa4e6a20289b6168",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "10f8b1beaa6fe24b",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "elapsedTimeMovingAvg",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1660,
-        "y": 1500,
+        "x": 1250,
+        "y": 1460,
         "wires": [
             []
         ]
     },
     {
-        "id": "96c734aee9611318",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "b5509abc6cc33e5a",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 5",
         "env": [
             {
@@ -23072,132 +23299,97 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "5",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 1700,
+        "x": 950,
+        "y": 1620,
         "wires": [
             [
-                "67a5c308c0bab5b3",
-                "438600a936256c5d"
+                "439aba3e21902f07",
+                "da6b3c0fd5a59b8c"
             ],
             [
-                "3d32cee5c3c30d20"
+                "76a7574ba3082269"
             ],
             [
-                "daccb564a29bcead",
-                "a2697631e1880a88"
+                "0f62a6348552d32e",
+                "7c2861115fcf7881"
             ]
         ]
     },
     {
-        "id": "3d32cee5c3c30d20",
+        "id": "76a7574ba3082269",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1700,
-        "wires": []
-    },
-    {
-        "id": "daccb564a29bcead",
-        "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1800,
-        "wires": []
-    },
-    {
-        "id": "67a5c308c0bab5b3",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "c50bdae0fc20c506",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
+        "x": 1190,
         "y": 1640,
         "wires": []
     },
     {
-        "id": "2a76fa6c6eef8d5f",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 1680,
-        "wires": [
-            [
-                "96c734aee9611318",
-                "c50bdae0fc20c506"
-            ]
-        ]
-    },
-    {
-        "id": "438600a936256c5d",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus out",
-        "links": [],
-        "x": 1890,
-        "y": 1660,
+        "id": "0f62a6348552d32e",
+        "type": "sub-link-input",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1740,
         "wires": []
     },
     {
-        "id": "a2697631e1880a88",
+        "id": "439aba3e21902f07",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "7c2861115fcf7881",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "cylinderStatus",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1630,
-        "y": 1760,
+        "x": 1220,
+        "y": 1700,
         "wires": [
             []
         ]
     },
     {
-        "id": "3bc0f2affbd32701",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "db2c4cf8a23c937f",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 6",
         "env": [
             {
@@ -23206,133 +23398,98 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "6",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 1940,
+        "x": 950,
+        "y": 1860,
         "wires": [
             [
-                "f31ac1307f4c88ad",
-                "dab38d5a502fa0e0"
+                "d5dd36e5a05372f4",
+                "099e8768bd394671"
             ],
             [
-                "4f35af2ef9ed79f5"
+                "2d48a37a26175659"
             ],
             [
-                "5f2cab5e46ac54d2",
-                "5f346e9f482f4bc3",
-                "eb3bec1d396ece81"
+                "722dd26889bde49b",
+                "aeac04869a55bcf2",
+                "18041024379eb076"
             ]
         ]
     },
     {
-        "id": "4f35af2ef9ed79f5",
+        "id": "2d48a37a26175659",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "5f2cab5e46ac54d2",
-        "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 2040,
-        "wires": []
-    },
-    {
-        "id": "f31ac1307f4c88ad",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1860,
-        "wires": []
-    },
-    {
-        "id": "c07884d18ac7a453",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
+        "x": 1210,
         "y": 1880,
         "wires": []
     },
     {
-        "id": "f3c36966233b30e8",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 580,
-        "y": 1920,
-        "wires": [
-            [
-                "c07884d18ac7a453",
-                "3bc0f2affbd32701"
-            ]
-        ]
-    },
-    {
-        "id": "dab38d5a502fa0e0",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle out",
-        "links": [],
-        "x": 1860,
-        "y": 1900,
+        "id": "722dd26889bde49b",
+        "type": "sub-link-input",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1220,
+        "y": 1980,
         "wires": []
     },
     {
-        "id": "5f346e9f482f4bc3",
+        "id": "d5dd36e5a05372f4",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "aeac04869a55bcf2",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "cycle",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1600,
-        "y": 2000,
+        "x": 1210,
+        "y": 1940,
         "wires": [
             []
         ]
     },
     {
-        "id": "6edab4db2406dec6",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "31f919a1a6c9ad0e",
+        "id": "b38da97286eb570b",
+        "type": "subflow:8e0be576142ef849",
+        "z": "e3e927a643db355e",
         "name": "Property 7",
         "env": [
             {
@@ -23341,57 +23498,66 @@
                 "type": "str"
             },
             {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred",
+                "type": "str"
+            },
+            {
                 "name": "TEST",
                 "value": "7",
                 "type": "str"
             }
         ],
-        "x": 1270,
-        "y": 2180,
+        "x": 950,
+        "y": 2140,
         "wires": [
             [
-                "949752eec27cdff9",
-                "51f609ab1e00e979"
+                "e106084054e166ab",
+                "3fc3fb4a0d27224d"
             ],
             [
-                "f04415fc8dc90ec2"
+                "08b750f6e19e748b"
             ],
             [
-                "c4f2d424f6f347de",
-                "beceab02547e5bd4"
+                "9a6dae40bb305158",
+                "c79c322609e271d4"
             ]
         ]
     },
     {
-        "id": "f04415fc8dc90ec2",
+        "id": "08b750f6e19e748b",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "routed",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 2180,
+        "x": 1210,
+        "y": 2160,
         "wires": []
     },
     {
-        "id": "c4f2d424f6f347de",
+        "id": "9a6dae40bb305158",
         "type": "sub-link-input",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "topic": "metrics",
         "alias": "",
         "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 2280,
+        "x": 1220,
+        "y": 2260,
         "wires": []
     },
     {
-        "id": "949752eec27cdff9",
+        "id": "e106084054e166ab",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23401,246 +23567,28 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1600,
+        "x": 1110,
         "y": 2100,
         "wires": []
     },
     {
-        "id": "ca2378eb6046cf9e",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 2120,
-        "wires": []
-    },
-    {
-        "id": "20d244e45f88370a",
-        "type": "actionflows_in",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 620,
-        "y": 2160,
-        "wires": [
-            [
-                "6edab4db2406dec6",
-                "ca2378eb6046cf9e"
-            ]
-        ]
-    },
-    {
-        "id": "51f609ab1e00e979",
-        "type": "actionflows_out",
-        "z": "31f919a1a6c9ad0e",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred out",
-        "links": [],
-        "x": 1910,
-        "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "beceab02547e5bd4",
+        "id": "c79c322609e271d4",
         "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "responseTimePred",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1640,
-        "y": 2240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fc8955983b2884bd",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1380,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "db9e1a74b1ab0dd6",
-        "type": "debug",
-        "z": "31f919a1a6c9ad0e",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1620,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "25a40f036d69c4c7",
-        "type": "iot-datasource",
-        "z": "31f919a1a6c9ad0e",
-        "name": "currentOperatingPressure",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1660,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6cb58265e072eb85",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 940,
-        "wires": [
-            [
-                "42ab2491d9d66b2e"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "47699d9de219f973",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1200,
-        "wires": [
-            [
-                "22d1e4b40a7fd4bb"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1cea9ff7708422d6",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1480,
-        "wires": [
-            [
-                "ddc913e6447eca7a"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "be11d8bd08d96b05",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1740,
-        "wires": [
-            [
-                "96c734aee9611318"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "145893e2bb2fafb7",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1980,
-        "wires": [
-            [
-                "3bc0f2affbd32701"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "38dfb8e32a1908eb",
-        "type": "sub-link-output",
-        "z": "31f919a1a6c9ad0e",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
+        "x": 1250,
         "y": 2220,
         "wires": [
-            [
-                "6edab4db2406dec6"
-            ],
             []
         ]
     },
     {
-        "id": "eb3bec1d396ece81",
+        "id": "38a6d4ad8b83fca0",
         "type": "debug",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23650,30 +23598,64 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1460,
-        "y": 2060,
+        "x": 1190,
+        "y": 1260,
         "wires": []
     },
     {
-        "id": "abd1ed3547f97486",
+        "id": "4bb8cdce78f30e7a",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "18041024379eb076",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "74da97720a720d3c",
         "type": "link in",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "driverNewScheduling in",
         "links": [],
         "x": 195,
         "y": 280,
         "wires": [
             [
-                "2c32c6e7f82178d2"
+                "c67e7428634f7764"
             ]
         ]
     },
     {
-        "id": "7cb90ded2af9a485",
+        "id": "6e8047c93fd36296",
         "type": "link out",
-        "z": "31f919a1a6c9ad0e",
-        "g": "8658ecc9013d4d25",
+        "z": "e3e927a643db355e",
+        "g": "cf81b5a26c34f326",
         "name": "driverNewScheduling out",
         "mode": "return",
         "links": [],
@@ -23682,28 +23664,320 @@
         "wires": []
     },
     {
-        "id": "445010d403ba834e",
+        "id": "1d410d4cd93bfe2e",
         "type": "link in",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "driverConnectionCheck in",
         "links": [],
         "x": 295,
         "y": 2560,
         "wires": [
             [
-                "fdf42e56ab63ab5b"
+                "2d995f6da8f22fce"
             ]
         ]
     },
     {
-        "id": "6f557ceaed950210",
+        "id": "47a1228f96b335b0",
         "type": "link out",
-        "z": "31f919a1a6c9ad0e",
+        "z": "e3e927a643db355e",
         "name": "driverConnectionCheck out",
         "mode": "return",
         "links": [],
         "x": 2255,
         "y": 2560,
         "wires": []
+    },
+    {
+        "id": "6cadb748f71df6c5",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "1ab7d799ceb246f7",
+        "type": "link in",
+        "z": "e3e927a643db355e",
+        "name": "invokeInternalDriver",
+        "links": [],
+        "x": 115,
+        "y": 1160,
+        "wires": [
+            [
+                "c60bc043e2e91321",
+                "4586bc920b98ff44"
+            ]
+        ]
+    },
+    {
+        "id": "17990bf783be92fe",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 2375,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "4586bc920b98ff44",
+        "type": "msg-router",
+        "z": "e3e927a643db355e",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 7,
+        "x": 460,
+        "y": 1160,
+        "wires": [
+            [
+                "b4704feb5ae64d34"
+            ],
+            [
+                "a1906855c6ea5932"
+            ],
+            [
+                "b77dc44fd1dc26c5"
+            ],
+            [
+                "65c4820802e3d6ab"
+            ],
+            [
+                "b5509abc6cc33e5a"
+            ],
+            [
+                "db2c4cf8a23c937f"
+            ],
+            [
+                "b38da97286eb570b"
+            ]
+        ]
+    },
+    {
+        "id": "dcdce24dcebf80ba",
+        "type": "sub-link-output",
+        "z": "e3e927a643db355e",
+        "inputs": 0,
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "aliasType": "str",
+        "alias": "",
+        "clone": false,
+        "x": 240,
+        "y": 1220,
+        "wires": [
+            [
+                "4586bc920b98ff44",
+                "7df7d4179fc0f633"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "72be00fb61a4e4e3",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "a1fa370fb911df98",
+        "type": "link in",
+        "z": "e3e927a643db355e",
+        "name": "router",
+        "links": [
+            "fd421d4236715da9",
+            "3fc3fb4a0d27224d",
+            "da6b3c0fd5a59b8c",
+            "16c35d41c7295681",
+            "72be00fb61a4e4e3",
+            "099e8768bd394671",
+            "2cb76e4b5b896209"
+        ],
+        "x": 2035,
+        "y": 1260,
+        "wires": [
+            [
+                "17990bf783be92fe"
+            ]
+        ]
+    },
+    {
+        "id": "16c35d41c7295681",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "fd421d4236715da9",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "2cb76e4b5b896209",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "da6b3c0fd5a59b8c",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "099e8768bd394671",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "3fc3fb4a0d27224d",
+        "type": "link out",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "a1fa370fb911df98"
+        ],
+        "x": 1555,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "7df7d4179fc0f633",
+        "type": "debug",
+        "z": "e3e927a643db355e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "3eb57baf3eeaec6c",
+        "type": "iot-datasource",
+        "z": "e3e927a643db355e",
+        "name": "currentOperatingPressure",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1250,
+        "y": 620,
+        "wires": [
+            []
+        ]
     }
 ]
