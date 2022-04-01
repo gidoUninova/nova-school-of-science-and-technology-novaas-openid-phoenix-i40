@@ -336,121 +336,6 @@
         ]
     },
     {
-        "id": "75a36d1f965ab234",
-        "type": "subflow",
-        "name": "History",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 60,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "168a300a261a8903"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 340,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "168a300a261a8903",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [
-            {
-                "name": "historyArrayName",
-                "type": "str",
-                "value": ""
-            }
-        ],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
-        "id": "f9be27e9454ba9b3",
-        "type": "subflow",
-        "name": "Property handler",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 420,
-                "y": 500,
-                "wires": [
-                    {
-                        "id": "4ae36c5a8c4169df"
-                    },
-                    {
-                        "id": "e30f39d22e3f85de"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 1880,
-                "y": 500,
-                "wires": [
-                    {
-                        "id": "833b9b45d6a14c25",
-                        "port": 0
-                    },
-                    {
-                        "id": "90f12276311bc8c2",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 1880,
-                "y": 800,
-                "wires": [
-                    {
-                        "id": "9f4a9252a8f38a40",
-                        "port": 0
-                    }
-                ]
-            },
-            {
-                "x": 1880,
-                "y": 860,
-                "wires": [
-                    {
-                        "id": "ece1adc917040fb7",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [
-            {
-                "name": "PropertyName",
-                "type": "str",
-                "value": ""
-            },
-            {
-                "name": "PropertyLink",
-                "type": "str",
-                "value": ""
-            },
-            {
-                "name": "HistoryLength",
-                "type": "num",
-                "value": ""
-            }
-        ],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
         "id": "1e4e43a6f86be480",
         "type": "subflow",
         "name": "JSON_Paths",
@@ -492,7 +377,7 @@
     {
         "id": "261175dfced75ca2",
         "type": "subflow",
-        "name": "History (2)",
+        "name": "History",
         "info": "",
         "category": "",
         "in": [
@@ -536,7 +421,7 @@
     {
         "id": "b9193bc693d91001",
         "type": "subflow",
-        "name": "Property handler (2)",
+        "name": "Property handler",
         "info": "",
         "category": "",
         "in": [
@@ -743,9 +628,7 @@
             "e1994719bd7b4722"
         ],
         "x": 194,
-        "y": 4399,
-        "w": 2272,
-        "h": 242
+        "y": 4399
     },
     {
         "id": "d366c10f.cbf158",
@@ -787,9 +670,7 @@
             "af8fa3bf4995abc9"
         ],
         "x": 194,
-        "y": 3562,
-        "w": 2962,
-        "h": 679
+        "y": 3562
     },
     {
         "id": "d7076418.bb51d8",
@@ -1331,6 +1212,83 @@
         "h": 802
     },
     {
+        "id": "1ac216797031313a",
+        "type": "group",
+        "z": "7ee8946a00b2087b",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "898babe650b77baa",
+            "69fbc299a9d8417c",
+            "39568d2b79ed2471",
+            "25b5edbebdd67b8e",
+            "dd65808aead2c85a",
+            "ecefb70900854d1d",
+            "6e79a6b18de8a6f0",
+            "9f61777edef2ef26",
+            "bfe86e82a8d45855",
+            "3b92819569cfd4e0",
+            "d72f010707462cc4",
+            "f5b36c0fbc38da9d",
+            "770785ca68884c43",
+            "4cd19c939d528d26"
+        ],
+        "x": 124,
+        "y": 59,
+        "w": 1522,
+        "h": 322
+    },
+    {
+        "id": "0e3cb10299fa948d",
+        "type": "group",
+        "z": "7ee8946a00b2087b",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "afd5e624f391188f",
+            "ec0e22447d716876",
+            "a03f55f1e555d45c",
+            "148ce90cce9cc3c0",
+            "63ec28d841de3840",
+            "d797e6c814bc6dfc",
+            "799df5f59e9bb797",
+            "7451e1017f9cfdd8",
+            "2bcc554a2d56b8a5",
+            "141888996d5ce41f",
+            "14805cb0add87e5a",
+            "6af5c0da163f6948",
+            "a4dcd2d819fe3a7d",
+            "81e972e9a86327bd",
+            "54932a0629774b7d",
+            "b9a4fa06242522f4",
+            "c57eed58e7e62783",
+            "b8d5a45b810b4770",
+            "db6e6638f02fd8b4",
+            "a981c4bda4413de0",
+            "e22cb96cde167bed",
+            "cfe1233fe60954a0",
+            "79b82ee327fdb0bf",
+            "80c6de7b6d7b4708",
+            "f45e08b4a3abd3f3",
+            "f13640b7e1c2a793",
+            "8814b7264198256c",
+            "f4e78a0886cf70ad",
+            "a9b6b05fa94495a3",
+            "226dcc616f8ec729"
+        ],
+        "x": 114,
+        "y": 2899,
+        "w": 2872,
+        "h": 516
+    },
+    {
         "id": "37a4080e.40ed9",
         "type": "group",
         "z": "c7caf96e.a31f98",
@@ -1472,83 +1430,6 @@
         "y": 2779,
         "w": 2452,
         "h": 582
-    },
-    {
-        "id": "1ac216797031313a",
-        "type": "group",
-        "z": "7ee8946a00b2087b",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "898babe650b77baa",
-            "69fbc299a9d8417c",
-            "39568d2b79ed2471",
-            "25b5edbebdd67b8e",
-            "dd65808aead2c85a",
-            "ecefb70900854d1d",
-            "6e79a6b18de8a6f0",
-            "9f61777edef2ef26",
-            "bfe86e82a8d45855",
-            "3b92819569cfd4e0",
-            "d72f010707462cc4",
-            "f5b36c0fbc38da9d",
-            "770785ca68884c43",
-            "4cd19c939d528d26"
-        ],
-        "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
-    },
-    {
-        "id": "0e3cb10299fa948d",
-        "type": "group",
-        "z": "7ee8946a00b2087b",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "afd5e624f391188f",
-            "ec0e22447d716876",
-            "a03f55f1e555d45c",
-            "148ce90cce9cc3c0",
-            "63ec28d841de3840",
-            "d797e6c814bc6dfc",
-            "799df5f59e9bb797",
-            "7451e1017f9cfdd8",
-            "2bcc554a2d56b8a5",
-            "141888996d5ce41f",
-            "14805cb0add87e5a",
-            "6af5c0da163f6948",
-            "a4dcd2d819fe3a7d",
-            "81e972e9a86327bd",
-            "54932a0629774b7d",
-            "b9a4fa06242522f4",
-            "c57eed58e7e62783",
-            "b8d5a45b810b4770",
-            "db6e6638f02fd8b4",
-            "a981c4bda4413de0",
-            "e22cb96cde167bed",
-            "cfe1233fe60954a0",
-            "79b82ee327fdb0bf",
-            "80c6de7b6d7b4708",
-            "f45e08b4a3abd3f3",
-            "f13640b7e1c2a793",
-            "8814b7264198256c",
-            "f4e78a0886cf70ad",
-            "a9b6b05fa94495a3",
-            "226dcc616f8ec729"
-        ],
-        "x": 114,
-        "y": 2899,
-        "w": 2872,
-        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -4313,240 +4194,6 @@
         ]
     },
     {
-        "id": "168a300a261a8903",
-        "type": "function",
-        "z": "75a36d1f965ab234",
-        "name": "History",
-        "func": "// Get request timestamps\nvar start = msg.payload.start;\nvar end = (msg.payload.end - start)/1000;\n//var end = msg.payload.end;\nvar history = context.flow.get(\"$parent.\" + env.get(\"historyArrayName\"));\nif(end > history.length){\n    start = history.length;\n} else {\n    start = history.length - end;\n}\n\nvar data = [];\nfor (var ts = start; ts < history.length; ts++ )\n{   \n    var element = history[ts];\n\n    data.push( {\n        tstamp: element.tstamp,\n        data: element.data\n    } );\n}\nmsg.payload = data;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 200,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fa16a6d30ddb78c2",
-        "type": "switch",
-        "z": "f9be27e9454ba9b3",
-        "name": "topic",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "observe",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "unobserve",
-                "vt": "str"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 2,
-        "x": 710,
-        "y": 500,
-        "wires": [
-            [
-                "833b9b45d6a14c25",
-                "7e1472a06c3dcbbc"
-            ],
-            [
-                "58c364ba214d6ccd",
-                "90f12276311bc8c2"
-            ]
-        ]
-    },
-    {
-        "id": "833b9b45d6a14c25",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1175,
-        "y": 500,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "7e1472a06c3dcbbc",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "",
-        "func": "msg.topic = \"control\";\nmsg.payload = \"open\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1175,
-        "y": 540,
-        "wires": [
-            [
-                "d645a7b65cd486a1"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "d645a7b65cd486a1",
-        "type": "gate",
-        "z": "f9be27e9454ba9b3",
-        "name": "",
-        "controlTopic": "control",
-        "defaultState": "closed",
-        "openCmd": "open",
-        "closeCmd": "close",
-        "toggleCmd": "toggle",
-        "defaultCmd": "default",
-        "persist": false,
-        "x": 1490,
-        "y": 800,
-        "wires": [
-            [
-                "9f4a9252a8f38a40"
-            ]
-        ]
-    },
-    {
-        "id": "9f4a9252a8f38a40",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n});\nvar outMsg = {};\nvar ObsObj = context.flow.get('ObsObj');\nObsObj.id = uuid;\nvar timestamp = context.flow.get(\"$parent.timestamp\");\nObsObj.timestamp = timestamp;\nObsObj.payload = context.flow.get(\"variable\");\noutMsg.payload = ObsObj;\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1635,
-        "y": 800,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "58c364ba214d6ccd",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "",
-        "func": "msg.topic = \"control\";\nmsg.payload = \"close\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1175,
-        "y": 660,
-        "wires": [
-            [
-                "d645a7b65cd486a1"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "90f12276311bc8c2",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1175,
-        "y": 600,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "53d88c3cd2a8811a",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "",
-        "func": "var propertyName = env.get(\"PropertyName\");\nvar Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"$parent.\" + propertyName);\ncontext.flow.set(\"variable\", variable);\n\nOutmsg.payload = variable;\nreturn Outmsg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 875,
-        "y": 800,
-        "wires": [
-            [
-                "d645a7b65cd486a1",
-                "ece1adc917040fb7"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ece1adc917040fb7",
-        "type": "unsafe-function",
-        "z": "f9be27e9454ba9b3",
-        "name": "responseTime",
-        "func": "var historyArrayName = \"$parent.\" + env.get(\"PropertyName\") + \"_hist\";\nvar outMsg= {};\noutMsg.topic = \"put\";\noutMsg.payload = {\n    link: env.get(\"PropertyLink\"),\n    tstamp: context.flow.get(\"$parent.timestamp\"),\n    data: context.flow.get(\"variable\")\n};\nlet history = context.flow.get(historyArrayName) || [];\nif (history.length >= env.get(\"HistoryLength\")){\n    history.pop();\n}\nhistory.push(outMsg.payload);\ncontext.flow.set(historyArrayName, history);\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1075,
-        "y": 860,
-        "wires": [
-            []
-        ],
-        "l": false
-    },
-    {
-        "id": "4ae36c5a8c4169df",
-        "type": "switch",
-        "z": "f9be27e9454ba9b3",
-        "name": "propertyLink",
-        "property": "PropertyLink",
-        "propertyType": "env",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "link",
-                "vt": "msg"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 570,
-        "y": 500,
-        "wires": [
-            [
-                "fa16a6d30ddb78c2"
-            ]
-        ]
-    },
-    {
-        "id": "e30f39d22e3f85de",
-        "type": "switch",
-        "z": "f9be27e9454ba9b3",
-        "name": "scheduler",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "sbi scheduling data routing",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 620,
-        "y": 560,
-        "wires": [
-            [
-                "53d88c3cd2a8811a"
-            ]
-        ]
-    },
-    {
         "id": "a8ca94378bd63d64",
         "type": "function",
         "z": "1e4e43a6f86be480",
@@ -4620,7 +4267,7 @@
         "type": "unsafe-function",
         "z": "b9193bc693d91001",
         "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\n//observation.source = msg.source;\nobservation.direction = \"Output\";\n\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\n//observation.source = msg.source;\nobservation.direction = \"Output\";\n\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \".\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1175,
@@ -4704,7 +4351,7 @@
         "type": "unsafe-function",
         "z": "b9193bc693d91001",
         "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor (var key in observedKeys) {\n    if (parseInt(key) < 2) {\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor (var key in observedKeys) {\n    if (parseInt(key) < 2) {\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \".\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1175,
@@ -4808,7 +4455,7 @@
         "type": "unsafe-function",
         "z": "b9193bc693d91001",
         "name": "PrepareOutput",
-        "func": "var observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\nmsg.link = observableReference;\nreturn msg;\n\n\n",
+        "func": "var observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \".\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\nmsg.link = observableReference;\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 595,
@@ -22847,7 +22494,7 @@
         "z": "2164c119.f88826",
         "g": "d4a8ac1a0836f395",
         "name": "LiveDataToUnSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgs = [];\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    //let msg = {payload:selectedElements[element]};\n    \n    //let selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let msg = {payload:selected_element};\n    let  shellId = encodeURIComponent(selectedElements[element].aasid);\n    let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    \n    if(typeof selectedElements[element].path != \"undefined\"){\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n    } else {\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n    }\n    \n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
+        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgs = [];\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    //let msg = {payload:selectedElements[element]};\n    \n    //let selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let msg = {payload:selected_element};\n    let  shellId = encodeURIComponent(selectedElements[element].aasid);\n    let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    \n    if(typeof selectedElements[element].path != \"undefined\"){\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n    } else {\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n    }\n    \n    msg.headers = {\n        authorization: context.flow.get(\"userToken\")\n    }\n\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1983.1873779296875,
@@ -22980,7 +22627,7 @@
         "z": "2164c119.f88826",
         "g": "d4a8ac1a0836f395",
         "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgsLiveData = [];\nlet outputMsgsFileData = [];\nlet outputMsgsConstantData = [];\nlet outputMsgsPropertyData = [];\n\nlet uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let modelType = selectedElements[element].selectedElement.modelType.name;\n    let category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        let msg = {payload:selected_element};\n        let  shellId = encodeURIComponent(selectedElements[element].aasid);\n        let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n        }\n        \n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        let observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        let msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgsLiveData = [];\nlet outputMsgsFileData = [];\nlet outputMsgsConstantData = [];\nlet outputMsgsPropertyData = [];\n\nlet uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let modelType = selectedElements[element].selectedElement.modelType.name;\n    let category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        let msg = {payload:selected_element};\n        let  shellId = encodeURIComponent(selectedElements[element].aasid);\n        let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n        }\n\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        \n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        let observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        let msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
         "outputs": 2,
         "noerr": 0,
         "x": 1980,
