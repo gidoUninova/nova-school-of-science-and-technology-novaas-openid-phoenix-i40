@@ -724,9 +724,7 @@
             "9d9d4e513499c3ff"
         ],
         "x": 94,
-        "y": 2939,
-        "w": 2334,
-        "h": 448.00001335144043
+        "y": 2939
     },
     {
         "id": "9eaca16.128cb6",
@@ -747,9 +745,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -834,9 +830,7 @@
             "ce3ae004f89ff729"
         ],
         "x": 214,
-        "y": 179,
-        "w": 3572,
-        "h": 982
+        "y": 179
     },
     {
         "id": "48a4f908.86ced8",
@@ -862,9 +856,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -892,9 +884,7 @@
             "8d377b79aa6f06ed"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -934,9 +924,7 @@
             "df98a659a5b217dc"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "6c18a80c.ec30a",
@@ -1150,9 +1138,7 @@
             "e65d6a5a.220b"
         ],
         "x": 94,
-        "y": 3399,
-        "w": 1572,
-        "h": 642
+        "y": 3399
     },
     {
         "id": "d4a8ac1a0836f395",
@@ -1207,9 +1193,7 @@
             "c22a134df446b17f"
         ],
         "x": 1584,
-        "y": 1439,
-        "w": 2222,
-        "h": 802
+        "y": 1439
     },
     {
         "id": "1ac216797031313a",
@@ -24886,7 +24870,7 @@
                 "ce2d1130c47dd22c"
             ],
             [
-                "905cc34baa591179"
+                "faf62ad25ccad748"
             ]
         ]
     },
@@ -24901,7 +24885,7 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1550,
+        "x": 1630,
         "y": 660,
         "wires": []
     },
@@ -24948,7 +24932,7 @@
                 "f9872fcb7e690e2b"
             ],
             [
-                "354634ec0a7b5556"
+                "4f5eac1995d787e1"
             ]
         ]
     },
@@ -24978,7 +24962,7 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1550,
+        "x": 1610,
         "y": 920,
         "wires": []
     },
@@ -25025,7 +25009,7 @@
                 "b05e962452cb7cb0"
             ],
             [
-                "bb9a7ba74a0a957f"
+                "cf771cdc3eb613d2"
             ]
         ]
     },
@@ -25040,7 +25024,7 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1550,
+        "x": 1630,
         "y": 1200,
         "wires": []
     },
@@ -25087,7 +25071,7 @@
                 "f0afb0d536692915"
             ],
             [
-                "ec7a9235fa373db8"
+                "e11d7820b1617549"
             ]
         ]
     },
@@ -25102,7 +25086,7 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1550,
+        "x": 1630,
         "y": 1480,
         "wires": []
     },
@@ -25149,7 +25133,7 @@
                 "c85efc8f7d25294e"
             ],
             [
-                "1aa7365e5cc5086a"
+                "da912ea19ea04356"
             ]
         ]
     },
@@ -25211,7 +25195,7 @@
                 "6ccafdfa06dd695d"
             ],
             [
-                "65796cb9e31bf1c5"
+                "f142a972822f8785"
             ]
         ]
     },
@@ -25273,7 +25257,7 @@
                 "dd130b28a17ee4bd"
             ],
             [
-                "d5a7bb7dc219048c"
+                "868bf5c47c7bdb00"
             ]
         ]
     },
@@ -25520,146 +25504,6 @@
         ]
     },
     {
-        "id": "905cc34baa591179",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "CurrentOperatingPressure",
-                "type": "str"
-            }
-        ],
-        "x": 1510,
-        "y": 720,
-        "wires": [
-            [
-                "faf62ad25ccad748"
-            ]
-        ]
-    },
-    {
-        "id": "354634ec0a7b5556",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "ResponseTime",
-                "type": "str"
-            }
-        ],
-        "x": 1490,
-        "y": 980,
-        "wires": [
-            [
-                "4f5eac1995d787e1"
-            ]
-        ]
-    },
-    {
-        "id": "bb9a7ba74a0a957f",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "ValvePosition",
-                "type": "str"
-            }
-        ],
-        "x": 1490,
-        "y": 1260,
-        "wires": [
-            [
-                "cf771cdc3eb613d2"
-            ]
-        ]
-    },
-    {
-        "id": "ec7a9235fa373db8",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "ResponseTimeMovingAvg",
-                "type": "str"
-            }
-        ],
-        "x": 1470,
-        "y": 1540,
-        "wires": [
-            [
-                "e11d7820b1617549"
-            ]
-        ]
-    },
-    {
-        "id": "1aa7365e5cc5086a",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "CylinderStatus",
-                "type": "str"
-            }
-        ],
-        "x": 1490,
-        "y": 1820,
-        "wires": [
-            [
-                "da912ea19ea04356"
-            ]
-        ]
-    },
-    {
-        "id": "65796cb9e31bf1c5",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "Cycle",
-                "type": "str"
-            }
-        ],
-        "x": 1490,
-        "y": 2060,
-        "wires": [
-            [
-                "f142a972822f8785"
-            ]
-        ]
-    },
-    {
-        "id": "d5a7bb7dc219048c",
-        "type": "subflow:1e4e43a6f86be480",
-        "z": "7ee8946a00b2087b",
-        "name": "",
-        "env": [
-            {
-                "name": "PathTo",
-                "value": "ResponseTimePred",
-                "type": "str"
-            }
-        ],
-        "x": 1510,
-        "y": 2340,
-        "wires": [
-            [
-                "868bf5c47c7bdb00"
-            ]
-        ]
-    },
-    {
         "id": "ce2d1130c47dd22c",
         "type": "json",
         "z": "7ee8946a00b2087b",
@@ -25667,7 +25511,7 @@
         "property": "payload.data",
         "action": "",
         "pretty": false,
-        "x": 1410,
+        "x": 1490,
         "y": 660,
         "wires": [
             [
@@ -25683,7 +25527,7 @@
         "property": "payload.data",
         "action": "",
         "pretty": false,
-        "x": 1410,
+        "x": 1470,
         "y": 920,
         "wires": [
             [
@@ -25699,7 +25543,7 @@
         "property": "payload.data",
         "action": "",
         "pretty": false,
-        "x": 1410,
+        "x": 1470,
         "y": 1200,
         "wires": [
             [
@@ -25715,7 +25559,7 @@
         "property": "payload.data",
         "action": "",
         "pretty": false,
-        "x": 1410,
+        "x": 1470,
         "y": 1480,
         "wires": [
             [
