@@ -724,9 +724,7 @@
             "9d9d4e513499c3ff"
         ],
         "x": 94,
-        "y": 2939,
-        "w": 2334,
-        "h": 448.00001335144043
+        "y": 2939
     },
     {
         "id": "9eaca16.128cb6",
@@ -747,9 +745,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -834,9 +830,7 @@
             "ce3ae004f89ff729"
         ],
         "x": 214,
-        "y": 179,
-        "w": 3572,
-        "h": 982
+        "y": 179
     },
     {
         "id": "48a4f908.86ced8",
@@ -862,9 +856,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -892,9 +884,7 @@
             "8d377b79aa6f06ed"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -934,9 +924,7 @@
             "df98a659a5b217dc"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "6c18a80c.ec30a",
@@ -1150,9 +1138,7 @@
             "e65d6a5a.220b"
         ],
         "x": 94,
-        "y": 3399,
-        "w": 1572,
-        "h": 642
+        "y": 3399
     },
     {
         "id": "d4a8ac1a0836f395",
@@ -1207,9 +1193,7 @@
             "c22a134df446b17f"
         ],
         "x": 1584,
-        "y": 1439,
-        "w": 2222,
-        "h": 802
+        "y": 1439
     },
     {
         "id": "1ac216797031313a",
@@ -17677,96 +17661,6 @@
         "wires": []
     },
     {
-        "id": "457356dfaa85b7f5",
-        "type": "rsa-generate-keypair",
-        "z": "3db1c009.99d51",
-        "name": "rsa generate keypair",
-        "bitlength": "2048",
-        "passphrase": "",
-        "x": 1000,
-        "y": 1060,
-        "wires": [
-            [
-                "1352c08fbbbba291",
-                "c9d3f6417927e31b",
-                "f600197e0a0799a7"
-            ]
-        ]
-    },
-    {
-        "id": "eb10d7cc28a79ca8",
-        "type": "inject",
-        "z": "3db1c009.99d51",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 600,
-        "y": 1060,
-        "wires": [
-            [
-                "457356dfaa85b7f5"
-            ]
-        ]
-    },
-    {
-        "id": "c9d3f6417927e31b",
-        "type": "rsa-encrypt",
-        "z": "3db1c009.99d51",
-        "name": "rsa encrypt",
-        "publickey": "",
-        "x": 1330,
-        "y": 700,
-        "wires": [
-            [
-                "c36f58b7.acd8a"
-            ]
-        ]
-    },
-    {
-        "id": "f600197e0a0799a7",
-        "type": "rsa-decrypt",
-        "z": "3db1c009.99d51",
-        "name": "rsa decrypt",
-        "privatekey": "",
-        "x": 1610,
-        "y": 840,
-        "wires": [
-            [
-                "25f57a08afdcdf1c"
-            ]
-        ]
-    },
-    {
-        "id": "1352c08fbbbba291",
-        "type": "function",
-        "z": "3db1c009.99d51",
-        "name": "store Keys",
-        "func": "context.flow.set(\"privateKey\", msg.payload.privateKey);\ncontext.flow.set(\"publicKey\", msg.payload.publicKey);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1330,
-        "y": 1060,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "19e82adda5928970",
         "type": "switch",
         "z": "3db1c009.99d51",
@@ -17791,26 +17685,9 @@
                 "c36f58b7.acd8a"
             ],
             [
-                "c9d3f6417927e31b"
+                "fa4f7820a778e8ed"
             ]
         ]
-    },
-    {
-        "id": "25f57a08afdcdf1c",
-        "type": "debug",
-        "z": "3db1c009.99d51",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1870,
-        "y": 840,
-        "wires": []
     },
     {
         "id": "f2a9ea262f659fb4",
@@ -17854,6 +17731,63 @@
         "wires": [
             [
                 "19e82adda5928970"
+            ]
+        ]
+    },
+    {
+        "id": "fa4f7820a778e8ed",
+        "type": "link call",
+        "z": "3db1c009.99d51",
+        "name": "",
+        "links": [
+            "d0ac4ef9a5e10fdd"
+        ],
+        "timeout": "30",
+        "x": 1320,
+        "y": 680,
+        "wires": [
+            [
+                "c36f58b7.acd8a"
+            ]
+        ]
+    },
+    {
+        "id": "d0ac4ef9a5e10fdd",
+        "type": "link in",
+        "z": "3db1c009.99d51",
+        "name": "encrypt in",
+        "links": [],
+        "x": 575,
+        "y": 1020,
+        "wires": [
+            [
+                "e5e879c46f500ca6"
+            ]
+        ]
+    },
+    {
+        "id": "9b0abb440520f3b4",
+        "type": "link out",
+        "z": "3db1c009.99d51",
+        "name": "encrypt out",
+        "mode": "return",
+        "links": [],
+        "x": 1815,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "e5e879c46f500ca6",
+        "type": "encrypt",
+        "z": "3db1c009.99d51",
+        "name": "",
+        "algorithm": "AES",
+        "key": "novaas",
+        "x": 1180,
+        "y": 1020,
+        "wires": [
+            [
+                "9b0abb440520f3b4"
             ]
         ]
     },
